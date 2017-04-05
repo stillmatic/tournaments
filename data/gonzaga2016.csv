@@ -1,0 +1,373 @@
+"team","round","opponent","win"
+"Juan Diego AB","Round 1","Eagle HP",1
+"Interlake GJ","Round 1","Ingraham TK",1
+"Juan Diego DM","Round 1","Interlake WC",1
+"S. Eugene LS","Round 1","CDA GS",1
+"CK McClatchy LP","Round 1","OES JL",1
+"OES JL","Round 1","CK McClatchy LP",0
+"Nevada Union FH","Round 1","Interlake GL",1
+"Interlake DS","Round 1","Milpitas BP",1
+"Interlake SY [maverick]","Round 1","Lewis and Clark PA",1
+"SVDP HM","Round 1","Ingraham GW",1
+"CK McClatchy HN","Round 1","St George's DW",1
+"St George's MV","Round 1","Juan Diego CS",1
+"Denver Independent RW","Round 1","Garfield CZ",1
+"Interlake LL","Round 1","St. Vincent De Paul RP",1
+"Centennial MX","Round 1","Glacier MT",0
+"Nevada Union MS","Round 1","OES GR",1
+"Centennial TW","Round 1","St George's AR",1
+"Clack LL","Round 1","Ingraham ZZ",1
+"Juan Diego CS","Round 1","St George's MV",0
+"Interlake WC","Round 1","Juan Diego DM",0
+"Lake Oswego AT","Round 1","Eagle CW",1
+"Ingraham KJ","Round 1","Nevada Union LM",0
+"Garfield PR","Round 1","Gonzaga Prep GM",1
+"CK McClatchy BF","Round 1","Interlake RY",1
+"CK McClatchy MD","Round 1","Lake City MS",0
+"Eagle EE","Round 1","Garfield PS",1
+"Eagle GW","Round 1","St George's DS",1
+"Garfield CZ","Round 1","Denver Independent RW",0
+"Garfield PS","Round 1","Eagle EE",0
+"Heritage Hall DV","Round 1","OES WS",1
+"Ingraham BD","Round 1","St George's GC",0
+"Ingraham TK","Round 1","Interlake GJ",0
+"Ingraham ZZ","Round 1","Clack LL",0
+"Lake City MS","Round 1","CK McClatchy MD",1
+"Milpitas DT","Round 1","Univers DF",0
+"OES GR","Round 1","Nevada Union MS",0
+"OES MZ","Round 1","St George's BE",1
+"OES WS","Round 1","Heritage Hall DV",0
+"St George's RM","Round 1","Garfield RS",1
+"SVDP RP","Round 1","Interlake LL",0
+"Univers DF","Round 1","Milpitas DT",1
+"CDA LW","Round 1","Glacier MW",1
+"Eagle CW","Round 1","Lake Oswego Senior AT",0
+"Eagle HP","Round 1","Juan Diego AB",0
+"Garfield RS","Round 1","St George's RM",0
+"Glacier DR","Round 1","Ferris HS",1
+"Glacier MW","Round 1","CDA LW",0
+"Gonzaga Prep GM","Round 1","Garfield PR",0
+"Ingraham GW","Round 1","St. Vincent De Paul HM",0
+"Interlake GL","Round 1","Nevada Union FH",0
+"Interlake RY","Round 1","CK McClatchy BF",0
+"Milpitas BP","Round 1","Interlake DS",0
+"Nevada Union LM","Round 1","Ingraham KJ",1
+"St George's BE","Round 1","OES MZ",0
+"CDA GS","Round 1","S. Eugene LS",0
+"Glacier MT","Round 1","Centennial MX",1
+"Lewis and Clark PA","Round 1","Interlake SY",0
+"St George's GC","Round 1","Ingraham BD",1
+"Ferris HS","Round 1","Glacier DR",0
+"St George's AR","Round 1","Centennial TW",0
+"St George's DS","Round 1","Eagle GW",0
+"St George's DW","Round 1","CK McClatchy HN",0
+"Juan Diego AB","Round 2","CDA LW",1
+"Interlake GJ","Round 2","St. George's AR",1
+"Juan Diego DM","Round 2","OES GR",1
+"S. Eugene LS","Round 2","Garfield PR",1
+"CK McClatchy LP","Round 2","Ingraham GW",1
+"OES JL","Round 2","Eagle EE",1
+"Nevada Union FH","Round 2","OES MZ",1
+"Interlake DS","Round 2","Eagle CW",1
+"Interlake SY [maverick]","Round 2","Ingraham ZZ",1
+"SVDP HM","Round 2","Centennial TW",1
+"CK McClatchy HN","Round 2","Garfield PS",1
+"St George's MV","Round 2","Interlake GL",1
+"Denver Independent RW","Round 2","Heritage Hall DV",1
+"Interlake LL","Round 2","Centennial MX",1
+"Centennial MX","Round 2","Interlake LL",0
+"Nevada Union MS","Round 2","Interlake WC",1
+"Centennial TW","Round 2","SVDP HM",0
+"Clack LL","Round 2","Eagle HP",1
+"Juan Diego CS","Round 2","Milipidas DT",0
+"Interlake WC","Round 2","Nevada Union MS",0
+"Lake Oswego AT","Round 2","Interlake RY",1
+"Ingraham KJ","Round 2","St. George's DS",1
+"Garfield PR","Round 2","S. Eugene LS",0
+"CK McClatchy BF","Round 2","Eagle GW",1
+"CK McClatchy MD","Round 2","St. George's GC",1
+"Eagle EE","Round 2","OES JL",0
+"Eagle GW","Round 2","CK McClatchy BF",0
+"Garfield CZ","Round 2","Ingraham TK",0
+"Garfield PS","Round 2","CK McClatchy HN",0
+"Heritage Hall DV","Round 2","Denver Independent RW",0
+"Ingraham BD","Round 2","SVDP RP",1
+"Ingraham TK","Round 2","Garfield CZ",1
+"Ingraham ZZ","Round 2","Interlake SY",0
+"Lake City MS","Round 2","Milipitas BP",1
+"Milpitas DT","Round 2","Juan Diego CS",1
+"OES GR","Round 2","Juan Diego DM",0
+"OES MZ","Round 2","Nevada Union FH",0
+"OES WS","Round 2","St. George's DW",1
+"St George's RM","Round 2","Glacier DR",1
+"SVDP RP","Round 2","Ingraham BD",0
+"Univers DF","Round 2","Garfield RS",1
+"CDA LW","Round 2","Juan Diego AB",0
+"Eagle CW","Round 2","Interlake DS",0
+"Eagle HP","Round 2","Clack LL",0
+"Garfield RS","Round 2","University DF",0
+"Glacier DR","Round 2","St. George's RM",0
+"Glacier MW","Round 2","St. George's BE",1
+"Gonzaga Prep GM","Round 2","Nevada Union LM",0
+"Ingraham GW","Round 2","CK McClatchy LP",0
+"Interlake GL","Round 2","St. George's MV",0
+"Interlake RY","Round 2","Lake Oswego AT",0
+"Milpitas BP","Round 2","Lake City MS",0
+"Nevada Union LM","Round 2","Gonzaga Prep GM",1
+"St George's BE","Round 2","Glacier MW",0
+"CDA GS","Round 2","Glacier MT",1
+"Glacier MT","Round 2","CDA GS",0
+"Lewis and Clark PA","Round 2","Ferris HS",1
+"St George's GC","Round 2","CK McClatchy MD",0
+"Ferris HS","Round 2","Lewis & Clark PA",0
+"St George's AR","Round 2","Interlake GJ",0
+"St George's DS","Round 2","Ingraham KJ",0
+"St George's DW","Round 2","OES WS",0
+"Juan Diego AB","Round 3","CK McClatchy HN",1
+"Interlake GJ","Round 3","Univers DF",1
+"Juan Diego DM","Round 3","Nevada Union MS",1
+"S. Eugene LS","Round 3","Interlake DS",1
+"CK McClatchy LP","Round 3","Nevada Union LM",1
+"OES JL","Round 3","Ingraham BD",1
+"Nevada Union FH","Round 3","St George's RM",1
+"Interlake DS","Round 3","S. Eugene LS",0
+"Interlake SY [maverick]","Round 3","Clack LL",0
+"SVDP HM","Round 3","Glacier MT",1
+"CK McClatchy HN","Round 3","Juan Diego AB",0
+"St George's MV","Round 3","Lake City MS",1
+"Denver Independent RW","Round 3","Lake Oswego Senior AT",1
+"Interlake LL","Round 3","CK McClatchy BF",0
+"Centennial MX","Round 3","Eagle HP",1
+"Nevada Union MS","Round 3","Juan Diego DM",0
+"Centennial TW","Round 3","OES WS",1
+"Clack LL","Round 3","Interlake SY",1
+"Juan Diego CS","Round 3","Interlake RY",1
+"Interlake WC","Round 3","Garfield RS",1
+"Lake Oswego AT","Round 3","Denver Independent RW",0
+"Ingraham KJ","Round 3","Eagle GW",0
+"Garfield PR","Round 3","OES MZ",1
+"CK McClatchy BF","Round 3","Interlake LL",1
+"CK McClatchy MD","Round 3","Lewis and Clark PA",1
+"Eagle EE","Round 3","Glacier DR",1
+"Eagle GW","Round 3","Ingraham KJ",1
+"Garfield CZ","Round 3","Gonzaga Prep GM",1
+"Garfield PS","Round 3","St. Vincent De Paul RP",1
+"Heritage Hall DV","Round 3","St George's BE",1
+"Ingraham BD","Round 3","OES JL",0
+"Ingraham TK","Round 3","Glacier MW",1
+"Ingraham ZZ","Round 3","St George's DW",1
+"Lake City MS","Round 3","St George's MV",0
+"Milpitas DT","Round 3","CDA GS",1
+"OES GR","Round 3","Ferris HS",1
+"OES MZ","Round 3","Garfield PR",0
+"OES WS","Round 3","Centennial TW",0
+"St George's RM","Round 3","Nevada Union FH",0
+"SVDP RP","Round 3","Garfield PS",0
+"Univers DF","Round 3","Interlake GJ",0
+"CDA LW","Round 3","St George's GC",1
+"Eagle CW","Round 3","Milpitas BP",0
+"Eagle HP","Round 3","Centennial MX",0
+"Garfield RS","Round 3","Interlake WC",0
+"Glacier DR","Round 3","Eagle EE",0
+"Glacier MW","Round 3","Ingraham TK",0
+"Gonzaga Prep GM","Round 3","Garfield CZ",0
+"Ingraham GW","Round 3","St George's DS",1
+"Interlake GL","Round 3","St George's AR",1
+"Interlake RY","Round 3","Juan Diego CS",0
+"Milpitas BP","Round 3","Eagle CW",1
+"Nevada Union LM","Round 3","CK McClatchy LP",0
+"St George's BE","Round 3","Heritage Hall DV",0
+"CDA GS","Round 3","Milpitas DT",0
+"Glacier MT","Round 3","St. Vincent De Paul HM",0
+"Lewis and Clark PA","Round 3","CK McClatchy MD",0
+"St George's GC","Round 3","CDA LW",0
+"Ferris HS","Round 3","OES GR",0
+"St George's AR","Round 3","Interlake GL",0
+"St George's DS","Round 3","Ingraham GW",0
+"St George's DW","Round 3","Ingraham ZZ",0
+"Juan Diego AB","Round 4","Lake Oswego AT",1
+"Interlake GJ","Round 4","St George's MV",1
+"Juan Diego DM","Round 4","S. Eugene LS",1
+"S. Eugene LS","Round 4","Juan Diego DM",0
+"CK McClatchy LP","Round 4","Heritage Hall DV",0
+"OES JL","Round 4","Milpitas DT",1
+"Nevada Union FH","Round 4","CK McClatchy BF",1
+"Interlake DS","Round 4","Ingraham TK",1
+"Interlake SY [maverick]","Round 4","Nevada Union LM",1
+"SVDP HM","Round 4","Clack LL",1
+"CK McClatchy HN","Round 4","Centennial TW",1
+"St George's MV","Round 4","Interlake GJ",0
+"Denver Independent RW","Round 4","CK McClatchy MD",1
+"Interlake LL","Round 4","Glacier MW",0
+"Centennial MX","Round 4","CDA GS",1
+"Nevada Union MS","Round 4","St George's RM",1
+"Centennial TW","Round 4","CK McClatchy HN",0
+"Clack LL","Round 4","SVDP HM",0
+"Juan Diego CS","Round 4","Garfield RS",1
+"Interlake WC","Round 4","Lewis and Clark PA",1
+"Lake Oswego AT","Round 4","Juan Diego AB",0
+"Ingraham KJ","Round 4","Glacier MT",1
+"Garfield PR","Round 4","Lake City MS",1
+"CK McClatchy BF","Round 4","Nevada Union FH",0
+"CK McClatchy MD","Round 4","Denver Independent RW",0
+"Eagle EE","Round 4","Univers DF",1
+"Eagle GW","Round 4","CDA LW",1
+"Garfield CZ","Round 4","Glacier DR",1
+"Garfield PS","Round 4","OES WS",0
+"Heritage Hall DV","Round 4","CK McClatchy LP",1
+"Ingraham BD","Round 4","Milpitas BP",0
+"Ingraham TK","Round 4","Interlake DS",0
+"Ingraham ZZ","Round 4","Ferris HS",1
+"Lake City MS","Round 4","Garfield PR",0
+"Milpitas DT","Round 4","OES JL",0
+"OES GR","Round 4","St George's BE",1
+"OES MZ","Round 4","Ingraham GW",0
+"OES WS","Round 4","Garfield PS",1
+"St George's RM","Round 4","Nevada Union MS",0
+"SVDP RP","Round 4","Gonzaga Prep GM",1
+"Univers DF","Round 4","Eagle EE",0
+"CDA LW","Round 4","Eagle GW",0
+"Eagle CW","Round 4","St George's AR",1
+"Eagle HP","Round 4","St George's DW",1
+"Garfield RS","Round 4","Juan Diego CS",0
+"Glacier DR","Round 4","Garfield CZ",0
+"Glacier MW","Round 4","Interlake LL",1
+"Gonzaga Prep GM","Round 4","SVDP RP",0
+"Ingraham GW","Round 4","OES MZ",1
+"Interlake GL","Round 4","St George's GC",1
+"Interlake RY","Round 4","St George's DS",1
+"Milpitas BP","Round 4","Ingraham BD",1
+"Nevada Union LM","Round 4","Interlake SY",0
+"St George's BE","Round 4","OES GR",0
+"CDA GS","Round 4","Centennial MX",0
+"Glacier MT","Round 4","Ingraham KJ",0
+"Lewis and Clark PA","Round 4","Interlake WC",0
+"St George's GC","Round 4","Interlake GL",0
+"Ferris HS","Round 4","Ingraham ZZ",0
+"St George's AR","Round 4","Eagle CW",0
+"St George's DS","Round 4","Interlake RY",0
+"St George's DW","Round 4","Eagle HP",0
+"Juan Diego AB","Round 5","Denver Independent RW",1
+"Interlake GJ","Round 5","SVDP HM",1
+"Juan Diego DM","Round 5","Nevada Union FH",1
+"S. Eugene LS","Round 5","CK McClatchy BF",1
+"CK McClatchy LP","Round 5","Interlake SY",1
+"OES JL","Round 5","Heritage Hall DV",1
+"Nevada Union FH","Round 5","Juan Diego DM",0
+"Interlake DS","Round 5","Garfield PR",1
+"Interlake SY [maverick]","Round 5","CK McClatchy LP",0
+"SVDP HM","Round 5","Interlake GJ",0
+"CK McClatchy HN","Round 5","St George's MV",0
+"St George's MV","Round 5","CK McClatchy HN",1
+"Denver Independent RW","Round 5","Juan Diego AB",0
+"Interlake LL","Round 5","Ingraham TK",1
+"Centennial MX","Round 5","Lake City MS",1
+"Nevada Union MS","Round 5","Eagle GW",1
+"Centennial TW","Round 5","OES GR",1
+"Clack LL","Round 5","Eagle EE",1
+"Juan Diego CS","Round 5","Ingraham GW",1
+"Interlake WC","Round 5","CDA LW",1
+"Lake Oswego AT","Round 5","Nevada Union LM",1
+"Ingraham KJ","Round 5","OES WS",1
+"Garfield PR","Round 5","Interlake DS",0
+"CK McClatchy BF","Round 5","S. Eugene LS",0
+"CK McClatchy MD","Round 5","Univers DF",1
+"Eagle EE","Round 5","Clack LL",0
+"Eagle GW","Round 5","Nevada Union MS",0
+"Garfield CZ","Round 5","Interlake GL",1
+"Garfield PS","Round 5","Glacier DR",1
+"Heritage Hall DV","Round 5","OES JL",0
+"Ingraham BD","Round 5","Glacier MT",1
+"Ingraham TK","Round 5","Interlake LL",0
+"Ingraham ZZ","Round 5","Milpitas BP",1
+"Lake City MS","Round 5","Centennial MX",0
+"Milpitas DT","Round 5","Glacier MW",1
+"OES GR","Round 5","Centennial TW",0
+"OES MZ","Round 5","Eagle HP",1
+"OES WS","Round 5","Ingraham KJ",0
+"St George's RM","Round 5","CDA GS",1
+"SVDP RP","Round 5","St George's GC",1
+"Univers DF","Round 5","CK McClatchy MD",0
+"CDA LW","Round 5","Interlake WC",0
+"Eagle CW","Round 5","St George's DS",1
+"Eagle HP","Round 5","OES MZ",0
+"Garfield RS","Round 5","Ferris HS",1
+"Glacier DR","Round 5","Garfield PS",0
+"Glacier MW","Round 5","Milpitas DT",0
+"Gonzaga Prep GM","Round 5","St George's AR",1
+"Ingraham GW","Round 5","Juan Diego CS",0
+"Interlake GL","Round 5","Garfield CZ",0
+"Interlake RY","Round 5","St George's DW",1
+"Milpitas BP","Round 5","Ingraham ZZ",0
+"Nevada Union LM","Round 5","Lake Oswego AT",0
+"St George's BE","Round 5","Lewis and Clark PA",1
+"CDA GS","Round 5","St George's RM",0
+"Glacier MT","Round 5","Ingraham BD",0
+"Lewis and Clark PA","Round 5","St George's BE",0
+"St George's GC","Round 5","SVDP RP",0
+"Ferris HS","Round 5","Garfield RS",0
+"St George's AR","Round 5","Gonzaga Prep GM",0
+"St George's DS","Round 5","Eagle CW",0
+"St George's DW","Round 5","Interlake RY",0
+"Juan Diego AB","Round 6","SVDP HM",1
+"Interlake GJ","Round 6","Juan Diego DM",1
+"Juan Diego DM","Round 6","Interlake GJ",0
+"S. Eugene LS","Round 6","Eagle EE",1
+"CK McClatchy LP","Round 6","Eagle GW",1
+"OES JL","Round 6","St George's MV",1
+"Nevada Union FH","Round 6","Denver Independent RW",1
+"Interlake DS","Round 6","Clack LL",1
+"Interlake SY [maverick]","Round 6","Nevada Union MS",1
+"SVDP HM","Round 6","Juan Diego AB",0
+"CK McClatchy HN","Round 6","Heritage Hall DV",1
+"St George's MV","Round 6","OES JL",0
+"Denver Independent RW","Round 6","Nevada Union FH",0
+"Interlake LL","Round 6","Milpitas DT",1
+"Centennial MX","Round 6","Glacier MW",1
+"Nevada Union MS","Round 6","Interlake SY",0
+"Centennial TW","Round 6","Interlake RY",1
+"Clack LL","Round 6","Interlake DS",0
+"Juan Diego CS","Round 6","Ingraham ZZ",1
+"Interlake WC","Round 6","Garfield CZ",1
+"Lake Oswego AT","Round 6","CK McClatchy MD",1
+"Ingraham KJ","Round 6","Milpitas BP",1
+"Garfield PR","Round 6","CK McClatchy BF",1
+"CK McClatchy BF","Round 6","Garfield PR",0
+"CK McClatchy MD","Round 6","Lake Oswego AT",0
+"Eagle EE","Round 6","S. Eugene LS",0
+"Eagle GW","Round 6","CK McClatchy LP",0
+"Garfield CZ","Round 6","Interlake WC",0
+"Garfield PS","Round 6","St George's AR",1
+"Heritage Hall DV","Round 6","CK McClatchy HN",0
+"Ingraham BD","Round 6","CDA GS",1
+"Ingraham TK","Round 6","CDA LW",1
+"Ingraham ZZ","Round 6","Juan Diego CS",0
+"Lake City MS","Round 6","St George's RM",1
+"Milpitas DT","Round 6","Interlake LL",0
+"OES GR","Round 6","Interlake GL",1
+"OES MZ","Round 6","Ferris HS",1
+"OES WS","Round 6","Nevada Union LM",1
+"St George's RM","Round 6","Lake City MS",0
+"SVDP RP","Round 6","Eagle CW",1
+"Univers DF","Round 6","Ingraham GW",1
+"CDA LW","Round 6","Ingraham TK",0
+"Eagle CW","Round 6","SVDP RP",0
+"Eagle HP","Round 6","Lewis and Clark PA",1
+"Garfield RS","Round 6","St George's GC",1
+"Glacier DR","Round 6","St George's DW",1
+"Glacier MW","Round 6","Centennial MX",0
+"Gonzaga Prep GM","Round 6","St George's DS",1
+"Ingraham GW","Round 6","Univers DF",0
+"Interlake GL","Round 6","OES GR",0
+"Interlake RY","Round 6","Centennial TW",0
+"Milpitas BP","Round 6","Ingraham KJ",0
+"Nevada Union LM","Round 6","OES WS",0
+"St George's BE","Round 6","Glacier MT",1
+"CDA GS","Round 6","Ingraham BD",0
+"Glacier MT","Round 6","St George's BE",0
+"Lewis and Clark PA","Round 6","Eagle HP",0
+"St George's GC","Round 6","Garfield RS",0
+"Ferris HS","Round 6","OES MZ",0
+"St George's AR","Round 6","Garfield PS",0
+"St George's DS","Round 6","Gonzaga Prep GM",0
+"St George's DW","Round 6","Glacier DR",0

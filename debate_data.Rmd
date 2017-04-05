@@ -1,0 +1,128 @@
+---
+title: "Debate"
+author: "Chris Hua"
+date: "February 13, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(googlesheets)
+library(magrittr)
+library(dplyr)
+library(tidyr)
+```
+
+# Data import
+
+May need to do this to authenticate...
+
+```{r, eval = F}
+gs_ls()
+```
+
+Main sheet has links to all tournaments Google docs. If `ws=1` then this is 2016-17 data, `ws=2` is 2015-16, `ws=1` is 2014-15. Remove the camp/lab tournaments and fix tournament names.
+
+```{r contents}
+main_sheet <- gs_url("https://docs.google.com/spreadsheets/d/1zHl8n2_ORg3daWUCDK07Bt-5jjYddQ_TltWncD06434/")
+main_data <- gs_read_csv(main_sheet, ws = 2) 
+names(main_data) <- c("tournament", "link")
+main_data %<>%
+  filter(!(tournament %in% 
+             c("Pronouns Doc-", "BEFJR In-Lab -", "GASM In-Lab -",
+               "DDI Camp -", "GDI Camp -", "NDI Camp -", "UMich Camp -", 
+               "Pre-2014 Archives -")))
+main_data$tournament %<>%
+  stringr::str_replace("-", "") %>%
+  stringr::str_trim()
+```
+
+Example with 2016 TOC
+
+```{r}
+toc <- gs_url("https://docs.google.com/spreadsheets/d/1aVnIxUYmuVrlfHR4NRyuYsFhiCIhs9vNv1IFKVC4bCc/")
+toc_data <- gs_read_csv(toc, ws = 1)
+```
+
+```{r}
+toc_rounds <- 7
+toc_round_max <- sprintf("Round %s", toc_rounds)
+
+toc_opp <- toc_data %>%
+  dplyr::select(1, 3:9) %>% 
+  gather_(key = "round", value = "opponent", paste("Round", 1:toc_rounds))
+  
+toc_results <- toc_data %>%
+  select(1, 10:16) %>% 
+  tidyr::gather(key = "round", value = "win", `Round 1 Result` : `Round 7 Result`)
+
+toc_results$round %<>%
+  stringr::str_replace(" Result", "")
+
+toc_tidy <- left_join(toc_opp, toc_results, by = c("Team", "round"))
+toc_tidy %<>% rename(team = Team)
+
+toc_tidy %>% head
+```
+
+```{r}
+# read_tournament_data(url, rounds)
+```
+
+```{r}
+# ndca_doc <- gs_read_csv(toc, ws = 2)
+ss <- gs_url("https://docs.google.com/spreadsheets/d/1aVnIxUYmuVrlfHR4NRyuYsFhiCIhs9vNv1IFKVC4bCc/")
+tidy_debate <- function(ss, ws_num, rounds = 6, sleep = T) {
+  if(sleep) Sys.sleep(6)
+  doc <- gs_read_csv(ss, ws = ws_num)
+  names(doc)[1] <- "Team"
+  toc_opp <- doc %>%
+    select(1, 3:(2 + rounds)) %>% 
+    tidyr::gather_(key = "round", value = "opponent", 
+                   gather_cols = paste("Round", 1:rounds))
+  toc_results <- doc %>%
+    select(1, (3+rounds):(2+rounds*2)) %>% 
+    tidyr::gather_(key = "round", value = "win", 
+                   sprintf("Round %s Result", 1:rounds))
+  toc_results$round %<>%
+    stringr::str_replace(" Result", "")
+  toc_tidy <- left_join(toc_opp, toc_results, by = c("Team", "round"))
+  names(toc_tidy)[1] <- "team"
+  toc_tidy
+}
+```
+
+Read tournaments
+
+```{r}
+ndca_tidy <- tidy_debate(ss, ws_num = 2)
+toc_tidy <- tidy_debate(ss, ws_num = 1, rounds = 7)
+berk_tidy <- tidy_debate(ss, ws_num = 3)
+alta_tidy <- tidy_debate(ss, ws_num = 4)
+asu_tidy <- tidy_debate(ss, ws_num = 5)
+blake_tidy <- tidy_debate(ss, ws_num = 6, rounds = 7)
+emery_tidy <- tidy_debate(ss, ws_num = 7)
+fullerton_tidy <- tidy_debate(ss, ws_num = 8)
+georgetown_tidy <- tidy_debate(ss, ws_num = 9)
+glenbrooks_tidy <- tidy_debate(ss, ws_num = 10, rounds = 7)
+goldendesert_tidy <- tidy_debate(ss, ws_num = 11)
+gonzaga_tidy <- tidy_debate(ss, ws_num = 12)
+```
+
+Save data
+
+```{r}
+write.csv(berk_tidy, "berk2016.csv", row.names = F)
+write.csv(ndca_tidy, "ndca2016.csv", row.names = F)
+write.csv(toc_tidy, "toc2016.csv", row.names = F)
+write.csv(alta_tidy, "alta2016.csv", row.names = F)
+write.csv(asu_tidy, "asu2016.csv", row.names = F)
+write.csv(blake_tidy, "blake2016.csv", row.names = F)
+write.csv(emery_tidy, "emery2016.csv", row.names = F)
+write.csv(fullerton_tidy, "fullerton2016.csv", row.names = F)
+write.csv(georgetown_tidy, "georgetown2016.csv", row.names = F)
+write.csv(glenbrooks_tidy, "glenbrooks2016.csv", row.names = F)
+write.csv(goldendesert_tidy, "goldendesert2016.csv", row.names = F)
+write.csv(gonzaga_tidy, "gonzaga2016.csv", row.names = F)
+```
+

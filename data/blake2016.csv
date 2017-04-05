@@ -1,0 +1,799 @@
+"team","round","opponent","win"
+"Little Rock Central WW","Round 1","Northside CP SJ",1
+"Walter Payton BC","Round 1","Lexington ML",1
+"Clovis North HP","Round 1","Walter Payton PY",1
+"East Kentwood BO","Round 1","Niles West NR",1
+"Edgemont JM","Round 1","Eagan SS",1
+"Highland Park BD","Round 1","Lexington RZ",1
+"Homewood-Flossmoor HL","Round 1","Glenbrook North CR",1
+"Peninsula TW","Round 1","Aberdeen Central RJ",1
+"Rowland Hall GL","Round 1","Glenbrook South CL",1
+"Westminster CK","Round 1","Clovis North SM",1
+"Centennial LP","Round 1","Edina WS",1
+"Denver Arts School IH","Round 1","Asian Debate League CH",1
+"Denver Independent RW","Round 1","Wayzata DD",1
+"Glenbrook North BL","Round 1","Wayzata AC",1
+"Glenbrook North CR","Round 1","Homewood-Flossmoor HL",0
+"Glenbrook South CA","Round 1","Appleton East MR",1
+"Glenbrook South RS","Round 1","Washburn HK",1
+"Glenbrook South SS","Round 1","Meadows BN",1
+"Iowa City West TR","Round 1","Rosemount KS",1
+"Iowa City WZ","Round 1","Rosemount BS",1
+"Lexington DC","Round 1","Westminster ZB",1
+"Lexington RZ","Round 1","Highland Park BD",0
+"McDonogh NJ","Round 1","Whitney Young RJ",0
+"New Trier BK","Round 1","Asian Debate League CC",1
+"Niles West GG","Round 1","Greenhill GR",1
+"Peninsula JK","Round 1","Groves GS",1
+"Traverse City Central CF","Round 1","Wayzata So",1
+"Westminster DH","Round 1","Georgetown Day BS",1
+"Whitney Young BF","Round 1","Glenbrook North FT",1
+"Whitney Young RJ","Round 1","McDonogh NJ",1
+"Bloomington MW","Round 1","Wayzata KS",0
+"Calhoun KF","Round 1","Northside CP BE",1
+"Edina CS","Round 1","Holy Cross SS",1
+"Edina RL","Round 1","Kent Denver KK",1
+"Edina WS","Round 1","Centennial LP",0
+"Encinitas WW","Round 1","Niles West CB",1
+"Glenbrook North FT","Round 1","Whitney Young BF",0
+"Glenbrook South BK","Round 1","WDMV HH",0
+"Glenbrook South CL","Round 1","Rowland Hall GL",0
+"Greenhill WM","Round 1","WDMV DS",1
+"Iowa City West BW","Round 1","Highland Park MT",1
+"Lexington ML","Round 1","Walter Payton BC",0
+"Marist AV","Round 1","Rowland Hall MB",1
+"New Trier SH","Round 1","Glenbrook South RF",1
+"Niles West NR","Round 1","East Kentwood BO",0
+"Niles West SP","Round 1","Eagan LQ",1
+"Northside CP BE","Round 1","Calhoun KF",0
+"Rowland Hall BL","Round 1","Kent Denver HM",1
+"Rowland Hall MB","Round 1","Marist AV",0
+"Sioux Falls Lincoln JH","Round 1","BYE",1
+"SPASH GM","Round 1","Whitney Young SO",1
+"St Paul GS","Round 1","Eagan GP",1
+"Wayzata MS","Round 1","Edina KE",1
+"Wayzata SH","Round 1","Asian Debate League TS",1
+"WDMV HH","Round 1","Glenbrook South BK",1
+"Westminster CB","Round 1","Minneapolis South FN",1
+"Whitney Young FS","Round 1","Wayzata BH",1
+"Whitney Young SO","Round 1","SPASH GM",0
+"Berkeley Prep KY","Round 1","Wayzata WG",1
+"Berkeley Prep SS","Round 1","Rosemount SF",1
+"Brooklyn Independent EW","Round 1","Aberdeen Central PF",0
+"Eagan RW","Round 1","Rufus King GR",0
+"Georgetown Day BS","Round 1","Westminster DH",0
+"Glenbrook South PV","Round 1","Wayzata AJ",1
+"Greenhill GR","Round 1","Niles West GG",0
+"Groves GS","Round 1","Peninsula JK",0
+"Iowa City KK","Round 1","Roosevelt OP",0
+"Iowa City West JW","Round 1","Niles West BS",1
+"Kent Denver KK","Round 1","Edina RL",0
+"Lexington XW","Round 1","BYE",1
+"Meadows BN","Round 1","Glenbrook South SS",0
+"Niles West TG","Round 1","Bloomington AB",1
+"Northside CP SJ","Round 1","Little Rock Central WW",0
+"Northside CP VK","Round 1","Roseville Area CH",1
+"Roosevelt OP","Round 1","Iowa City KK",1
+"Rosemount KS","Round 1","Iowa City West TR",0
+"Rufus King GR","Round 1","Eagan RW",1
+"Walter Payton MS","Round 1","BYE",1
+"Washburn DE","Round 1","Groves GM",1
+"Washburn HK","Round 1","Glenbrook South RS",0
+"Wayzata AC","Round 1","Glenbrook North BL",0
+"Wayzata AJ","Round 1","Glenbrook South PV",0
+"Wayzata DD","Round 1","Denver Independent RW",0
+"Wayzata KS","Round 1","Bloomington MW",1
+"WDMV DS","Round 1","Greenhill WM",0
+"Westminster ZB","Round 1","Lexington DC",0
+"Aberdeen Central PF","Round 1","Brooklyn Independent EW",1
+"Aberdeen Central RJ","Round 1","Peninsula TW",0
+"Asian Debate League CC","Round 1","New Trier BK",0
+"Asian Debate League CH","Round 1","Denver Arts School IH",0
+"Asian Debate League TS","Round 1","Wayzata SH",0
+"Clovis North SM","Round 1","Westminster CK",0
+"Eagan SS","Round 1","Edgemont JM",0
+"Edina KE","Round 1","Wayzata MS",0
+"Holy Cross SS","Round 1","Edina CS",0
+"Kent Denver HM","Round 1","Rowland Hall BL",0
+"Minneapolis South FN","Round 1","Westminster CB",0
+"Niles West BS","Round 1","Iowa City West JW",0
+"Niles West CB","Round 1","Encinitas WW",0
+"Northside CP KS","Round 1","BYE",1
+"Walter Payton PY","Round 1","Clovis North HP",0
+"Wayzata BH","Round 1","Whitney Young FS",0
+"Wayzata So","Round 1","Traverse City Central CF",0
+"Wayzata WG","Round 1","Berkeley Prep KY",0
+"Appleton East MR","Round 1","Glenbrook South CA",0
+"Eagan GP","Round 1","St Paul GS",0
+"Eagan LQ","Round 1","Niles West SP",0
+"Glenbrook South RF","Round 1","New Trier SH",0
+"Groves GM","Round 1","Washburn DE",0
+"Highland Park MT","Round 1","Iowa City West BW",0
+"Rosemount SF","Round 1","Berkeley Prep SS",0
+"Roseville Area CH","Round 1","Northside CP VK",0
+"Bloomington AB","Round 1","Niles West TG",0
+"Rosemount BS","Round 1","Iowa City WZ",0
+"Little Rock Central WW","Round 2","Glenbrook North FT",1
+"Walter Payton BC","Round 2","WDMV DS",1
+"Clovis North HP","Round 2","Wayzata MS",1
+"East Kentwood BO","Round 2","Bloomington AB",1
+"Edgemont JM","Round 2","Asian Debate League CH",1
+"Highland Park BD","Round 2","Wayzata AC",1
+"Homewood-Flossmoor HL","Round 2","Bloomington MW",1
+"Peninsula TW","Round 2","Glenbrook South SS",1
+"Rowland Hall GL","Round 2","Walter Payton PY",1
+"Westminster CK","Round 2","BYE",1
+"Centennial LP","Round 2","Greenhill WM",1
+"Denver Arts School IH","Round 2","Westminster DH",1
+"Denver Independent RW","Round 2","Eagan GP",1
+"Glenbrook North BL","Round 2","Lexington XW",1
+"Glenbrook North CR","Round 2","Lexington ML",1
+"Glenbrook South CA","Round 2","Wayzata So",1
+"Glenbrook South RS","Round 2","Rowland Hall BL",1
+"Glenbrook South SS","Round 2","Peninsula TW",0
+"Iowa City West TR","Round 2","Marist AV",1
+"Iowa City WZ","Round 2","Iowa City West JW",1
+"Lexington DC","Round 2","Northside CP KS",1
+"Lexington RZ","Round 2","Niles West BS",1
+"McDonogh NJ","Round 2","BYE",1
+"New Trier BK","Round 2","Eagan SS",1
+"Niles West GG","Round 2","Edina RL",1
+"Peninsula JK","Round 2","Georgetown Day BS",1
+"Traverse City Central CF","Round 2","Clovis North SM",1
+"Westminster DH","Round 2","Denver Arts School IH",0
+"Whitney Young BF","Round 2","Berkeley Prep SS",1
+"Whitney Young RJ","Round 2","Asian Debate League TS",1
+"Bloomington MW","Round 2","Homewood-Flossmoor HL",0
+"Calhoun KF","Round 2","Eagan LQ",1
+"Edina CS","Round 2","Glenbrook South RF",1
+"Edina RL","Round 2","Niles West GG",0
+"Edina WS","Round 2","Berkeley Prep KY",1
+"Encinitas WW","Round 2","Washburn DE",1
+"Glenbrook North FT","Round 2","Little Rock Central WW",0
+"Glenbrook South BK","Round 2","Wayzata SH",1
+"Glenbrook South CL","Round 2","Aberdeen Central PF",1
+"Greenhill WM","Round 2","Centennial LP",0
+"Iowa City West BW","Round 2","Aberdeen Central RJ",1
+"Lexington ML","Round 2","Glenbrook North CR",0
+"Marist AV","Round 2","Iowa City West TR",0
+"New Trier SH","Round 2","Eagan RW",1
+"Niles West NR","Round 2","Groves GS",1
+"Niles West SP","Round 2","Wayzata AJ",1
+"Northside CP BE","Round 2","Niles West CB",1
+"Rowland Hall BL","Round 2","Glenbrook South RS",0
+"Rowland Hall MB","Round 2","Walter Payton MS",1
+"Sioux Falls Lincoln JH","Round 2","Rosemount KS",1
+"SPASH GM","Round 2","Holy Cross SS",1
+"St Paul GS","Round 2","Rosemount BS",1
+"Wayzata MS","Round 2","Clovis North HP",0
+"Wayzata SH","Round 2","Glenbrook South BK",0
+"WDMV HH","Round 2","Wayzata WG",1
+"Westminster CB","Round 2","Northside CP VK",1
+"Whitney Young FS","Round 2","Rufus King GR",1
+"Whitney Young SO","Round 2","Greenhill GR",0
+"Berkeley Prep KY","Round 2","Edina WS",0
+"Berkeley Prep SS","Round 2","Whitney Young BF",0
+"Brooklyn Independent EW","Round 2","Westminster ZB",1
+"Eagan RW","Round 2","New Trier SH",0
+"Georgetown Day BS","Round 2","Peninsula JK",0
+"Glenbrook South PV","Round 2","Groves GM",1
+"Greenhill GR","Round 2","Whitney Young SO",1
+"Groves GS","Round 2","Niles West NR",0
+"Iowa City KK","Round 2","Niles West TG",1
+"Iowa City West JW","Round 2","Iowa City WZ",0
+"Kent Denver KK","Round 2","Wayzata BH",1
+"Lexington XW","Round 2","Glenbrook North BL",0
+"Meadows BN","Round 2","Appleton East MR",1
+"Niles West TG","Round 2","Iowa City KK",0
+"Northside CP SJ","Round 2","Washburn HK",1
+"Northside CP VK","Round 2","Westminster CB",0
+"Roosevelt OP","Round 2","Minneapolis South FN",1
+"Rosemount KS","Round 2","Sioux Falls Lincoln JH",0
+"Rufus King GR","Round 2","Whitney Young FS",0
+"Walter Payton MS","Round 2","Rowland Hall MB",0
+"Washburn DE","Round 2","Encinitas WW",0
+"Washburn HK","Round 2","Northside CP SJ",0
+"Wayzata AC","Round 2","Highland Park BD",0
+"Wayzata AJ","Round 2","Niles West SP",0
+"Wayzata DD","Round 2","Highland Park MT",1
+"Wayzata KS","Round 2","Asian Debate League CC",1
+"WDMV DS","Round 2","Walter Payton BC",0
+"Westminster ZB","Round 2","Brooklyn Independent EW",0
+"Aberdeen Central PF","Round 2","Glenbrook South CL",0
+"Aberdeen Central RJ","Round 2","Iowa City West BW",0
+"Asian Debate League CC","Round 2","Wayzata KS",0
+"Asian Debate League CH","Round 2","Edgemont JM",0
+"Asian Debate League TS","Round 2","Whitney Young RJ",0
+"Clovis North SM","Round 2","Traverse City Central CF",0
+"Eagan SS","Round 2","New Trier BK",0
+"Edina KE","Round 2","Roseville Area CH",1
+"Holy Cross SS","Round 2","SPASH GM",0
+"Kent Denver HM","Round 2","Rosemount SF",1
+"Minneapolis South FN","Round 2","Roosevelt OP",0
+"Niles West BS","Round 2","Lexington RZ",0
+"Niles West CB","Round 2","Northside CP BE",0
+"Northside CP KS","Round 2","Lexington DC",0
+"Walter Payton PY","Round 2","Rowland Hall GL",0
+"Wayzata BH","Round 2","Kent Denver KK",0
+"Wayzata So","Round 2","Glenbrook South CA",0
+"Wayzata WG","Round 2","WDMV HH",0
+"Appleton East MR","Round 2","Meadows BN",0
+"Eagan GP","Round 2","Denver Independent RW",0
+"Eagan LQ","Round 2","Calhoun KF",0
+"Glenbrook South RF","Round 2","Edina CS",0
+"Groves GM","Round 2","Glenbrook South PV",0
+"Highland Park MT","Round 2","Wayzata DD",0
+"Rosemount SF","Round 2","Kent Denver HM",0
+"Roseville Area CH","Round 2","Edina KE",0
+"Bloomington AB","Round 2","East Kentwood BO",0
+"Rosemount BS","Round 2","St Paul GS",0
+"Little Rock Central WW","Round 3","Glenbrook South PV",1
+"Walter Payton BC","Round 3","Whitney Young RJ",1
+"Clovis North HP","Round 3","Iowa City West BW",1
+"East Kentwood BO","Round 3","Traverse City Central CF",1
+"Edgemont JM","Round 3","Lexington DC",1
+"Highland Park BD","Round 3","Edina CS",1
+"Homewood-Flossmoor HL","Round 3","Glenbrook North BL",1
+"Peninsula TW","Round 3","Wayzata KS",1
+"Rowland Hall GL","Round 3","Glenbrook South CA",0
+"Westminster CK","Round 3","Peninsula JK",1
+"Centennial LP","Round 3","New Trier BK",0
+"Denver Arts School IH","Round 3","Niles West SP",0
+"Denver Independent RW","Round 3","Westminster CB",1
+"Glenbrook North BL","Round 3","Homewood-Flossmoor HL",0
+"Glenbrook North CR","Round 3","Meadows BN",1
+"Glenbrook South CA","Round 3","Rowland Hall GL",1
+"Glenbrook South RS","Round 3","New Trier SH",1
+"Glenbrook South SS","Round 3","Edina KE",1
+"Iowa City West TR","Round 3","St Paul GS",0
+"Iowa City WZ","Round 3","Whitney Young BF",1
+"Lexington DC","Round 3","Edgemont JM",0
+"Lexington RZ","Round 3","Northside CP VK",1
+"McDonogh NJ","Round 3","Rosemount SF",1
+"New Trier BK","Round 3","Centennial LP",1
+"Niles West GG","Round 3","Sioux Falls Lincoln JH",1
+"Peninsula JK","Round 3","Westminster CK",0
+"Traverse City Central CF","Round 3","East Kentwood BO",0
+"Westminster DH","Round 3","Aberdeen Central PF",1
+"Whitney Young BF","Round 3","Iowa City WZ",0
+"Whitney Young RJ","Round 3","Walter Payton BC",0
+"Bloomington MW","Round 3","Rosemount KS",1
+"Calhoun KF","Round 3","Whitney Young FS",0
+"Edina CS","Round 3","Highland Park BD",0
+"Edina RL","Round 3","Niles West TG",1
+"Edina WS","Round 3","Washburn DE",1
+"Encinitas WW","Round 3","WDMV HH",0
+"Glenbrook North FT","Round 3","Highland Park MT",1
+"Glenbrook South BK","Round 3","Brooklyn Independent EW",1
+"Glenbrook South CL","Round 3","Berkeley Prep KY",1
+"Greenhill WM","Round 3","Northside CP SJ",1
+"Iowa City West BW","Round 3","Clovis North HP",0
+"Lexington ML","Round 3","Georgetown Day BS",1
+"Marist AV","Round 3","Kent Denver KK",1
+"New Trier SH","Round 3","Glenbrook South RS",0
+"Niles West NR","Round 3","Wayzata DD",0
+"Niles West SP","Round 3","Denver Arts School IH",1
+"Northside CP BE","Round 3","Rufus King GR",0
+"Rowland Hall BL","Round 3","Iowa City West JW",0
+"Rowland Hall MB","Round 3","Greenhill GR",1
+"Sioux Falls Lincoln JH","Round 3","Niles West GG",0
+"SPASH GM","Round 3","Roosevelt OP",1
+"St Paul GS","Round 3","Iowa City West TR",1
+"Wayzata MS","Round 3","Berkeley Prep SS",1
+"Wayzata SH","Round 3","Lexington XW",1
+"WDMV HH","Round 3","Encinitas WW",1
+"Westminster CB","Round 3","Denver Independent RW",0
+"Whitney Young FS","Round 3","Calhoun KF",1
+"Whitney Young SO","Round 3","Glenbrook South RF",1
+"Berkeley Prep KY","Round 3","Glenbrook South CL",0
+"Berkeley Prep SS","Round 3","Wayzata MS",0
+"Brooklyn Independent EW","Round 3","Glenbrook South BK",0
+"Eagan RW","Round 3","Asian Debate League CC",1
+"Georgetown Day BS","Round 3","Lexington ML",0
+"Glenbrook South PV","Round 3","Little Rock Central WW",0
+"Greenhill GR","Round 3","Rowland Hall MB",0
+"Groves GS","Round 3","Wayzata BH",1
+"Iowa City KK","Round 3","Walter Payton MS",0
+"Iowa City West JW","Round 3","Rowland Hall BL",1
+"Kent Denver KK","Round 3","Marist AV",0
+"Lexington XW","Round 3","Wayzata SH",0
+"Meadows BN","Round 3","Glenbrook North CR",0
+"Niles West TG","Round 3","Edina RL",0
+"Northside CP SJ","Round 3","Greenhill WM",0
+"Northside CP VK","Round 3","Lexington RZ",0
+"Roosevelt OP","Round 3","SPASH GM",0
+"Rosemount KS","Round 3","Bloomington MW",0
+"Rufus King GR","Round 3","Northside CP BE",1
+"Walter Payton MS","Round 3","Iowa City KK",1
+"Washburn DE","Round 3","Edina WS",0
+"Washburn HK","Round 3","Wayzata So",1
+"Wayzata AC","Round 3","Niles West BS",1
+"Wayzata AJ","Round 3","Minneapolis South FN",1
+"Wayzata DD","Round 3","Niles West NR",1
+"Wayzata KS","Round 3","Peninsula TW",0
+"WDMV DS","Round 3","Westminster ZB",1
+"Westminster ZB","Round 3","WDMV DS",0
+"Aberdeen Central PF","Round 3","Westminster DH",0
+"Aberdeen Central RJ","Round 3","Eagan LQ",1
+"Asian Debate League CC","Round 3","Eagan RW",0
+"Asian Debate League CH","Round 3","Groves GM",1
+"Asian Debate League TS","Round 3","Eagan SS",1
+"Clovis North SM","Round 3","Bloomington AB",1
+"Eagan SS","Round 3","Asian Debate League TS",0
+"Edina KE","Round 3","Glenbrook South SS",0
+"Holy Cross SS","Round 3","Wayzata WG",0
+"Kent Denver HM","Round 3","Northside CP KS",1
+"Minneapolis South FN","Round 3","Wayzata AJ",0
+"Niles West BS","Round 3","Wayzata AC",0
+"Niles West CB","Round 3","Rosemount BS",1
+"Northside CP KS","Round 3","Kent Denver HM",0
+"Walter Payton PY","Round 3","Roseville Area CH",1
+"Wayzata BH","Round 3","Groves GS",0
+"Wayzata So","Round 3","Washburn HK",0
+"Wayzata WG","Round 3","Holy Cross SS",1
+"Appleton East MR","Round 3","Eagan GP",1
+"Eagan GP","Round 3","Appleton East MR",0
+"Eagan LQ","Round 3","Aberdeen Central RJ",0
+"Glenbrook South RF","Round 3","Whitney Young SO",0
+"Groves GM","Round 3","Asian Debate League CH",0
+"Highland Park MT","Round 3","Glenbrook North FT",0
+"Rosemount SF","Round 3","McDonogh NJ",0
+"Roseville Area CH","Round 3","Walter Payton PY",0
+"Bloomington AB","Round 3","Clovis North SM",0
+"Rosemount BS","Round 3","Niles West CB",0
+"Little Rock Central WW","Round 4","Glenbrook South CA",1
+"Walter Payton BC","Round 4","Westminster DH",1
+"Clovis North HP","Round 4","Edina CS",1
+"East Kentwood BO","Round 4","Iowa City WZ",0
+"Edgemont JM","Round 4","Niles West GG",1
+"Highland Park BD","Round 4","Kent Denver HM",1
+"Homewood-Flossmoor HL","Round 4","SPASH GM",1
+"Peninsula TW","Round 4","Iowa City West BW",1
+"Rowland Hall GL","Round 4","Niles West CB",1
+"Westminster CK","Round 4","St Paul GS",1
+"Centennial LP","Round 4","Glenbrook South CL",1
+"Denver Arts School IH","Round 4","Wayzata DD",1
+"Denver Independent RW","Round 4","WDMV HH",1
+"Glenbrook North BL","Round 4","Iowa City West JW",1
+"Glenbrook North CR","Round 4","Wayzata SH",1
+"Glenbrook South CA","Round 4","Little Rock Central WW",0
+"Glenbrook South RS","Round 4","Niles West SP",1
+"Glenbrook South SS","Round 4","Berkeley Prep KY",1
+"Iowa City West TR","Round 4","Washburn HK",1
+"Iowa City WZ","Round 4","East Kentwood BO",1
+"Lexington DC","Round 4","Roosevelt OP",1
+"Lexington RZ","Round 4","Rowland Hall MB",0
+"McDonogh NJ","Round 4","Edina WS",1
+"New Trier BK","Round 4","Whitney Young FS",1
+"Niles West GG","Round 4","Edgemont JM",0
+"Peninsula JK","Round 4","Wayzata KS",1
+"Traverse City Central CF","Round 4","Calhoun KF",1
+"Westminster DH","Round 4","Walter Payton BC",0
+"Whitney Young BF","Round 4","Iowa City KK",1
+"Whitney Young RJ","Round 4","Brooklyn Independent EW",1
+"Bloomington MW","Round 4","Wayzata MS",0
+"Calhoun KF","Round 4","Traverse City Central CF",0
+"Edina CS","Round 4","Clovis North HP",0
+"Edina RL","Round 4","Greenhill WM",0
+"Edina WS","Round 4","McDonogh NJ",0
+"Encinitas WW","Round 4","Westminster CB",0
+"Glenbrook North FT","Round 4","Wayzata WG",1
+"Glenbrook South BK","Round 4","Sioux Falls Lincoln JH",1
+"Glenbrook South CL","Round 4","Centennial LP",0
+"Greenhill WM","Round 4","Edina RL",1
+"Iowa City West BW","Round 4","Peninsula TW",0
+"Lexington ML","Round 4","Minneapolis South FN",1
+"Marist AV","Round 4","Walter Payton MS",1
+"New Trier SH","Round 4","Glenbrook South PV",1
+"Niles West NR","Round 4","Appleton East MR",1
+"Niles West SP","Round 4","Glenbrook South RS",0
+"Northside CP BE","Round 4","Clovis North SM",1
+"Rowland Hall BL","Round 4","Roseville Area CH",1
+"Rowland Hall MB","Round 4","Lexington RZ",1
+"Sioux Falls Lincoln JH","Round 4","Glenbrook South BK",0
+"SPASH GM","Round 4","Homewood-Flossmoor HL",0
+"St Paul GS","Round 4","Westminster CK",0
+"Wayzata MS","Round 4","Bloomington MW",1
+"Wayzata SH","Round 4","Glenbrook North CR",0
+"WDMV HH","Round 4","Denver Independent RW",0
+"Westminster CB","Round 4","Encinitas WW",1
+"Whitney Young FS","Round 4","New Trier BK",0
+"Whitney Young SO","Round 4","Eagan RW",1
+"Berkeley Prep KY","Round 4","Glenbrook South SS",0
+"Berkeley Prep SS","Round 4","Rufus King GR",1
+"Brooklyn Independent EW","Round 4","Whitney Young RJ",0
+"Eagan RW","Round 4","Whitney Young SO",0
+"Georgetown Day BS","Round 4","Rosemount KS",0
+"Glenbrook South PV","Round 4","New Trier SH",0
+"Greenhill GR","Round 4","Asian Debate League TS",1
+"Groves GS","Round 4","Westminster ZB",0
+"Iowa City KK","Round 4","Whitney Young BF",0
+"Iowa City West JW","Round 4","Glenbrook North BL",0
+"Kent Denver KK","Round 4","Asian Debate League CH",1
+"Lexington XW","Round 4","Bloomington AB",1
+"Meadows BN","Round 4","Niles West TG",0
+"Niles West TG","Round 4","Meadows BN",1
+"Northside CP SJ","Round 4","Aberdeen Central RJ",1
+"Northside CP VK","Round 4","Aberdeen Central PF",1
+"Roosevelt OP","Round 4","Lexington DC",0
+"Rosemount KS","Round 4","Georgetown Day BS",1
+"Rufus King GR","Round 4","Berkeley Prep SS",0
+"Walter Payton MS","Round 4","Marist AV",0
+"Washburn DE","Round 4","Glenbrook South RF",1
+"Washburn HK","Round 4","Iowa City West TR",0
+"Wayzata AC","Round 4","Rosemount SF",1
+"Wayzata AJ","Round 4","Edina KE",1
+"Wayzata DD","Round 4","Denver Arts School IH",0
+"Wayzata KS","Round 4","Peninsula JK",0
+"WDMV DS","Round 4","Wayzata BH",1
+"Westminster ZB","Round 4","Groves GS",1
+"Aberdeen Central PF","Round 4","Northside CP VK",0
+"Aberdeen Central RJ","Round 4","Northside CP SJ",0
+"Asian Debate League CC","Round 4","Holy Cross SS",0
+"Asian Debate League CH","Round 4","Kent Denver KK",0
+"Asian Debate League TS","Round 4","Greenhill GR",0
+"Clovis North SM","Round 4","Northside CP BE",0
+"Eagan SS","Round 4","Groves GM",1
+"Edina KE","Round 4","Wayzata AJ",0
+"Holy Cross SS","Round 4","Asian Debate League CC",1
+"Kent Denver HM","Round 4","Highland Park BD",0
+"Minneapolis South FN","Round 4","Lexington ML",0
+"Niles West BS","Round 4","Wayzata So",1
+"Niles West CB","Round 4","Rowland Hall GL",0
+"Northside CP KS","Round 4","Walter Payton PY",1
+"Walter Payton PY","Round 4","Northside CP KS",0
+"Wayzata BH","Round 4","WDMV DS",0
+"Wayzata So","Round 4","Niles West BS",0
+"Wayzata WG","Round 4","Glenbrook North FT",0
+"Appleton East MR","Round 4","Niles West NR",0
+"Eagan GP","Round 4","Highland Park MT",0
+"Eagan LQ","Round 4","Rosemount BS",1
+"Glenbrook South RF","Round 4","Washburn DE",0
+"Groves GM","Round 4","Eagan SS",0
+"Highland Park MT","Round 4","Eagan GP",1
+"Rosemount SF","Round 4","Wayzata AC",0
+"Roseville Area CH","Round 4","Rowland Hall BL",0
+"Bloomington AB","Round 4","Lexington XW",0
+"Rosemount BS","Round 4","Eagan LQ",0
+"Little Rock Central WW","Round 5","Edgemont JM",1
+"Walter Payton BC","Round 5","Clovis North HP",1
+"Clovis North HP","Round 5","Walter Payton BC",0
+"East Kentwood BO","Round 5","New Trier SH",1
+"Edgemont JM","Round 5","Little Rock Central WW",0
+"Highland Park BD","Round 5","Denver Independent RW",1
+"Homewood-Flossmoor HL","Round 5","Iowa City WZ",0
+"Peninsula TW","Round 5","Glenbrook South RS",1
+"Rowland Hall GL","Round 5","Marist AV",1
+"Westminster CK","Round 5","New Trier BK",1
+"Centennial LP","Round 5","Wayzata MS",1
+"Denver Arts School IH","Round 5","Westminster CB",1
+"Denver Independent RW","Round 5","Highland Park BD",0
+"Glenbrook North BL","Round 5","SPASH GM",1
+"Glenbrook North CR","Round 5","Greenhill WM",0
+"Glenbrook South CA","Round 5","Whitney Young FS",1
+"Glenbrook South RS","Round 5","Peninsula TW",0
+"Glenbrook South SS","Round 5","Whitney Young RJ",1
+"Iowa City West TR","Round 5","Niles West SP",1
+"Iowa City WZ","Round 5","Homewood-Flossmoor HL",1
+"Lexington DC","Round 5","Rowland Hall MB",1
+"Lexington RZ","Round 5","Wayzata AJ",1
+"McDonogh NJ","Round 5","WDMV HH",1
+"New Trier BK","Round 5","Westminster CK",0
+"Niles West GG","Round 5","Glenbrook South BK",1
+"Peninsula JK","Round 5","Whitney Young BF",1
+"Traverse City Central CF","Round 5","St Paul GS",1
+"Westminster DH","Round 5","Kent Denver HM",1
+"Whitney Young BF","Round 5","Peninsula JK",0
+"Whitney Young RJ","Round 5","Glenbrook South SS",0
+"Bloomington MW","Round 5","Highland Park MT",1
+"Calhoun KF","Round 5","Washburn DE",1
+"Edina CS","Round 5","Whitney Young SO",1
+"Edina RL","Round 5","Eagan LQ",1
+"Edina WS","Round 5","WDMV DS",0
+"Encinitas WW","Round 5","Niles West TG",1
+"Glenbrook North FT","Round 5","Kent Denver KK",1
+"Glenbrook South BK","Round 5","Niles West GG",0
+"Glenbrook South CL","Round 5","Wayzata KS",1
+"Greenhill WM","Round 5","Glenbrook North CR",1
+"Iowa City West BW","Round 5","Roosevelt OP",1
+"Lexington ML","Round 5","Wayzata SH",0
+"Marist AV","Round 5","Rowland Hall GL",0
+"New Trier SH","Round 5","East Kentwood BO",0
+"Niles West NR","Round 5","Glenbrook South PV",1
+"Niles West SP","Round 5","Iowa City West TR",0
+"Northside CP BE","Round 5","Berkeley Prep SS",1
+"Rowland Hall BL","Round 5","Greenhill GR",1
+"Rowland Hall MB","Round 5","Lexington DC",0
+"Sioux Falls Lincoln JH","Round 5","Wayzata DD",1
+"SPASH GM","Round 5","Glenbrook North BL",0
+"St Paul GS","Round 5","Traverse City Central CF",0
+"Wayzata MS","Round 5","Centennial LP",0
+"Wayzata SH","Round 5","Lexington ML",1
+"WDMV HH","Round 5","McDonogh NJ",0
+"Westminster CB","Round 5","Denver Arts School IH",0
+"Whitney Young FS","Round 5","Glenbrook South CA",0
+"Whitney Young SO","Round 5","Edina CS",0
+"Berkeley Prep KY","Round 5","Brooklyn Independent EW",0
+"Berkeley Prep SS","Round 5","Northside CP BE",0
+"Brooklyn Independent EW","Round 5","Berkeley Prep KY",1
+"Eagan RW","Round 5","Edina KE",1
+"Georgetown Day BS","Round 5","BYE",1
+"Glenbrook South PV","Round 5","Niles West NR",0
+"Greenhill GR","Round 5","Rowland Hall BL",0
+"Groves GS","Round 5","Clovis North SM",1
+"Iowa City KK","Round 5","Niles West BS",1
+"Iowa City West JW","Round 5","Northside CP SJ",1
+"Kent Denver KK","Round 5","Glenbrook North FT",0
+"Lexington XW","Round 5","Walter Payton MS",1
+"Meadows BN","Round 5","Holy Cross SS",1
+"Niles West TG","Round 5","Encinitas WW",0
+"Northside CP SJ","Round 5","Iowa City West JW",0
+"Northside CP VK","Round 5","Rufus King GR",1
+"Roosevelt OP","Round 5","Iowa City West BW",0
+"Rosemount KS","Round 5","Washburn HK",0
+"Rufus King GR","Round 5","Northside CP VK",0
+"Walter Payton MS","Round 5","Lexington XW",0
+"Washburn DE","Round 5","Calhoun KF",0
+"Washburn HK","Round 5","Rosemount KS",1
+"Wayzata AC","Round 5","Northside CP KS",1
+"Wayzata AJ","Round 5","Lexington RZ",0
+"Wayzata DD","Round 5","Sioux Falls Lincoln JH",0
+"Wayzata KS","Round 5","Glenbrook South CL",0
+"WDMV DS","Round 5","Edina WS",1
+"Westminster ZB","Round 5","Niles West CB",1
+"Aberdeen Central PF","Round 5","Asian Debate League CH",1
+"Aberdeen Central RJ","Round 5","Eagan SS",1
+"Asian Debate League CC","Round 5","Wayzata So",1
+"Asian Debate League CH","Round 5","Aberdeen Central PF",0
+"Asian Debate League TS","Round 5","Wayzata WG",0
+"Clovis North SM","Round 5","Groves GS",0
+"Eagan SS","Round 5","Aberdeen Central RJ",0
+"Edina KE","Round 5","Eagan RW",0
+"Holy Cross SS","Round 5","Meadows BN",0
+"Kent Denver HM","Round 5","Westminster DH",0
+"Minneapolis South FN","Round 5","Roseville Area CH",1
+"Niles West BS","Round 5","Iowa City KK",0
+"Niles West CB","Round 5","Westminster ZB",0
+"Northside CP KS","Round 5","Wayzata AC",0
+"Walter Payton PY","Round 5","Appleton East MR",1
+"Wayzata BH","Round 5","Glenbrook South RF",1
+"Wayzata So","Round 5","Asian Debate League CC",0
+"Wayzata WG","Round 5","Asian Debate League TS",1
+"Appleton East MR","Round 5","Walter Payton PY",0
+"Eagan GP","Round 5","Rosemount SF",1
+"Eagan LQ","Round 5","Edina RL",0
+"Glenbrook South RF","Round 5","Wayzata BH",0
+"Groves GM","Round 5","Rosemount BS",1
+"Highland Park MT","Round 5","Bloomington MW",0
+"Rosemount SF","Round 5","Eagan GP",0
+"Roseville Area CH","Round 5","Minneapolis South FN",0
+"Bloomington AB","Round 5","Georgetown Day BS",0
+"Rosemount BS","Round 5","Groves GM",0
+"Little Rock Central WW","Round 6","Westminster CK",1
+"Walter Payton BC","Round 6","Iowa City WZ",1
+"Clovis North HP","Round 6","Northside CP BE",1
+"East Kentwood BO","Round 6","Glenbrook South SS",1
+"Edgemont JM","Round 6","Niles West NR",1
+"Highland Park BD","Round 6","Peninsula TW",1
+"Homewood-Flossmoor HL","Round 6","McDonogh NJ",1
+"Peninsula TW","Round 6","Highland Park BD",0
+"Rowland Hall GL","Round 6","Greenhill WM",1
+"Westminster CK","Round 6","Little Rock Central WW",0
+"Centennial LP","Round 6","Glenbrook South CA",0
+"Denver Arts School IH","Round 6","Glenbrook North BL",1
+"Denver Independent RW","Round 6","Traverse City Central CF",0
+"Glenbrook North BL","Round 6","Denver Arts School IH",0
+"Glenbrook North CR","Round 6","Northside CP VK",1
+"Glenbrook South CA","Round 6","Centennial LP",1
+"Glenbrook South RS","Round 6","Peninsula JK",0
+"Glenbrook South SS","Round 6","East Kentwood BO",0
+"Iowa City West TR","Round 6","Niles West GG",1
+"Iowa City WZ","Round 6","Walter Payton BC",0
+"Lexington DC","Round 6","New Trier BK",1
+"Lexington RZ","Round 6","Wayzata SH",1
+"McDonogh NJ","Round 6","Homewood-Flossmoor HL",0
+"New Trier BK","Round 6","Lexington DC",0
+"Niles West GG","Round 6","Iowa City West TR",0
+"Peninsula JK","Round 6","Glenbrook South RS",1
+"Traverse City Central CF","Round 6","Denver Independent RW",1
+"Westminster DH","Round 6","Lexington XW",1
+"Whitney Young BF","Round 6","Wayzata WG",1
+"Whitney Young RJ","Round 6","Iowa City KK",1
+"Bloomington MW","Round 6","Brooklyn Independent EW",1
+"Calhoun KF","Round 6","Rowland Hall MB",0
+"Edina CS","Round 6","Glenbrook South BK",0
+"Edina RL","Round 6","Rowland Hall BL",0
+"Edina WS","Round 6","Aberdeen Central RJ",1
+"Encinitas WW","Round 6","Wayzata MS",0
+"Glenbrook North FT","Round 6","Wayzata AC",1
+"Glenbrook South BK","Round 6","Edina CS",1
+"Glenbrook South CL","Round 6","Whitney Young FS",1
+"Greenhill WM","Round 6","Rowland Hall GL",0
+"Iowa City West BW","Round 6","St Paul GS",0
+"Lexington ML","Round 6","Kent Denver HM",1
+"Marist AV","Round 6","Iowa City West JW",1
+"New Trier SH","Round 6","Niles West SP",1
+"Niles West NR","Round 6","Edgemont JM",0
+"Niles West SP","Round 6","New Trier SH",0
+"Northside CP BE","Round 6","Clovis North HP",0
+"Rowland Hall BL","Round 6","Edina RL",1
+"Rowland Hall MB","Round 6","Calhoun KF",1
+"Sioux Falls Lincoln JH","Round 6","Westminster CB",0
+"SPASH GM","Round 6","WDMV DS",1
+"St Paul GS","Round 6","Iowa City West BW",1
+"Wayzata MS","Round 6","Encinitas WW",1
+"Wayzata SH","Round 6","Lexington RZ",0
+"WDMV HH","Round 6","Eagan RW",1
+"Westminster CB","Round 6","Sioux Falls Lincoln JH",1
+"Whitney Young FS","Round 6","Glenbrook South CL",0
+"Whitney Young SO","Round 6","Washburn HK",1
+"Berkeley Prep KY","Round 6","Bloomington AB",1
+"Berkeley Prep SS","Round 6","Aberdeen Central PF",1
+"Brooklyn Independent EW","Round 6","Bloomington MW",0
+"Eagan RW","Round 6","WDMV HH",0
+"Georgetown Day BS","Round 6","Glenbrook South RF",1
+"Glenbrook South PV","Round 6","Meadows BN",0
+"Greenhill GR","Round 6","Kent Denver KK",1
+"Groves GS","Round 6","Northside CP KS",1
+"Iowa City KK","Round 6","Whitney Young RJ",0
+"Iowa City West JW","Round 6","Marist AV",0
+"Kent Denver KK","Round 6","Greenhill GR",0
+"Lexington XW","Round 6","Westminster DH",0
+"Meadows BN","Round 6","Glenbrook South PV",1
+"Niles West TG","Round 6","Northside CP SJ",1
+"Northside CP SJ","Round 6","Niles West TG",0
+"Northside CP VK","Round 6","Glenbrook North CR",0
+"Roosevelt OP","Round 6","Walter Payton PY",1
+"Rosemount KS","Round 6","Asian Debate League TS",1
+"Rufus King GR","Round 6","Washburn DE",1
+"Walter Payton MS","Round 6","Wayzata AJ",0
+"Washburn DE","Round 6","Rufus King GR",0
+"Washburn HK","Round 6","Whitney Young SO",0
+"Wayzata AC","Round 6","Glenbrook North FT",0
+"Wayzata AJ","Round 6","Walter Payton MS",1
+"Wayzata DD","Round 6","Westminster ZB",1
+"Wayzata KS","Round 6","Groves GM",1
+"WDMV DS","Round 6","SPASH GM",0
+"Westminster ZB","Round 6","Wayzata DD",0
+"Aberdeen Central PF","Round 6","Berkeley Prep SS",0
+"Aberdeen Central RJ","Round 6","Edina WS",0
+"Asian Debate League CC","Round 6","Eagan LQ",1
+"Asian Debate League CH","Round 6","Wayzata BH",1
+"Asian Debate League TS","Round 6","Rosemount KS",0
+"Clovis North SM","Round 6","Minneapolis South FN",0
+"Eagan SS","Round 6","Highland Park MT",1
+"Edina KE","Round 6","Appleton East MR",1
+"Holy Cross SS","Round 6","Niles West BS",1
+"Kent Denver HM","Round 6","Lexington ML",0
+"Minneapolis South FN","Round 6","Clovis North SM",1
+"Niles West BS","Round 6","Holy Cross SS",0
+"Niles West CB","Round 6","Eagan GP",1
+"Northside CP KS","Round 6","Groves GS",0
+"Walter Payton PY","Round 6","Roosevelt OP",0
+"Wayzata BH","Round 6","Asian Debate League CH",0
+"Wayzata So","Round 6","Rosemount BS",1
+"Wayzata WG","Round 6","Whitney Young BF",0
+"Appleton East MR","Round 6","Edina KE",0
+"Eagan GP","Round 6","Niles West CB",0
+"Eagan LQ","Round 6","Asian Debate League CC",0
+"Glenbrook South RF","Round 6","Georgetown Day BS",0
+"Groves GM","Round 6","Wayzata KS",0
+"Highland Park MT","Round 6","Eagan SS",0
+"Rosemount SF","Round 6","Roseville Area CH",1
+"Roseville Area CH","Round 6","Rosemount SF",0
+"Bloomington AB","Round 6","Berkeley Prep KY",0
+"Rosemount BS","Round 6","Wayzata So",0
+"Little Rock Central WW","Round 7","Highland Park BD",1
+"Walter Payton BC","Round 7","Iowa City West TR",1
+"Clovis North HP","Round 7","Peninsula JK",1
+"East Kentwood BO","Round 7","Glenbrook South CA",1
+"Edgemont JM","Round 7","Traverse City Central CF",1
+"Highland Park BD","Round 7","Little Rock Central WW",0
+"Homewood-Flossmoor HL","Round 7","Lexington DC",1
+"Peninsula TW","Round 7","Denver Arts School IH",1
+"Rowland Hall GL","Round 7","Iowa City WZ",1
+"Westminster CK","Round 7","Rowland Hall BL",1
+"Centennial LP","Round 7","New Trier SH",1
+"Denver Arts School IH","Round 7","Peninsula TW",0
+"Denver Independent RW","Round 7","Wayzata AJ",1
+"Glenbrook North BL","Round 7","Wayzata MS",1
+"Glenbrook North CR","Round 7","Westminster CB",1
+"Glenbrook South CA","Round 7","East Kentwood BO",0
+"Glenbrook South RS","Round 7","Glenbrook North FT",1
+"Glenbrook South SS","Round 7","Rowland Hall MB",1
+"Iowa City West TR","Round 7","Walter Payton BC",0
+"Iowa City WZ","Round 7","Rowland Hall GL",0
+"Lexington DC","Round 7","Homewood-Flossmoor HL",0
+"Lexington RZ","Round 7","WDMV HH",1
+"McDonogh NJ","Round 7","Marist AV",1
+"New Trier BK","Round 7","Glenbrook South BK",1
+"Niles West GG","Round 7","Glenbrook South CL",1
+"Peninsula JK","Round 7","Clovis North HP",0
+"Traverse City Central CF","Round 7","Edgemont JM",0
+"Westminster DH","Round 7","SPASH GM",1
+"Whitney Young BF","Round 7","Greenhill WM",1
+"Whitney Young RJ","Round 7","St Paul GS",1
+"Bloomington MW","Round 7","Green Hill GR",1
+"Calhoun KF","Round 7","Niles West TG",1
+"Edina CS","Round 7","Meadows BN",1
+"Edina RL","Round 7","Groves GS",1
+"Edina WS","Round 7","Lexington XW",1
+"Encinitas WW","Round 7","Wayzata DD",1
+"Glenbrook North FT","Round 7","Glenbrook South RS",0
+"Glenbrook South BK","Round 7","New Trier BK",0
+"Glenbrook South CL","Round 7","Niles West GG",0
+"Greenhill WM","Round 7","Whitney Young BF",0
+"Iowa City West BW","Round 7","WDMV DS",1
+"Lexington ML","Round 7","Wayzata AC",1
+"Marist AV","Round 7","McDonogh NJ",0
+"New Trier SH","Round 7","Centennial LP",0
+"Niles West NR","Round 7","Roosevelt OP",1
+"Niles West SP","Round 7","Northside CP VK",1
+"Northside CP BE","Round 7","Iowa City West JW",1
+"Rowland Hall BL","Round 7","Westminster CK",0
+"Rowland Hall MB","Round 7","Glenbrook South SS",0
+"Sioux Falls Lincoln JH","Round 7","Wayzata KS",1
+"SPASH GM","Round 7","Westminster DH",0
+"St Paul GS","Round 7","Whitney Young RJ",0
+"Wayzata MS","Round 7","Glenbrook North BL",0
+"Wayzata SH","Round 7","Berkeley Prep SS",1
+"WDMV HH","Round 7","Lexington RZ",0
+"Westminster CB","Round 7","Glenbrook North CR",0
+"Whitney Young FS","Round 7","Asian Debate League CC",1
+"Whitney Young SO","Round 7","Rufus King GR",1
+"Berkeley Prep KY","Round 7","Eagan SS",1
+"Berkeley Prep SS","Round 7","Wayzata SH",0
+"Brooklyn Independent EW","Round 7","Edina KE",1
+"Eagan RW","Round 7","Holy Cross SS",1
+"Georgetown Day BS","Round 7","Walter Payton PY",1
+"Glenbrook South PV","Round 7","Niles West CB",1
+"Greenhill GR","Round 7","Bloomington MW",0
+"Groves GS","Round 7","Edina RL",0
+"Iowa City KK","Round 7","Minneapolis South FN",1
+"Iowa City West JW","Round 7","Northside CP BE",0
+"Kent Denver KK","Round 7","Wayzata WG",1
+"Lexington XW","Round 7","Edina WS",0
+"Meadows BN","Round 7","Edina CS",0
+"Niles West TG","Round 7","Calhoun KF",0
+"Northside CP SJ","Round 7","Asian Debate League CH",1
+"Northside CP VK","Round 7","Niles West SP",0
+"Roosevelt OP","Round 7","Niles West NR",0
+"Rosemount KS","Round 7","Northside CP KS",1
+"Rufus King GR","Round 7","Whitney Young SO",0
+"Walter Payton MS","Round 7","Groves GM",1
+"Washburn DE","Round 7","Kent Denver HM",1
+"Washburn HK","Round 7","Aberdeen Central RJ",1
+"Wayzata AC","Round 7","Lexington ML",0
+"Wayzata AJ","Round 7","Denver independent RW",0
+"Wayzata DD","Round 7","Encinitas WW",0
+"Wayzata KS","Round 7","Sioux Falls Lincoln JH",0
+"WDMV DS","Round 7","Iowa City West BW",0
+"Westminster ZB","Round 7","Aberdeen Central PF",1
+"Aberdeen Central PF","Round 7","Westminster ZB",0
+"Aberdeen Central RJ","Round 7","Washburn HK",0
+"Asian Debate League CC","Round 7","Whitney Young FS",0
+"Asian Debate League CH","Round 7","Northside CP SJ",0
+"Asian Debate League TS","Round 7","Eagan GP",1
+"Clovis North SM","Round 7","Rosemount SF",1
+"Eagan SS","Round 7","Berkeley Prep KY",0
+"Edina KE","Round 7","Brooklyn Independent EW",0
+"Holy Cross SS","Round 7","Eagan RW",0
+"Kent Denver HM","Round 7","Washburn DE",0
+"Minneapolis South FN","Round 7","Iowa City KK",0
+"Niles West BS","Round 7","Highland Park MT",1
+"Niles West CB","Round 7","Glenbrook South PV",0
+"Northside CP KS","Round 7","Rosemount KS",0
+"Walter Payton PY","Round 7","Georgetown Day BS",0
+"Wayzata BH","Round 7","Appleton East MR",1
+"Wayzata So","Round 7","Eagan LQ",1
+"Wayzata WG","Round 7","Kent Denver KK",0
+"Appleton East MR","Round 7","Wayzata BH",0
+"Eagan GP","Round 7","Asian Debate League TS",0
+"Eagan LQ","Round 7","Wayzata So",0
+"Glenbrook South RF","Round 7","Rosemount BS",1
+"Groves GM","Round 7","Walter Payton MS",0
+"Highland Park MT","Round 7","Niles West BS",0
+"Rosemount SF","Round 7","Clovis North SM",0
+"Roseville Area CH","Round 7","Bloomington AB",1
+"Bloomington AB","Round 7","Roseville Area CH",0
+"Rosemount BS","Round 7","Glenbrook South RF",0

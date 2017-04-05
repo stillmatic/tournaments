@@ -1,0 +1,409 @@
+"team","round","opponent","win"
+"Rowland Hall GL","Round 1","New Trier DS",1
+"St. Mark's KP","Round 1","Niles North BB",1
+"Carrollton CP","Round 1","Notre Dame CP",1
+"Glenbrook South CA","Round 1","New Trier BK",0
+"Glenbrook South SR","Round 1","Lionel Wilson HS",1
+"New Trier BK","Round 1","Glenbrook South AC",1
+"Peninsula TW","Round 1","Woodward AS",1
+"Blake NW","Round 1","Carrollton GB",1
+"Blake SW","Round 1","Greenhill KS",0
+"Carrollton GB","Round 1","Blake NW",0
+"Damien MP","Round 1","Strath Haven GM",1
+"East Kentwood BO","Round 1","Westminster CB",1
+"Greenhill KS","Round 1","Blake SW",1
+"Highland Park (MN) BD","Round 1","Niles West TB",1
+"Law Magnet GT","Round 1","Jesuit CP LV",0
+"Little Rock Central WW","Round 1","Rowland Hall BB",1
+"Marist AV","Round 1","Wayzata KS",1
+"Montgomery Bell KR","Round 1","Skyline AA",1
+"Notre Dame CP","Round 1","Carrollton CP",0
+"Notre Dame FR","Round 1","Carrolton FP",1
+"Pace FA","Round 1","Skyline HL",1
+"St. Mark's GW","Round 1","Harker HW",1
+"University BM","Round 1","Niles North WM",0
+"Wayzata JM","Round 1","HoFlo HL",1
+"Westminster CK","Round 1","Woodward PB",1
+"BVSW LH","Round 1","Lexington ML",1
+"BVSW ZF","Round 1","Highland Park (TX) CM",1
+"Jesuit CP BR","Round 1","Westminster KD",0
+"Jesuit CP HL","Round 1","Midway KK",1
+"New Trier BW","Round 1","Berkner RD",1
+"New Trier DS","Round 1","Rowland Hall GL",0
+"Niles West GG","Round 1","Bishop Guertin KV",0
+"Westminster KD","Round 1","Jesuit BR",1
+"Woodward AH","Round 1","Westminster RD",1
+"Damien JR","Round 1","Midway CH",1
+"Harker SH","Round 1","Georgetown Day BQ",1
+"HoFlo HL","Round 1","Wayzata JM",0
+"Montgomery Bell GJ","Round 1","Niles North CL",1
+"Niles North BB","Round 1","St Marks KP",0
+"Niles North WM","Round 1","University BM",1
+"Westminster RD","Round 1","Woodward AH",0
+"Woodward PB","Round 1","Westminster CK",0
+"Westminster CB","Round 1","East Kentwood BO",0
+"Bishop Guertin KV","Round 1","Niles West GG",1
+"Calhoun BF","Round 1","Kapaun Mt. Carmel HE",1
+"Harker HW","Round 1","St Marks GW",0
+"Harker SJ","Round 1","Berkeley Prep MY",1
+"Kapaun Mt. Carmel HE","Round 1","Calhoun BF",0
+"Lexington ML","Round 1","Blue Valley LH",0
+"Niles West TB","Round 1","Highland Park BD",0
+"Rowland Hall BB","Round 1","LRC WW",0
+"Woodward AS","Round 1","Peninsula TW",0
+"Lionel Wilson HS","Round 1","Glenbrook South SR",0
+"Berkeley Prep MY","Round 1","Harker SJ",0
+"Highland Park (TX) CM","Round 1","BVSW ZF",0
+"Jesuit CP LV","Round 1","Law Magnet GT",1
+"Midway CH","Round 1","Damien JR",0
+"Berkeley Prep SS","Round 1","Georgetown Day SK",0
+"Carrollton FP","Round 1","Notre Dame FR",0
+"Georgetown Day BQ","Round 1","Harker SH",0
+"Georgetown Day SK","Round 1","Berkeley Prep SS",1
+"Midway KK","Round 1","Jesuit HL",0
+"Skyline AA","Round 1","Montgomery Bell KR",0
+"Skyline HL","Round 1","Pace FA",0
+"Wayzata KS","Round 1","Marist AV",0
+"Berkner RD","Round 1","New Trier BW",0
+"Niles North CL","Round 1","Montgomery Bell GJ",0
+"Strath Haven GM","Round 1","Damien MP",0
+"Rowland Hall GL","Round 2","Montgomery Bell GJ",1
+"St. Mark's KP","Round 2","Berkeley Prep SS",1
+"Carrollton CP","Round 2","Kapaun Mt. Carmel HE",0
+"Glenbrook South CA","Round 2","Wayzata KS",1
+"Glenbrook South SR","Round 2","Highland Park (TX) CM",1
+"New Trier BK","Round 2","Marist AV",1
+"Peninsula TW","Round 2","Damien JR",1
+"Blake NW","Round 2","Montgomery Bell KR",0
+"Blake SW","Round 2","New Trier BW",1
+"Carrollton GB","Round 2","Skyline AA",1
+"Damien MP","Round 2","Niles West GG",1
+"East Kentwood BO","Round 2","Notre Dame FR",1
+"Greenhill KS","Round 2","Berkner RD",1
+"Highland Park (MN) BD","Round 2","Harker SH",1
+"Law Magnet GT","Round 2","St. Mark's GW",1
+"Little Rock Central WW","Round 2","Lexington ML",1
+"Marist AV","Round 2","New Trier BK",0
+"Montgomery Bell KR","Round 2","Blake NW",1
+"Notre Dame CP","Round 2","Calhoun BF",1
+"Notre Dame FR","Round 2","East Kentwood BO",0
+"Pace FA","Round 2","Westminster RD",1
+"St. Mark's GW","Round 2","Law Magnet GT",1
+"University BM","Round 2","HoFlo HL",1
+"Wayzata JM","Round 2","Niles North WM",1
+"Westminster CK","Round 2","Jesuit CP HL",1
+"BVSW LH","Round 2","Rowland Hall BB",0
+"BVSW ZF","Round 2","Lionel Wilson HS",0
+"Jesuit CP BR","Round 2","Berkeley Prep MY",1
+"Jesuit CP HL","Round 2","Westminster CK",0
+"New Trier BW","Round 2","Blake SW",0
+"New Trier DS","Round 2","Niles North CL",1
+"Niles West GG","Round 2","Damien MP",0
+"Westminster KD","Round 2","Harker SJ",1
+"Woodward AH","Round 2","Skyline HL",1
+"Damien JR","Round 2","Peninsula TW",0
+"Harker SH","Round 2","Highland Park (MN) BD",0
+"HoFlo HL","Round 2","University BM",0
+"Montgomery Bell GJ","Round 2","Rowland Hall GL",0
+"Niles North BB","Round 2","Georgetown Day SK",1
+"Niles North WM","Round 2","Wayzata JM",0
+"Westminster RD","Round 2","Pace FA",0
+"Woodward PB","Round 2","Midway KK",1
+"Westminster CB","Round 2","Carrollton FP",1
+"Bishop Guertin KV","Round 2","Strath Haven GM",1
+"Calhoun BF","Round 2","Notre Dame CP",0
+"Harker HW","Round 2","Jesuit CP LV",1
+"Harker SJ","Round 2","Westminster KD",0
+"Kapaun Mt. Carmel HE","Round 2","Carrollton CP",1
+"Lexington ML","Round 2","Little Rock Central WW",0
+"Niles West TB","Round 2","Georgetown Day BQ",1
+"Rowland Hall BB","Round 2","BVSW LH",1
+"Woodward AS","Round 2","Midway CH",1
+"Lionel Wilson HS","Round 2","BVSW ZF",1
+"Berkeley Prep MY","Round 2","Jesuit CP BR",0
+"Highland Park (TX) CM","Round 2","Glenbrook South SR",0
+"Jesuit CP LV","Round 2","Harker HW",0
+"Midway CH","Round 2","Woodward AS",0
+"Berkeley Prep SS","Round 2","St. Mark's KP",0
+"Carrollton FP","Round 2","Westminster CB",0
+"Georgetown Day BQ","Round 2","Niles West TB",0
+"Georgetown Day SK","Round 2","Niles North BB",0
+"Midway KK","Round 2","Woodward PB",0
+"Skyline AA","Round 2","Carrollton GB",0
+"Skyline HL","Round 2","Woodward AH",0
+"Wayzata KS","Round 2","Glenbrook South CA",0
+"Berkner RD","Round 2","Greenhill KS",0
+"Niles North CL","Round 2","New Trier DS",0
+"Strath Haven GM","Round 2","Bishop Guertin KV",0
+"Rowland Hall GL","Round 3","Bishop Guertin KV",1
+"St. Mark's KP","Round 3","Greenhill KS",1
+"Carrollton CP","Round 3","BVSW LH",1
+"Glenbrook South CA","Round 3","Blake NW",1
+"Glenbrook South SR","Round 3","Westminster KD",1
+"New Trier BK","Round 3","St. Mark's GW",0
+"Peninsula TW","Round 3","Woodward AH",1
+"Blake NW","Round 3","Glenbrook South CA",0
+"Blake SW","Round 3","Jesuit LV",1
+"Carrollton GB","Round 3","Damien JR",0
+"Damien MP","Round 3","LRC WW",0
+"East Kentwood BO","Round 3","Wayzata JM",0
+"Greenhill KS","Round 3","St. Mark's KP",0
+"Highland Park (MN) BD","Round 3","Montgomery Bell KR",0
+"Law Magnet GT","Round 3","Carrolton FP",0
+"Little Rock Central WW","Round 3","Damien MP",1
+"Marist AV","Round 3","Niles North BB",1
+"Montgomery Bell KR","Round 3","Highland Park BD",1
+"Notre Dame CP","Round 3","Jesuit BR",1
+"Notre Dame FR","Round 3","University BM",1
+"Pace FA","Round 3","Wesminster CK",0
+"St. Mark's GW","Round 3","New Trier BK",1
+"University BM","Round 3","Notre Dame FR",0
+"Wayzata JM","Round 3","East Kentwood BO",1
+"Westminster CK","Round 3","Pace FA",1
+"BVSW LH","Round 3","Carrolton CP",0
+"BVSW ZF","Round 3","New Trier DS",0
+"Jesuit CP BR","Round 3","Notre Dame CP",0
+"Jesuit CP HL","Round 3","Calhoun BF",1
+"New Trier BW","Round 3","Woodward PB",1
+"New Trier DS","Round 3","BVSW ZF",1
+"Niles West GG","Round 3","Georgetown Day BQ",1
+"Westminster KD","Round 3","Glenbrook South SR",0
+"Woodward AH","Round 3","Peninsula TW",0
+"Damien JR","Round 3","Carrollton GB",1
+"Harker SH","Round 3","Montgomery Bell GJ",1
+"HoFlo HL","Round 3","Berkner RD",1
+"Montgomery Bell GJ","Round 3","Harker SH",0
+"Niles North BB","Round 3","Marist AV",0
+"Niles North WM","Round 3","Niles West TB",0
+"Westminster RD","Round 3","Midway KK",1
+"Woodward PB","Round 3","New Trier BW",0
+"Westminster CB","Round 3","Kapaun Mt. Carmel HE",1
+"Bishop Guertin KV","Round 3","Rowland Hall GL",0
+"Calhoun BF","Round 3","Jesuit HL",0
+"Harker HW","Round 3","Woodward AS",0
+"Harker SJ","Round 3","Rowland Hall BB",1
+"Kapaun Mt. Carmel HE","Round 3","Westminster CB",0
+"Lexington ML","Round 3","Niles North CL",1
+"Niles West TB","Round 3","Niles North WM",1
+"Rowland Hall BB","Round 3","Harker SJ",0
+"Woodward AS","Round 3","Harker HW",1
+"Lionel Wilson HS","Round 3","Georgetown Day SK",1
+"Berkeley Prep MY","Round 3","Skyline HL",1
+"Highland Park (TX) CM","Round 3","Wayzata KS",1
+"Jesuit CP LV","Round 3","Blake SW",0
+"Midway CH","Round 3","Berkeley Prep SS",0
+"Berkeley Prep SS","Round 3","Midway CH",1
+"Carrollton FP","Round 3","Law Magnet GT",0
+"Georgetown Day BQ","Round 3","Niles West GG",0
+"Georgetown Day SK","Round 3","Lionel Wilson HS",0
+"Midway KK","Round 3","Wesminster RD",0
+"Skyline AA","Round 3","Strath Haven GM",1
+"Skyline HL","Round 3","Berkeley Prep MY",0
+"Wayzata KS","Round 3","Highland Park CM",1
+"Berkner RD","Round 3","Hoflo HL",0
+"Niles North CL","Round 3","Lexinton ML",0
+"Strath Haven GM","Round 3","Skyline AA",0
+"Rowland Hall GL","Round 4","St. Mark's GW",1
+"St. Mark's KP","Round 4","Wesminster CK",1
+"Carrollton CP","Round 4","Damien JR",1
+"Glenbrook South CA","Round 4","Highland Park BD",1
+"Glenbrook South SR","Round 4","Montgomery Bell KR",1
+"New Trier BK","Round 4","Niles West TB",1
+"Peninsula TW","Round 4","Westminster CB",1
+"Blake NW","Round 4","Skyline AA",1
+"Blake SW","Round 4","Harker SW",1
+"Carrollton GB","Round 4","Lexington ML",1
+"Damien MP","Round 4","Bishop Guertin KV",1
+"East Kentwood BO","Round 4","Harker SJ",1
+"Greenhill KS","Round 4","Woodward AH",1
+"Highland Park (MN) BD","Round 4","Glenbrook South AC",0
+"Law Magnet GT","Round 4","Niles West GG",1
+"Little Rock Central WW","Round 4","Jesuit HL",1
+"Marist AV","Round 4","Lionel Wilson HS",1
+"Montgomery Bell KR","Round 4","Glenbrook South SR",0
+"Notre Dame CP","Round 4","New Trier BW",1
+"Notre Dame FR","Round 4","Woodward AS",1
+"Pace FA","Round 4","Wayzata JM",0
+"St. Mark's GW","Round 4","Rowland Hall GL",0
+"University BM","Round 4","Berkeley Prep MY",1
+"Wayzata JM","Round 4","Pace FA",1
+"Westminster CK","Round 4","St Marks KP",0
+"BVSW LH","Round 4","HoFlo HL",1
+"BVSW ZF","Round 4","Jesuit LV",1
+"Jesuit CP BR","Round 4","Kapaun Mt. Carmel HE",1
+"Jesuit CP HL","Round 4","LRC WW",1
+"New Trier BW","Round 4","Notre Dame CP",0
+"New Trier DS","Round 4","Wesminster KD",0
+"Niles West GG","Round 4","Law Magnet GT",0
+"Westminster KD","Round 4","New Trier DS",1
+"Woodward AH","Round 4","Greenhill KS",0
+"Damien JR","Round 4","Carrolton CP",0
+"Harker SH","Round 4","Blake SW",0
+"HoFlo HL","Round 4","BVSW LH",0
+"Montgomery Bell GJ","Round 4","Berkeley Prep SS",1
+"Niles North BB","Round 4","Wayzata KS",1
+"Niles North WM","Round 4","Westminster RD",0
+"Westminster RD","Round 4","Niles North WM",1
+"Woodward PB","Round 4","Georgetown Day SK",1
+"Westminster CB","Round 4","Peninsula TW",0
+"Bishop Guertin KV","Round 4","Damien MP",0
+"Calhoun BF","Round 4","Harker HW",1
+"Harker HW","Round 4","Calhoun BF",0
+"Harker SJ","Round 4","East Kentwood BO",0
+"Kapaun Mt. Carmel HE","Round 4","Jesuit HL",0
+"Lexington ML","Round 4","Carrolton GB",0
+"Niles West TB","Round 4","New Trier BK",0
+"Rowland Hall BB","Round 4","Highland Park CM",0
+"Woodward AS","Round 4","Notre Dame FR",0
+"Lionel Wilson HS","Round 4","Marist AV",0
+"Berkeley Prep MY","Round 4","University BM",0
+"Highland Park (TX) CM","Round 4","Rowland Hall BB",0
+"Jesuit CP LV","Round 4","BVSW ZF",0
+"Midway CH","Round 4","Carrolton FP",1
+"Berkeley Prep SS","Round 4","Montgomery Bell GJ",0
+"Carrollton FP","Round 4","Midway CH",0
+"Georgetown Day BQ","Round 4","Strath Haven GM",1
+"Georgetown Day SK","Round 4","Woodward PB",0
+"Midway KK","Round 4","Skyline KK",1
+"Skyline AA","Round 4","Blake NW",0
+"Skyline HL","Round 4","Midway KK",0
+"Wayzata KS","Round 4","Niles North BB",0
+"Berkner RD","Round 4","Niles North CL",0
+"Niles North CL","Round 4","Berkner RD",1
+"Strath Haven GM","Round 4","Georgetown BQ",0
+"Rowland Hall GL","Round 5","LRC WW",1
+"St. Mark's KP","Round 5","Peninsula TW",1
+"Carrollton CP","Round 5","Blake SW",1
+"Glenbrook South CA","Round 5","East Kentwood BO",1
+"Glenbrook South SR","Round 5","Wayzata JM",1
+"New Trier BK","Round 5","Notre Dame FR",1
+"Peninsula TW","Round 5","St. Mark's KP",0
+"Blake NW","Round 5","Harker SH",1
+"Blake SW","Round 5","Carrolton CP",0
+"Carrollton GB","Round 5","Woodward PB",1
+"Damien MP","Round 5","St. Mark's GW",1
+"East Kentwood BO","Round 5","Glenbrook South CA",0
+"Greenhill KS","Round 5","Notre Dame CP",0
+"Highland Park (MN) BD","Round 5","Westminster RD",1
+"Law Magnet GT","Round 5","Lionel Wilson HS",1
+"Little Rock Central WW","Round 5","Rowland Hall GL",0
+"Marist AV","Round 5","Westminster CK",0
+"Montgomery Bell KR","Round 5","Westminster KD",1
+"Notre Dame CP","Round 5","Greenhill KS",1
+"Notre Dame FR","Round 5","New Trier BK",0
+"Pace FA","Round 5","Niles West TB",1
+"St. Mark's GW","Round 5","Damien MP",0
+"University BM","Round 5","Woodward AS",1
+"Wayzata JM","Round 5","Glenbrook South SR",0
+"Westminster CK","Round 5","Marist AV",1
+"BVSW LH","Round 5","Damien JR",1
+"BVSW ZF","Round 5","Niles North BB",1
+"Jesuit CP BR","Round 5","Westminster CB",1
+"Jesuit CP HL","Round 5","Harker SJ",1
+"New Trier BW","Round 5","Montgomery Bell GJ",1
+"New Trier DS","Round 5","Bishop Guertin KV",1
+"Niles West GG","Round 5","Midway GG",1
+"Westminster KD","Round 5","Montgomery Bell KR",0
+"Woodward AH","Round 5","Calhoun BF",1
+"Damien JR","Round 5","BVSW LH",0
+"Harker SH","Round 5","Blake NW",0
+"HoFlo HL","Round 5","Georgetown Day BQ",1
+"Montgomery Bell GJ","Round 5","New Trier BW",0
+"Niles North BB","Round 5","BVSW ZF",0
+"Niles North WM","Round 5","Berkeley Prep MY",1
+"Westminster RD","Round 5","Highland Park BD",0
+"Woodward PB","Round 5","Carrolton GB",0
+"Westminster CB","Round 5","Jesuit BR",0
+"Bishop Guertin KV","Round 5","New Trier DS",0
+"Calhoun BF","Round 5","Woodward AH",0
+"Harker HW","Round 5","Georgetown Day SK",1
+"Harker SJ","Round 5","Jesuit HL",0
+"Kapaun Mt. Carmel HE","Round 5","Niles North CL",1
+"Lexington ML","Round 5","Highland Park CM",1
+"Niles West TB","Round 5","Pace FA",0
+"Rowland Hall BB","Round 5","Wayzata KS",1
+"Woodward AS","Round 5","University BM",0
+"Lionel Wilson HS","Round 5","Law Magnet GT",0
+"Berkeley Prep MY","Round 5","Niles North WM",0
+"Highland Park (TX) CM","Round 5","Lexington ML",0
+"Jesuit CP LV","Round 5","Midway CH",0
+"Midway CH","Round 5","Jesuit LV",0
+"Berkeley Prep SS","Round 5","Skyline AA",1
+"Carrollton FP","Round 5","Berkner RD",1
+"Georgetown Day BQ","Round 5","Hoflo HL",0
+"Georgetown Day SK","Round 5","Harker HW",0
+"Midway KK","Round 5","Niles West GG",0
+"Skyline AA","Round 5","Berkeley Prep SS",0
+"Skyline HL","Round 5","Strath Haven GM",1
+"Wayzata KS","Round 5","Rowland Hall BB",0
+"Berkner RD","Round 5","Carrolton FP",0
+"Niles North CL","Round 5","Kapaun Mount Carmel HE",0
+"Strath Haven GM","Round 5","Skyline HL",0
+"Rowland Hall GL","Round 6","Damien MP",1
+"St. Mark's KP","Round 6","Montgomery Bell KR",1
+"Carrollton CP","Round 6","Wayzata JM",1
+"Glenbrook South CA","Round 6","Notre Dame CP",1
+"Glenbrook South SR","Round 6","Peninsula TW",0
+"New Trier BK","Round 6","Little Rock Central WW",1
+"Peninsula TW","Round 6","Glenbrook South SR",1
+"Blake NW","Round 6","Westminster KD",1
+"Blake SW","Round 6","Jesuit CP BR",1
+"Carrollton GB","Round 6","New Trier DS",1
+"Damien MP","Round 6","Rowland Hall GL",0
+"East Kentwood BO","Round 6","Harker HW",1
+"Greenhill KS","Round 6","BVSW ZF",1
+"Highland Park (MN) BD","Round 6","Kapaun Mt. Carmel HE",1
+"Law Magnet GT","Round 6","Westminster CK",1
+"Little Rock Central WW","Round 6","New Trier BK",0
+"Marist AV","Round 6","New Trier BW",1
+"Montgomery Bell KR","Round 6","St. Mark's KP",0
+"Notre Dame CP","Round 6","Glenbrook South CA",0
+"Notre Dame FR","Round 6","BVSW LH",1
+"Pace FA","Round 6","Woodward AH",1
+"St. Mark's GW","Round 6","Midway CH",1
+"University BM","Round 6","Jesuit CP HL",1
+"Wayzata JM","Round 6","Carrollton CP",0
+"Westminster CK","Round 6","Law Magnet GT",0
+"BVSW LH","Round 6","Notre Dame FR",0
+"BVSW ZF","Round 6","Greenhill KS",0
+"Jesuit CP BR","Round 6","Blake SW",0
+"Jesuit CP HL","Round 6","University BM",0
+"New Trier BW","Round 6","Marist AV",0
+"New Trier DS","Round 6","Carrollton GB",0
+"Niles West GG","Round 6","Westminster CB",1
+"Westminster KD","Round 6","Blake NW",0
+"Woodward AH","Round 6","Pace FA",0
+"Damien JR","Round 6","Skyline HL",1
+"Harker SH","Round 6","Woodward AS",1
+"HoFlo HL","Round 6","Harker SJ",1
+"Montgomery Bell GJ","Round 6","Calhoun BF",1
+"Niles North BB","Round 6","Lexington ML",1
+"Niles North WM","Round 6","Bishop Guertin KV",1
+"Westminster RD","Round 6","Lionel Wilson HS",1
+"Woodward PB","Round 6","Rowland Hall BB",1
+"Westminster CB","Round 6","Niles West GG",0
+"Bishop Guertin KV","Round 6","Niles North WM",0
+"Calhoun BF","Round 6","Montgomery Bell GJ",0
+"Harker HW","Round 6","East Kentwood BO",0
+"Harker SJ","Round 6","HoFlo HL",0
+"Kapaun Mt. Carmel HE","Round 6","Highland Park (MN) BD",0
+"Lexington ML","Round 6","Niles North BB",0
+"Niles West TB","Round 6","Berkeley Prep SS",0
+"Rowland Hall BB","Round 6","Woodward PB",0
+"Woodward AS","Round 6","Harker SH",0
+"Lionel Wilson HS","Round 6","Westminster RD",0
+"Berkeley Prep MY","Round 6","Midway KK",1
+"Highland Park (TX) CM","Round 6","Georgetown Day BQ",1
+"Jesuit CP LV","Round 6","Carrollton FP",1
+"Midway CH","Round 6","St. Mark's GW",1
+"Berkeley Prep SS","Round 6","Niles West TB",0
+"Carrollton FP","Round 6","Jesuit CP LV",0
+"Georgetown Day BQ","Round 6","Highland Park (TX) CM",0
+"Georgetown Day SK","Round 6","Wayzata KS",0
+"Midway KK","Round 6","Berkeley Prep MY",0
+"Skyline AA","Round 6","Niles North CL",0
+"Skyline HL","Round 6","Damien JR",0
+"Wayzata KS","Round 6","Georgetown Day SK",0
+"Berkner RD","Round 6","Strath Haven GM",0
+"Niles North CL","Round 6","Skyline AA",0
+"Strath Haven GM","Round 6","Berkner RD",0

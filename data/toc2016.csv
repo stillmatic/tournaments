@@ -1,0 +1,526 @@
+"team","round","opponent","win"
+"Highland Park BD","Round 1","LASA CM",1
+"Blake SW","Round 1","Interlake GJ",0
+"GBN JT","Round 1","BCC EY",1
+"Glenbrook South RS","Round 1","Brooklyn Technical CQ",1
+"Peninsula TW","Round 1","Blake NW",1
+"Rowland Hall GL","Round 1","Kinkaid RR",1
+"Bronx Science GM","Round 1","Juan Diego AB",1
+"College Prep KX","Round 1","New Trier BK",0
+"Edgemont JM","Round 1","GBN CR",1
+"GBN CR","Round 1","Edgemont JM",0
+"Hendrickson WW","Round 1","Whitney Young JR",1
+"Law Magnet GJ","Round 1","McDonogh JN",1
+"Little Rock WW","Round 1","Damien MP",1
+"Maine East PS","Round 1","S. Eugene LS",1
+"Montgomery Bell KR","Round 1","Iowa City WZ",1
+"New Trier BK","Round 1","College Prep KX",1
+"Niles West GG","Round 1","GBN BL",1
+"Westminster DH","Round 1","Wayzata JM",0
+"Blake NW","Round 1","Peninsula TW",0
+"CK McClatchy FB","Round 1","College Prep JM",1
+"Clovis North HP","Round 1","Denver East RW",1
+"East Kentwood BO","Round 1","La Costa YM",0
+"Head Royce PC","Round 1","Law Magnet TG",1
+"Interlake GJ","Round 1","Blake SW",1
+"Iowa City West TR","Round 1","GBN LM",1
+"Iowa City WZ","Round 1","Montgomery Bell KR",0
+"Lane Tech VH","Round 1","Greenhill KS",1
+"LASA CM","Round 1","Highland Park BD",0
+"Law Magnet GT","Round 1","Head Royce PC",0
+"Montgomery Bell CJ","Round 1","Loyola GT",1
+"New Trier BW","Round 1","Millard North SB",1
+"Notre Dame CP","Round 1","Westminster CB",0
+"SVDP HM","Round 1","CKM HN",1
+"University Prep CM","Round 1","Polytechnic WX",0
+"Walter Payton BC","Round 1","Reagan RX",1
+"Wayzata JM","Round 1","Westminster DH",1
+"GBN BL","Round 1","Niles West GG",0
+"Alpharetta KK","Round 1","Katy Taylor AL",0
+"Austin SFA EO","Round 1","BYE",1
+"BCC EY","Round 1","GBN JT",0
+"Carrollton CP","Round 1","Milton HH",1
+"CK McClatchy HN","Round 1","SVDP HM",0
+"College Prep JM","Round 1","CK McClatchy FB",0
+"Denver East RW","Round 1","Clovis North HP",0
+"GBN LM","Round 1","Iowa City West TR",0
+"Glenbrook South CA","Round 1","Katy Taylor BI",1
+"HoFlo HL","Round 1","BCC ID",1
+"Katy Taylor AL","Round 1","Alpharetta KK",1
+"La Costa Canyon YM","Round 1","East Kentwood BO",1
+"Loyola GT","Round 1","Montgomery Bell CJ",0
+"McDonogh JN","Round 1","Law Magnet GJ",0
+"Milton HH","Round 1","Carrollton CP",0
+"Reagan RX","Round 1","Walter Payton BC",0
+"S. Eugene LS","Round 1","Maine East PS",0
+"University BM","Round 1","UC Lab CR",1
+"Westminster CB","Round 1","Notre Dame CP",1
+"Westminster CK","Round 1","Skyline HL",1
+"Whitney Young FB","Round 1","Milton FM",1
+"Whitney Young JR","Round 1","Hendrickson WW",0
+"Bellarmine PA","Round 1","Meadows BN",1
+"Brooklyn Tech CQ","Round 1","Glenbrook South RS",0
+"Greenhill KS","Round 1","Lane Tech VH",0
+"Juan Diego AB","Round 1","Bronx GM",0
+"Katy Taylor BI","Round 1","Glenbrook South CA",0
+"Kinkaid RR","Round 1","Rowland Hall GL",0
+"LASA MS","Round 1","Millard North HK",1
+"Meadows BN","Round 1","Bellarmine AP",0
+"Millard North HK","Round 1","LASA MS",0
+"Polytechnic WX","Round 1","University Prep CM",1
+"BCC ID","Round 1","HoFlo HL",0
+"Damien MP","Round 1","Little Rock WW",0
+"Millard North SB","Round 1","New Trier BW",0
+"Milton FM","Round 1","Whitney Young FB",0
+"Skyline HL","Round 1","Westminster CK",0
+"UC Lab CR","Round 1","University BM",0
+"Highland Park BD","Round 2","Austin SFA EO",1
+"Blake SW","Round 2","Greenhill KS",1
+"GBN JT","Round 2","University Prep CM",0
+"Glenbrook South RS","Round 2","Montgomery Bell CJ",0
+"Peninsula TW","Round 2","College Prep JM",1
+"Rowland Hall GL","Round 2","New Trier BW",1
+"Bronx Science GM","Round 2","CK McClatchy HN",1
+"College Prep KX","Round 2","Katy Taylor BI",1
+"Edgemont JM","Round 2","Carrollton CP",0
+"GBN CR","Round 2","UC Lab CR",1
+"Hendrickson WW","Round 2","La Costa Canyon YM",1
+"Law Magnet GJ","Round 2","Bellarmine PA",1
+"Little Rock WW","Round 2","Alpharetta KK",0
+"Maine East PS","Round 2","BCC EY",1
+"Montgomery Bell KR","Round 2","Denver East RW",1
+"New Trier BK","Round 2","Glenbrook South CA",0
+"Niles West GG","Round 2","LASA MS",1
+"Westminster DH","Round 2","S. Eugene LS",1
+"Blake NW","Round 2","CK McClatchy FB",0
+"CK McClatchy FB","Round 2","Blake NW",1
+"Clovis North HP","Round 2","McDonogh JN",1
+"East Kentwood BO","Round 2","Whitney Young JR",0
+"Head Royce PC","Round 2","Walter Payton BC",0
+"Interlake GJ","Round 2","BYE",1
+"Iowa City West TR","Round 2","Notre Dame CP",1
+"Iowa City WZ","Round 2","Meadows BN",1
+"Lane Tech VH","Round 2","LASA CM",0
+"LASA CM","Round 2","Lane Tech VH",1
+"Law Magnet GT","Round 2","Westminster CB",1
+"Montgomery Bell CJ","Round 2","Glenbrook South RS",1
+"New Trier BW","Round 2","Rowland Hall GL",0
+"Notre Dame CP","Round 2","Iowa City West TR",0
+"SVDP HM","Round 2","Juan Diego AB",0
+"University Prep CM","Round 2","GBN JT",1
+"Walter Payton BC","Round 2","Head Royce PC",1
+"Wayzata JM","Round 2","Polytechnic WX",1
+"GBN BL","Round 2","Loyola GT",0
+"Alpharetta KK","Round 2","Little Rock WW",1
+"Austin SFA EO","Round 2","Highland Park BD",0
+"BCC EY","Round 2","Maine East PS",0
+"Carrollton CP","Round 2","Edgemont JM",1
+"CK McClatchy HN","Round 2","Bronx Science GM",0
+"College Prep JM","Round 2","Peninsula TW",0
+"Denver East RW","Round 2","Montgomery Bell KR",0
+"GBN LM","Round 2","Reagan RX",1
+"Glenbrook South CA","Round 2","New Trier BK",1
+"HoFlo HL","Round 2","University BM",1
+"Katy Taylor AL","Round 2","Brooklyn Tech CQ",0
+"La Costa Canyon YM","Round 2","Hendrickson WW",0
+"Loyola GT","Round 2","GBN BL",1
+"McDonogh JN","Round 2","Clovis North HP",0
+"Milton HH","Round 2","BCC ID",1
+"Reagan RX","Round 2","GBN LM",0
+"S. Eugene LS","Round 2","Westminster DH",0
+"University BM","Round 2","HoFlo HL",0
+"Westminster CB","Round 2","Law Magnet TG",0
+"Westminster CK","Round 2","Whitney Young FB",1
+"Whitney Young FB","Round 2","Westminster CK",0
+"Whitney Young JR","Round 2","East Kentwood BO",1
+"Bellarmine PA","Round 2","Law Magnet GJ",0
+"Brooklyn Tech CQ","Round 2","Katy Taylor AL",1
+"Greenhill KS","Round 2","Blake SW",0
+"Juan Diego AB","Round 2","SVDP HM",1
+"Katy Taylor BI","Round 2","College Prep KX",0
+"Kinkaid RR","Round 2","Millard North SB",1
+"LASA MS","Round 2","Niles West GG",0
+"Meadows BN","Round 2","Iowa City WZ",0
+"Millard North HK","Round 2","Damien MP",0
+"Polytechnic WX","Round 2","Wayzata JM",0
+"BCC ID","Round 2","Milton HH",0
+"Damien MP","Round 2","Millard North HK",1
+"Millard North SB","Round 2","Kinkaid RR",0
+"Milton FM","Round 2","Skyline HL",1
+"Skyline HL","Round 2","Milton FM",0
+"UC Lab CR","Round 2","GBN CR",0
+"Highland Park BD","Round 3","Montgomery Bell CJ",1
+"Blake SW","Round 3","Polytechnic WX",1
+"GBN JT","Round 3","Damien MP",1
+"Glenbrook South RS","Round 3","New Trier BW",1
+"Peninsula TW","Round 3","Maine East PS",1
+"Rowland Hall GL","Round 3","Wayzata JM",1
+"Bronx Science GM","Round 3","Montgomery Bell KR",1
+"College Prep KX","Round 3","Lane Tech VH",1
+"Edgemont JM","Round 3","University BM",1
+"GBN CR","Round 3","Bellarmine PA",1
+"Hendrickson WW","Round 3","Interlake GJ",1
+"Law Magnet GJ","Round 3","Carrollton CP",1
+"Little Rock WW","Round 3","Whitney Young JR",1
+"Maine East PS","Round 3","Peninsula TW",0
+"Montgomery Bell KR","Round 3","Bronx Science GM",0
+"New Trier BK","Round 3","LASA MS",1
+"Niles West GG","Round 3","Iowa City West TR",1
+"Westminster DH","Round 3","Milton HH",1
+"Blake NW","Round 3","S. Eugene LS",1
+"CK McClatchy FB","Round 3","Clovis North HP",0
+"Clovis North HP","Round 3","CK McClatchy FB",1
+"East Kentwood BO","Round 3","Millard North HK",1
+"Head Royce PC","Round 3","La Costa Canyon YM",1
+"Interlake GJ","Round 3","Hendrickson WW",0
+"Iowa City West TR","Round 3","Niles West GG",0
+"Iowa City WZ","Round 3","LASA CM",1
+"Lane Tech VH","Round 3","College Prep KX",0
+"LASA CM","Round 3","Iowa City WZ",0
+"Law Magnet GT","Round 3","Milton FM",1
+"Montgomery Bell CJ","Round 3","Highland Park BD",0
+"New Trier BW","Round 3","Glenbrook South RS",0
+"Notre Dame CP","Round 3","Reagan RX",1
+"SVDP HM","Round 3","Loyola GT",1
+"University Prep CM","Round 3","Katy Taylor AL",1
+"Walter Payton BC","Round 3","HoFlo HL",1
+"Wayzata JM","Round 3","Rowland Hall GL",0
+"GBN BL","Round 3","College Prep JM",1
+"Alpharetta KK","Round 3","Whitney Young FB",0
+"Austin SFA EO","Round 3","Kinkaid RR",0
+"BCC EY","Round 3","Greenhill KS",1
+"Carrollton CP","Round 3","Law Magnet GJ",0
+"CK McClatchy HN","Round 3","Millard North SB",1
+"College Prep JM","Round 3","GBN BL",0
+"Denver East RW","Round 3","Katy Taylor BI",0
+"GBN LM","Round 3","Juan Diego AB",1
+"Glenbrook South CA","Round 3","Westminster CK",1
+"HoFlo HL","Round 3","Walter Payton BC",0
+"Katy Taylor AL","Round 3","University Prep CM",0
+"La Costa Canyon YM","Round 3","Head Royce PC",0
+"Loyola GT","Round 3","SVDP HM",0
+"McDonogh JN","Round 3","Meadows BN",1
+"Milton HH","Round 3","Westminster DH",0
+"Reagan RX","Round 3","Notre Dame CP",0
+"S. Eugene LS","Round 3","Blake NW",0
+"University BM","Round 3","Edgemont JM",0
+"Westminster CB","Round 3","Brooklyn Tech CQ",1
+"Westminster CK","Round 3","Glenbrook South AC",0
+"Whitney Young FB","Round 3","Alpharetta KK",1
+"Whitney Young JR","Round 3","Little Rock WW",0
+"Bellarmine PA","Round 3","GBN CR",0
+"Brooklyn Tech CQ","Round 3","Westminster CB",0
+"Greenhill KS","Round 3","BCC EY",0
+"Juan Diego AB","Round 3","GBN LM",0
+"Katy Taylor BI","Round 3","Denver East RW",1
+"Kinkaid RR","Round 3","Austin SFA EO",1
+"LASA MS","Round 3","New Trier BK",0
+"Meadows BN","Round 3","McDonogh JN",0
+"Millard North HK","Round 3","East Kentwood BO",0
+"Polytechnic WX","Round 3","Blake SW",0
+"BCC ID","Round 3","BYE",1
+"Damien MP","Round 3","GBN JT",0
+"Millard North SB","Round 3","CK McClatchy HN",0
+"Milton FM","Round 3","Law Magnet GT",0
+"Skyline HL","Round 3","UC Lab CR",1
+"UC Lab CR","Round 3","Skyline HL",0
+"Highland Park BD","Round 4","Glenbrook South CA",1
+"Blake SW","Round 4","Wayzata JM",1
+"GBN JT","Round 4","Whitney Young FB",1
+"Glenbrook South RS","Round 4","Kinkaid RR",1
+"Peninsula TW","Round 4","GBN CR",1
+"Rowland Hall GL","Round 4","Bronx Science GM",0
+"Bronx Science GM","Round 4","Rowland Hall GL",1
+"College Prep KX","Round 4","Katy Taylor AL",1
+"Edgemont JM","Round 4","Westminster CB",1
+"GBN CR","Round 4","Peninsula TW",0
+"Hendrickson WW","Round 4","Clovis North HP",1
+"Law Magnet GJ","Round 4","Walter Payton BC",1
+"Little Rock WW","Round 4","Lane Tech VH",1
+"Maine East PS","Round 4","Head Royce PC",1
+"Montgomery Bell KR","Round 4","Notre Dame CP",1
+"New Trier BK","Round 4","BCC EY",1
+"Niles West GG","Round 4","Westminster DH",0
+"Westminster DH","Round 4","Niles West GG",1
+"Blake NW","Round 4","Damien MP",1
+"CK McClatchy FB","Round 4","Law Magnet TG",1
+"Clovis North HP","Round 4","Hendrickson WW",0
+"East Kentwood BO","Round 4","Bellarmine PA",1
+"Head Royce PC","Round 4","Maine East PS",0
+"Interlake GJ","Round 4","SVDP HM",1
+"Iowa City West TR","Round 4","HoFlo HL",0
+"Iowa City WZ","Round 4","University Prep CM",0
+"Lane Tech VH","Round 4","Little Rock WW",0
+"LASA CM","Round 4","BCC ID",1
+"Law Magnet GT","Round 4","CK McClatchy FB",0
+"Montgomery Bell CJ","Round 4","Westminster CK",0
+"New Trier BW","Round 4","Juan Diego AB",1
+"Notre Dame CP","Round 4","Montgomery Bell KR",0
+"SVDP HM","Round 4","Interlake GJ",0
+"University Prep CM","Round 4","Iowa City WZ",1
+"Walter Payton BC","Round 4","Law Magnet GJ",0
+"Wayzata JM","Round 4","Blake SW",0
+"GBN BL","Round 4","CK McClatchy HN",0
+"Alpharetta KK","Round 4","Millard North SB",0
+"Austin SFA EO","Round 4","Katy Taylor BI",0
+"BCC EY","Round 4","New Trier BK",0
+"Carrollton CP","Round 4","GBN LM",0
+"CK McClatchy HN","Round 4","GBN BL",1
+"College Prep JM","Round 4","Denver East RW",0
+"Denver East RW","Round 4","College Prep JM",1
+"GBN LM","Round 4","Carrollton CP",1
+"Glenbrook South CA","Round 4","Highland Park BD",0
+"HoFlo HL","Round 4","Iowa City West TR",1
+"Katy Taylor AL","Round 4","College Prep KX",0
+"La Costa Canyon YM","Round 4","LASA MS",1
+"Loyola GT","Round 4","Skyline HL",1
+"McDonogh JN","Round 4","Polytechnic WX",0
+"Milton HH","Round 4","University BM",0
+"Reagan RX","Round 4","Millard North HK",1
+"S. Eugene LS","Round 4","UC Lab CR",1
+"University BM","Round 4","Milton HH",1
+"Westminster CB","Round 4","Edgemont JM",0
+"Westminster CK","Round 4","Montgomery Bell CJ",1
+"Whitney Young FB","Round 4","GBN JT",0
+"Whitney Young JR","Round 4","Milton FM",1
+"Bellarmine PA","Round 4","East Kentwood BO",0
+"Brooklyn Tech CQ","Round 4","Greenhill KS",0
+"Greenhill KS","Round 4","Brooklyn Tech CQ",1
+"Juan Diego AB","Round 4","New Trier BW",0
+"Katy Taylor BI","Round 4","Austin SFA EO",1
+"Kinkaid RR","Round 4","Glenbrook South RS",0
+"LASA MS","Round 4","La Costa Canyon YM",0
+"Meadows BN","Round 4","BYE",1
+"Millard North HK","Round 4","Reagan RX",0
+"Polytechnic WX","Round 4","McDonogh JN",1
+"BCC ID","Round 4","LASA CM",0
+"Damien MP","Round 4","Blake NW",0
+"Millard North SB","Round 4","Alpharetta KK",1
+"Milton FM","Round 4","Whitney Young JR",0
+"Skyline HL","Round 4","Loyola GT",0
+"UC Lab CR","Round 4","S. Eugene LS",0
+"Highland Park BD","Round 5","Hendrickson WW",1
+"Blake SW","Round 5","Maine East PS",1
+"GBN JT","Round 5","Glenbrook South CA",1
+"Glenbrook South RS","Round 5","Interlake GJ",1
+"Peninsula TW","Round 5","Law Magnet GJ",1
+"Rowland Hall GL","Round 5","University Prep CM",1
+"Bronx Science GM","Round 5","Little Rock WW",0
+"College Prep KX","Round 5","Walter Payton BC",1
+"Edgemont JM","Round 5","HoFlo HL",1
+"GBN CR","Round 5","East Kentwood BO",1
+"Hendrickson WW","Round 5","Highland Park BD",0
+"Law Magnet GJ","Round 5","Peninsula TW",0
+"Little Rock WW","Round 5","Bronx Science GM",1
+"Maine East PS","Round 5","Blake SW",0
+"Montgomery Bell KR","Round 5","Niles West GG",0
+"New Trier BK","Round 5","GBN LM",1
+"Niles West GG","Round 5","Montgomery Bell KR",1
+"Westminster DH","Round 5","CK McClatchy FB",1
+"Blake NW","Round 5","La Costa Canyon YM",1
+"CK McClatchy FB","Round 5","Westminster DH",0
+"Clovis North HP","Round 5","Westminster CK",1
+"East Kentwood BO","Round 5","GBN CR",0
+"Head Royce PC","Round 5","Loyola GT",1
+"Interlake GJ","Round 5","Glenbrook South RS",0
+"Iowa City West TR","Round 5","Meadows BN",1
+"Iowa City WZ","Round 5","Kinkaid RR",1
+"Lane Tech VH","Round 5","BCC EY",1
+"LASA CM","Round 5","CK McClatchy HN",1
+"Law Magnet GT","Round 5","Montgomery Bell CJ",0
+"Montgomery Bell CJ","Round 5","Law Magnet GT",1
+"New Trier BW","Round 5","Katy Taylor BI",1
+"Notre Dame CP","Round 5","Alpharetta KK",1
+"SVDP HM","Round 5","Whitney Young FB",1
+"University Prep CM","Round 5","Rowland Hall GL",0
+"Walter Payton BC","Round 5","College Prep KX",0
+"Wayzata JM","Round 5","Carrollton CP",1
+"GBN BL","Round 5","Bellarmine PA",1
+"Alpharetta KK","Round 5","Notre Dame CP",0
+"Austin SFA EO","Round 5","Damien MP",1
+"BCC EY","Round 5","Lane Tech VH",0
+"Carrollton CP","Round 5","Wayzata JM",0
+"CK McClatchy HN","Round 5","LASA CM",0
+"College Prep JM","Round 5","UC Lab CR",1
+"Denver East RW","Round 5","Juan Diego AB",0
+"GBN LM","Round 5","New Trier BK",0
+"Glenbrook South CA","Round 5","GBN JT",0
+"HoFlo HL","Round 5","Edgemont JM",0
+"Katy Taylor AL","Round 5","BCC ID",1
+"La Costa Canyon YM","Round 5","Blake NW",0
+"Loyola GT","Round 5","Head Royce PC",0
+"McDonogh JN","Round 5","Milton FM",1
+"Milton HH","Round 5","Skyline HL",1
+"Reagan RX","Round 5","Millard North SB",1
+"S. Eugene LS","Round 5","Brooklyn Tech CQ",1
+"University BM","Round 5","Westminster CB",0
+"Westminster CB","Round 5","University BM",1
+"Westminster CK","Round 5","Clovis North HP",0
+"Whitney Young FB","Round 5","SVDP HM",0
+"Whitney Young JR","Round 5","Polytechnic WX",1
+"Bellarmine PA","Round 5","GBN BL",0
+"Brooklyn Tech CQ","Round 5","S. Eugene LS",0
+"Greenhill KS","Round 5","LASA MS",1
+"Juan Diego AB","Round 5","Denver East RW",1
+"Katy Taylor BI","Round 5","New Trier BW",0
+"Kinkaid RR","Round 5","Iowa City WZ",0
+"LASA MS","Round 5","Greenhill KS",0
+"Meadows BN","Round 5","Iowa City West TR",0
+"Millard North HK","Round 5","BYE",1
+"Polytechnic WX","Round 5","Whitney Young JR",0
+"BCC ID","Round 5","Katy Taylor AL",0
+"Damien MP","Round 5","Austin SFA EO",0
+"Millard North SB","Round 5","Reagan RX",0
+"Milton FM","Round 5","McDonogh JN",0
+"Skyline HL","Round 5","Milton HH",0
+"UC Lab CR","Round 5","College Prep JM",0
+"Highland Park BD","Round 6","Peninsula TW",1
+"Blake SW","Round 6","Bronx Science GM",1
+"GBN JT","Round 6","Westminster DH",1
+"Glenbrook South RS","Round 6","New Trier BK",1
+"Peninsula TW","Round 6","Highland Park BD",0
+"Rowland Hall GL","Round 6","HoFlo HL",1
+"Bronx Science GM","Round 6","Blake SW",0
+"College Prep KX","Round 6","SVDP HM",1
+"Edgemont JM","Round 6","Whitney Young JR",1
+"GBN CR","Round 6","McDonogh JN",1
+"Hendrickson WW","Round 6","Law Magnet GJ",0
+"Law Magnet GJ","Round 6","Hendrickson WW",1
+"Little Rock WW","Round 6","GBN LM",1
+"Maine East PS","Round 6","Blake NW",1
+"Montgomery Bell KR","Round 6","Westminster CB",1
+"New Trier BK","Round 6","Glenbrook South RS",0
+"Niles West GG","Round 6","Clovis North HP",1
+"Westminster DH","Round 6","GBN JT",0
+"Blake NW","Round 6","Maine East PS",0
+"CK McClatchy FB","Round 6","East Kentwood BO",0
+"Clovis North HP","Round 6","Niles West GG",0
+"East Kentwood BO","Round 6","CK McClatchy FB",1
+"Head Royce PC","Round 6","Montgomery Bell CJ",1
+"Interlake GJ","Round 6","Katy Taylor BI",1
+"Iowa City West TR","Round 6","CK McClatchy HN",1
+"Iowa City WZ","Round 6","Loyola GT",0
+"Lane Tech VH","Round 6","LASA MS",1
+"LASA CM","Round 6","Glenbrook South CA",1
+"Law Magnet GT","Round 6","Bellarmine PA",1
+"Montgomery Bell CJ","Round 6","Head Royce PC",0
+"New Trier BW","Round 6","Walter Payton BC",1
+"Notre Dame CP","Round 6","GBN BL",1
+"SVDP HM","Round 6","College Prep KX",0
+"University Prep CM","Round 6","Westminster CK",1
+"Walter Payton BC","Round 6","New Trier BW",0
+"Wayzata JM","Round 6","University BM",0
+"GBN BL","Round 6","Notre Dame CP",0
+"Alpharetta KK","Round 6","Damien MP",1
+"Austin SFA EO","Round 6","Skyline HL",1
+"BCC EY","Round 6","Milton FM",1
+"Carrollton CP","Round 6","Polytechnic WX",1
+"CK McClatchy HN","Round 6","Iowa City West TR",0
+"College Prep JM","Round 6","Millard North SB",1
+"Denver East RW","Round 6","Meadows BN",1
+"GBN LM","Round 6","Little Rock WW",0
+"Glenbrook South CA","Round 6","LASA CM",0
+"HoFlo HL","Round 6","Rowland Hall GL",0
+"Katy Taylor AL","Round 6","Millard North HK",0
+"La Costa Canyon YM","Round 6","Greenhill KS",1
+"Loyola GT","Round 6","Iowa City WZ",1
+"McDonogh JN","Round 6","GBN CR",0
+"Milton HH","Round 6","Kinkaid RR",1
+"Reagan RX","Round 6","BCC ID",1
+"S. Eugene LS","Round 6","Juan Diego AB",1
+"University BM","Round 6","Wayzata JM",1
+"Westminster CB","Round 6","Montgomery Bell KR",0
+"Westminster CK","Round 6","University Prep CM",0
+"Whitney Young FB","Round 6","Brooklyn Tech CQ",1
+"Whitney Young JR","Round 6","Edgemont JM",0
+"Bellarmine PA","Round 6","Law Magnet TG",0
+"Brooklyn Tech CQ","Round 6","Whitney Young FB",0
+"Greenhill KS","Round 6","La Costa Canyon YM",0
+"Juan Diego AB","Round 6","S. Eugene LS",0
+"Katy Taylor BI","Round 6","Interlake GJ",0
+"Kinkaid RR","Round 6","Milton HH",0
+"LASA MS","Round 6","Lane Tech VH",0
+"Meadows BN","Round 6","Denver East RW",0
+"Millard North HK","Round 6","Katy Taylor AL",1
+"Polytechnic WX","Round 6","Carrollton CP",0
+"BCC ID","Round 6","Reagan RX",0
+"Damien MP","Round 6","Alpharetta KK",0
+"Millard North SB","Round 6","College Prep JM",0
+"Milton FM","Round 6","BCC EY",0
+"Skyline HL","Round 6","Austin SFA EO",0
+"UC Lab CR","Round 6","BYE",1
+"Highland Park BD","Round 7","Little Rock WW",1
+"Blake SW","Round 7","Iowa City West TR",1
+"GBN JT","Round 7","Law Magnet GJ",1
+"Glenbrook South RS","Round 7","Niles West GG",1
+"Peninsula TW","Round 7","College Prep KX",1
+"Rowland Hall GL","Round 7","Edgemont JM",1
+"Bronx Science GM","Round 7","Head Royce PC",1
+"College Prep KX","Round 7","Peninsula TW",0
+"Edgemont JM","Round 7","Rowland Hall GL",0
+"GBN CR","Round 7","Clovis North HP",1
+"Hendrickson WW","Round 7","New Trier BW",1
+"Law Magnet GJ","Round 7","GBN JT",0
+"Little Rock WW","Round 7","Highland Park BD",0
+"Maine East PS","Round 7","Reagan RX",1
+"Montgomery Bell KR","Round 7","Interlake GJ",1
+"New Trier BK","Round 7","LASA CM",1
+"Niles West GG","Round 7","Glenbrook South RS",0
+"Westminster DH","Round 7","University Prep CM",1
+"Blake NW","Round 7","GBN LM",1
+"CK McClatchy FB","Round 7","Austin SFA EO",1
+"Clovis North HP","Round 7","GBN CR",0
+"East Kentwood BO","Round 7","Whitney Young FB",1
+"Head Royce PC","Round 7","Bronx Science GM",0
+"Interlake GJ","Round 7","Montgomery Bell KR",0
+"Iowa City West TR","Round 7","Blake SW",0
+"Iowa City WZ","Round 7","Milton HH",1
+"Lane Tech VH","Round 7","La Costa Canyon MY",1
+"LASA CM","Round 7","New Trier BK",0
+"Law Magnet GT","Round 7","Westminster CK",1
+"Montgomery Bell CJ","Round 7","Whitney Young JR",1
+"New Trier BW","Round 7","Hendrickson WW",0
+"Notre Dame CP","Round 7","HoFlo HL",1
+"SVDP HM","Round 7","S. Eugene LS",1
+"University Prep CM","Round 7","Westminster DH",0
+"Walter Payton BC","Round 7","Loyola GT",1
+"Wayzata JM","Round 7","Westminster CB",1
+"GBN BL","Round 7","Polytechnic WX",1
+"Alpharetta KK","Round 7","Carrollton CP",1
+"Austin SFA EO","Round 7","CK McClatchy BF",0
+"BCC EY","Round 7","Millard North HK",1
+"Carrollton CP","Round 7","Alpharetta KK",0
+"CK McClatchy HN","Round 7","Katy Taylor BI",1
+"College Prep JM","Round 7","Greenhill KS",1
+"Denver East RW","Round 7","Milton FM",1
+"GBN LM","Round 7","Blake NW",0
+"Glenbrook South CA","Round 7","University BM",0
+"HoFlo HL","Round 7","Notre Dame CP",0
+"Katy Taylor AL","Round 7","Juan Diego AB",1
+"La Costa Canyon YM","Round 7","Lane Tech VH",0
+"Loyola GT","Round 7","Walter Payton BC",0
+"McDonogh JN","Round 7","Kinkaid RR",1
+"Milton HH","Round 7","Iowa City WZ",0
+"Reagan RX","Round 7","Maine East PS",0
+"S. Eugene LS","Round 7","SVDP HM",0
+"University BM","Round 7","Glenbrook South CA",0
+"Westminster CB","Round 7","Wayzata JM",0
+"Westminster CK","Round 7","Law Magnet GT",0
+"Whitney Young FB","Round 7","East Kentwood BO",0
+"Whitney Young JR","Round 7","Montgomery Bell CJ",0
+"Bellarmine PA","Round 7","Skyline HL",1
+"Brooklyn Tech CQ","Round 7","BCC ID",1
+"Greenhill KS","Round 7","College Prep JM",0
+"Juan Diego AB","Round 7","Katy Taylor AL",0
+"Katy Taylor BI","Round 7","CK McClatchy HN",0
+"Kinkaid RR","Round 7","McDonogh JN",0
+"LASA MS","Round 7","Millard North SB",1
+"Meadows BN","Round 7","Damien MP",1
+"Millard North HK","Round 7","BCC EY",0
+"Polytechnic WX","Round 7","GBN BL",0
+"BCC ID","Round 7","Brooklyn Tech CQ",0
+"Damien MP","Round 7","Meadows BN",0
+"Millard North SB","Round 7","LASA MS",0
+"Milton FM","Round 7","Denver East RW",0
+"Skyline HL","Round 7","Bellarmine PA",0
+"UC Lab CR","Round 7","FFT",0

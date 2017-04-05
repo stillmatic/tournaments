@@ -1,0 +1,373 @@
+"team","round","opponent","win"
+"SVDP HM","Round 1","Loyola MZ",1
+"La Costa Canyon YM","Round 1","Skyline HL",1
+"CK McClatchy HN","Round 1","Lionel Wilson AQ",1
+"Clovis North HP","Round 1","College Prep NL",1
+"College Prep MR","Round 1","Damien CJ",1
+"Juan Diego SC","Round 1","Mountain Brook SW",1
+"Polytechnic XW","Round 1","Sonoma VK",1
+"San Dieguito WW","Round 1","LA Academy PS",1
+"Skyline HL","Round 1","La Costa Canyon YM",0
+"College Prep DM","Round 1","Torrey Pines ZW",1
+"College Prep XK","Round 1","Beckman CC",1
+"Juan Diego DM","Round 1","Chaminade CK",1
+"Milpitas DT","Round 1","Oakland Tech PT",0
+"Oakland Tech PT","Round 1","Milpitas BP",1
+"Polytechnic HM","Round 1","Chaminade AL",1
+"University CR","Round 1","Peninsula SM",1
+"College Prep CG","Round 1","San Marino OL",1
+"College Prep HS","Round 1","Milpitas BP",1
+"College Prep WH","Round 1","SVDP BH",1
+"Damien AY","Round 1","Juan Diego MT",1
+"Lionel Wilson HS","Round 1","Peninsula AJ",1
+"SVDP PR","Round 1","College Prep DS",1
+"Torrey Pines NJ","Round 1","Salem Hills RT",1
+"Beckman CC","Round 1","College Prep XK",0
+"Bishop O'Dowd JH","Round 1","College Prep PM",1
+"Chaminade AL","Round 1","Polytechnic HM",0
+"Chaminade CR","Round 1","Salem Hills DP",1
+"Clovis North SM","Round 1","Peninsula KT",0
+"College Prep PM","Round 1","Bishop O'Dowd JH",0
+"Damien RH","Round 1","Torrey Pines YY",1
+"Lionel Wilson AQ","Round 1","CK McClatchy HN",0
+"Milpitas BP","Round 1","College Prep HS",0
+"Nevada Union MS","Round 1","Wallenberg MY",1
+"Peninsula KT","Round 1","Clovis North SM",1
+"Santa Margarita CW","Round 1","College Prep ZH",1
+"Sonoma VK","Round 1","Polytechnic XW",0
+"SVDP BH","Round 1","College Prep WH",0
+"Torrey Pines YY","Round 1","Damien RH",0
+"Torrey Pines ZW","Round 1","College Prep DM",0
+"Chaminade CK","Round 1","Juan Diego DM",0
+"College Prep DS","Round 1","SVDP PR",0
+"College Prep NL","Round 1","Clovis North HP",0
+"College Prep ZH","Round 1","Santa Margarita CW",0
+"Damien CJ","Round 1","College Prep MR",0
+"Diamond Bar CS","Round 1","Loyola CC",1
+"Juan Diego MT","Round 1","Damien AY",0
+"LA Academy PS","Round 1","San Dieguito WW",0
+"Loyola CC","Round 1","Diamond Bar CS",0
+"Loyola MZ","Round 1","SVDP HM",0
+"Mountain Brook SW","Round 1","Juan Diego SC",0
+"Peninsula AJ","Round 1","Lionel Wilson HS",0
+"San Dieguito BM","Round 1","Bonita Vista CB",1
+"San Marino OL","Round 1","College Prep CG",0
+"Sonoma DS","Round 1","Torrey Pines PZ",1
+"Torrey Pines LC","Round 1","Salem Hills JP",1
+"Torrey Pines PZ","Round 1","Sonoma DS",0
+"Peninsula SM","Round 1","University CR",0
+"Salem Hills JP","Round 1","Torrey Pines LC",0
+"Wallenberg MY","Round 1","Nevada Union MS",0
+"Bonita Vista CB","Round 1","San Dieguito BM",0
+"Salem Hills DP","Round 1","Chaminade CR",0
+"Salem Hills RT","Round 1","Torrey Pines NJ",0
+"SVDP HM","Round 2","Chaminade AL",1
+"La Costa Canyon YM","Round 2","Bishop O'Dowd JH",1
+"CK McClatchy HN","Round 2","SVDP BH",1
+"Clovis North HP","Round 2","San Marino OL",1
+"College Prep MR","Round 2","Diamond Bar CS",1
+"Juan Diego SC","Round 2","Chaminade CR",1
+"Polytechnic XW","Round 2","College Prep NL",1
+"San Dieguito WW","Round 2","Torrey Pines LC",1
+"Skyline HL","Round 2","College Prep XK",1
+"College Prep DM","Round 2","Bonita Vista CB",1
+"College Prep XK","Round 2","Skyline HL",0
+"Juan Diego DM","Round 2","Torrey Pines ZW",1
+"Milpitas DT","Round 2","College Prep DS",1
+"Oakland Tech PT","Round 2","College Prep PM",0
+"Polytechnic HM","Round 2","Clovis North SM",1
+"University CR","Round 2","Torrey Pines YY",1
+"College Prep CG","Round 2","Mountain Brook SW",1
+"College Prep HS","Round 2","Peninsula AJ",1
+"College Prep WH","Round 2","Sonoma VK",1
+"Damien AY","Round 2","Torrey Pines PZ",1
+"Lionel Wilson HS","Round 2","LA Academy PS",1
+"SVDP PR","Round 2","Wallenberg MY",1
+"Torrey Pines NJ","Round 2","College Prep ZH",1
+"Beckman CC","Round 2","San Dieguito BM",1
+"Bishop O'Dowd JH","Round 2","La Costa Canyon YM",0
+"Chaminade AL","Round 2","SVDP HM",0
+"Chaminade CR","Round 2","Juan Diego SC",0
+"Clovis North SM","Round 2","Polytechnic HM",0
+"College Prep PM","Round 2","Oakland Tech PT",1
+"Damien RH","Round 2","Salem Hills RT",1
+"Lionel Wilson AQ","Round 2","Peninsula KT",0
+"Milpitas BP","Round 2","Salem Hills JP",1
+"Nevada Union MS","Round 2","Peninsula SM",1
+"Peninsula KT","Round 2","Lionel Wilson AQ",1
+"Santa Margarita CW","Round 2","Chaminade CK",1
+"Sonoma VK","Round 2","College Prep WH",0
+"SVDP BH","Round 2","CK McClatchy HN",0
+"Torrey Pines YY","Round 2","University CR",0
+"Torrey Pines ZW","Round 2","Juan Diego DM",0
+"Chaminade CK","Round 2","Santa Margarita CW",0
+"College Prep DS","Round 2","Milpitas DT",0
+"College Prep NL","Round 2","Polytechnic XW",0
+"College Prep ZH","Round 2","Torrey Pines NJ",0
+"Damien CJ","Round 2","Sonoma DS",0
+"Diamond Bar CS","Round 2","College Prep MR",0
+"Juan Diego MT","Round 2","Loyola CC",0
+"LA Academy PS","Round 2","Lionel Wilson HS",0
+"Loyola CC","Round 2","Juan Diego MT",1
+"Loyola MZ","Round 2","Salem Hills DP",1
+"Mountain Brook SW","Round 2","College Prep CG",0
+"Peninsula AJ","Round 2","College Prep HS",0
+"San Dieguito BM","Round 2","Beckman CC",0
+"San Marino OL","Round 2","Clovis North HP",0
+"Sonoma DS","Round 2","Damien CJ",1
+"Torrey Pines LC","Round 2","San Dieguito WW",0
+"Torrey Pines PZ","Round 2","Damien AY",0
+"Peninsula SM","Round 2","Nevada Union MS",0
+"Salem Hills JP","Round 2","Milipitas BP",0
+"Wallenberg MY","Round 2","SVDP PR",1
+"Bonita Vista CB","Round 2","College Prep DM",0
+"Salem Hills DP","Round 2","Loyola MZ",0
+"Salem Hills RT","Round 2","Damien RH",0
+"SVDP HM","Round 3","University CR",1
+"La Costa Canyon YM","Round 3","Damien RH",1
+"CK McClatchy HN","Round 3","Clovis North HP",0
+"Clovis North HP","Round 3",NA,1
+"College Prep MR","Round 3","Sonoma DS",1
+"Juan Diego SC","Round 3","Torrey Pines NJ",1
+"Polytechnic XW","Round 3","College Prep DM",0
+"San Dieguito WW","Round 3","Collge Prep CG",1
+"Skyline HL","Round 3","Loyola CC",1
+"College Prep DM","Round 3","Polytechnic XW",0
+"College Prep XK","Round 3","Oakland Tech PT",0
+"Juan Diego DM","Round 3","Damien AY",1
+"Milpitas DT","Round 3","Diamond Bar CS",1
+"Oakland Tech PT","Round 3","College Prep XK",1
+"Polytechnic HM","Round 3","College Prep HS",1
+"University CR","Round 3","SVDP HM",0
+"College Prep CG","Round 3","San Dieguito WW",0
+"College Prep HS","Round 3","CK McClatchy HN",0
+"College Prep WH","Round 3","SVDP PR",1
+"Damien AY","Round 3","Juan Diego DM",0
+"Lionel Wilson HS","Round 3","Nevada Union MS",1
+"SVDP PR","Round 3","College Prep WH",0
+"Torrey Pines NJ","Round 3","Juan Diego SC",0
+"Beckman CC","Round 3","College Prep PM",1
+"Bishop O'Dowd JH","Round 3","San Dieguito BM",1
+"Chaminade AL","Round 3","Salem Hills JP",1
+"Chaminade CR","Round 3","Torrey Pines LC",1
+"Clovis North SM","Round 3","Mountain Brook SW",1
+"College Prep PM","Round 3","Beckman CC",0
+"Damien RH","Round 3","La Costa Canyon YM",0
+"Lionel Wilson AQ","Round 3","Loyola MZ",1
+"Milpitas BP","Round 3","Wallenberg MY",1
+"Nevada Union MS","Round 3","Lionel Wilson HS",0
+"Peninsula KT","Round 3","Santa Margarita CW",0
+"Santa Margarita CW","Round 3","Peninsula KT",1
+"Sonoma VK","Round 3","Salem Hills DP",1
+"SVDP BH","Round 3","College Prep ZH",1
+"Torrey Pines YY","Round 3","Peninsula AJ",1
+"Torrey Pines ZW","Round 3","Salem Hills RT",1
+"Chaminade CK","Round 3","Torrey Pines PZ",0
+"College Prep DS","Round 3","Peninsula SM",1
+"College Prep NL","Round 3","Juan Diego MT",1
+"College Prep ZH","Round 3","SVDP BH",0
+"Damien CJ","Round 3","San Marino OL",1
+"Diamond Bar CS","Round 3","Milpitas DT",0
+"Juan Diego MT","Round 3","College Prep NL",0
+"LA Academy PS","Round 3","Bonita Vista CB",1
+"Loyola CC","Round 3","Skyline HL",0
+"Loyola MZ","Round 3","Lionel Wilson AQ",0
+"Mountain Brook SW","Round 3","Clovis North SM",0
+"Peninsula AJ","Round 3","Torrey Pines YY",0
+"San Dieguito BM","Round 3","Bishop O'Dowd JH",0
+"San Marino OL","Round 3","Damien CJ",1
+"Sonoma DS","Round 3","College Prep MR",0
+"Torrey Pines LC","Round 3","Chaminade CR",0
+"Torrey Pines PZ","Round 3","Chaminade CK",1
+"Peninsula SM","Round 3","College Prep DS",0
+"Salem Hills JP","Round 3","Chaminade AL",0
+"Wallenberg MY","Round 3","Milpitas BP",0
+"Bonita Vista CB","Round 3","LA Academy PS",0
+"Salem Hills DP","Round 3","Sonoma VK",0
+"Salem Hills RT","Round 3","Torrey Pines ZW",0
+"SVDP HM","Round 4","Torrey Pines NJ",1
+"La Costa Canyon YM","Round 4","San Margarita CW",1
+"CK McClatchy HN","Round 4","Damien AY",1
+"Clovis North HP","Round 4","College Prep WH",1
+"College Prep MR","Round 4","Polytechnic HM",1
+"Juan Diego SC","Round 4","Milipitas BP",1
+"Polytechnic XW","Round 4","Lionel Wilson HS",1
+"San Dieguito WW","Round 4","Juan Diego DM",1
+"Skyline HL","Round 4","Sonoma DS",1
+"College Prep DM","Round 4","Nevada Union MS",0
+"College Prep XK","Round 4","Salem Hills JP",1
+"Juan Diego DM","Round 4","San Dieguito WW",0
+"Milpitas DT","Round 4","Peninsula KT",1
+"Oakland Tech PT","Round 4","Loyola MZ",1
+"Polytechnic HM","Round 4","College Prep MR",0
+"University CR","Round 4","College Prep DS",1
+"College Prep CG","Round 4","SVDP PR",0
+"College Prep HS","Round 4","Beckman CC",1
+"College Prep WH","Round 4","Clovis North HP",0
+"Damien AY","Round 4","CK McClatchy HN",0
+"Lionel Wilson HS","Round 4","Polytechnic XW",0
+"SVDP PR","Round 4","College Prep CG",1
+"Torrey Pines NJ","Round 4","SVDP HM",0
+"Beckman CC","Round 4","College Prep HS",0
+"Bishop O'Dowd JH","Round 4","Torrey Pines YY",1
+"Chaminade AL","Round 4","Torrey Pines PZ",1
+"Chaminade CR","Round 4","Damien RH",0
+"Clovis North SM","Round 4","Torrey Pines LC",1
+"College Prep PM","Round 4","Lionel Wilson AQ",0
+"Damien RH","Round 4","Chaminade CR",1
+"Lionel Wilson AQ","Round 4","College Prep PM",1
+"Milpitas BP","Round 4","Juan Diego SC",0
+"Nevada Union MS","Round 4","College Prep DM",1
+"Peninsula KT","Round 4","Milipitas DT",0
+"Santa Margarita CW","Round 4","La Costa Canyon YM",0
+"Sonoma VK","Round 4","Loyola CC",0
+"SVDP BH","Round 4","College Prep NL",1
+"Torrey Pines YY","Round 4","Bishop O'Dowd JH",0
+"Torrey Pines ZW","Round 4","Damien CJ",0
+"Chaminade CK","Round 4","Juan Diego MT",0
+"College Prep DS","Round 4","University CR",0
+"College Prep NL","Round 4","SVDP BH",0
+"College Prep ZH","Round 4","Peninsula AJ",1
+"Damien CJ","Round 4","Torrey Pines ZW",0
+"Diamond Bar CS","Round 4","San Dieguito BM",0
+"Juan Diego MT","Round 4","Chaminade CK",0
+"LA Academy PS","Round 4","Wallenberg MY",1
+"Loyola CC","Round 4","Sonoma VK",1
+"Loyola MZ","Round 4","Oakland Tech PT",0
+"Mountain Brook SW","Round 4","Salem Hills DP",1
+"Peninsula AJ","Round 4","College Prep ZH",0
+"San Dieguito BM","Round 4","Diamond Bar CS",1
+"San Marino OL","Round 4","Salem Hills RT",1
+"Sonoma DS","Round 4","Skyline HL",0
+"Torrey Pines LC","Round 4","Clovis North SM",0
+"Torrey Pines PZ","Round 4","Chaminade AL",0
+"Peninsula SM","Round 4","Bonita Vista CB",1
+"Salem Hills JP","Round 4","College Prep XK",0
+"Wallenberg MY","Round 4","LA Academy PS",0
+"Bonita Vista CB","Round 4","Peninsula SM",0
+"Salem Hills DP","Round 4","Mountain Brook SW",0
+"Salem Hills RT","Round 4","San Marion OL",0
+"SVDP HM","Round 5","Juan Diego SC",1
+"La Costa Canyon YM","Round 5","University CR",1
+"CK McClatchy HN","Round 5","SVDP PR",1
+"Clovis North HP","Round 5","Polytechnic XW",0
+"College Prep MR","Round 5","San Dieguito WW",1
+"Juan Diego SC","Round 5","SVDP HM",0
+"Polytechnic XW","Round 5","Clovis North HP",1
+"San Dieguito WW","Round 5","College Prep MR",0
+"Skyline HL","Round 5","Damien RH",1
+"College Prep DM","Round 5","SVDP BH",1
+"College Prep XK","Round 5","Milpitas BP",1
+"Juan Diego DM","Round 5","College Prep HS",0
+"Milpitas DT","Round 5","College Prep HW",0
+"Oakland Tech PT","Round 5","Santa Margarita CW",1
+"Polytechnic HM","Round 5","Nevada Union MS",1
+"University CR","Round 5","La Costa Canyon YM",0
+"College Prep CG","Round 5","Beckman CC",1
+"College Prep HS","Round 5","Juan Diego DM",1
+"College Prep WH","Round 5","Milpitas DT",1
+"Damien AY","Round 5","Lionel Wilson AQ",1
+"Lionel Wilson HS","Round 5","Bishop O'Dowd JH",1
+"SVDP PR","Round 5","CK McClatchy HN",0
+"Torrey Pines NJ","Round 5","LA Academy PS",1
+"Beckman CC","Round 5","College Prep CG",0
+"Bishop O'Dowd JH","Round 5","Lionel Wilson HS",0
+"Chaminade AL","Round 5","San Dieguito BM",1
+"Chaminade CR","Round 5","Torrey Pines ZW",0
+"Clovis North SM","Round 5","Somona DS",1
+"College Prep PM","Round 5","Salem Hills DP",1
+"Damien RH","Round 5","Skyline HL",0
+"Lionel Wilson AQ","Round 5","Damien AY",0
+"Milpitas BP","Round 5","College Prep XK",0
+"Nevada Union MS","Round 5","Polytechnic HM",0
+"Peninsula KT","Round 5","Loyola CC",1
+"Santa Margarita CW","Round 5","Oakland Tech PT",0
+"Sonoma VK","Round 5","College Prep ZH",1
+"SVDP BH","Round 5","College Prep DM",0
+"Torrey Pines YY","Round 5","Chaminade CK",1
+"Torrey Pines ZW","Round 5","Chaminade CR",1
+"Chaminade CK","Round 5","Torrey Pines YY",1
+"College Prep DS","Round 5","San Marino OL",1
+"College Prep NL","Round 5","Wallenberg MY",1
+"College Prep ZH","Round 5","Sonoma VK",0
+"Damien CJ","Round 5","Torrey Pines PZ",0
+"Diamond Bar CS","Round 5","Juan Diego MT",1
+"Juan Diego MT","Round 5","Diamond Bar CS",1
+"LA Academy PS","Round 5","Torrey Pines NJ",0
+"Loyola CC","Round 5","Peninsula KT",0
+"Loyola MZ","Round 5","Mountain Brook SW",0
+"Mountain Brook SW","Round 5","Loyola MZ",1
+"Peninsula AJ","Round 5","Salem Hills RT",1
+"San Dieguito BM","Round 5","Chaminade AL",0
+"San Marino OL","Round 5","College Prep DS",0
+"Sonoma DS","Round 5","Clovis North SM",0
+"Torrey Pines LC","Round 5","Peninsula SM",0
+"Torrey Pines PZ","Round 5","Damien CJ",1
+"Peninsula SM","Round 5","Torrey Pines LC",0
+"Salem Hills JP","Round 5","Bonita Vista CB",1
+"Wallenberg MY","Round 5","College Prep NL",0
+"Bonita Vista CB","Round 5","Salem Hills JP",0
+"Salem Hills DP","Round 5","College Prep PM",0
+"Salem Hills RT","Round 5","Peninsula AJ",0
+"SVDP HM","Round 6","Polytechnic XW",1
+"La Costa Canyon YM","Round 6","College Prep MR",1
+"CK McClatchy HN","Round 6","College Prep HW",1
+"Clovis North HP","Round 6","Oakland Tech PT",1
+"College Prep MR","Round 6","La Costa Canyon YM",0
+"Juan Diego SC","Round 6","Polytechnic HM",1
+"Polytechnic XW","Round 6","SVDP HM",1
+"San Dieguito WW","Round 6","Lionel Wilson HS",1
+"Skyline HL","Round 6","College Prep HS",1
+"College Prep DM","Round 6","Peninsula KT",1
+"College Prep XK","Round 6","Nevada Union MS",1
+"Juan Diego DM","Round 6","Mountain Brook SW",1
+"Milpitas DT","Round 6","Damien RH",1
+"Oakland Tech PT","Round 6","Clovis North HP",0
+"Polytechnic HM","Round 6","Juan Diego SC",0
+"University CR","Round 6","Chaminade CR",1
+"College Prep CG","Round 6","Bishop O'Dowd JH",1
+"College Prep HS","Round 6","Skyline HL",0
+"College Prep WH","Round 6","CK McClatchy HN",0
+"Damien AY","Round 6","Chaminade AL",1
+"Lionel Wilson HS","Round 6","San Dieguito WW",0
+"SVDP PR","Round 6","Clovis North SM",1
+"Torrey Pines NJ","Round 6","Santa Margarita CW",1
+"Beckman CC","Round 6","Diamond Bar CS",1
+"Bishop O'Dowd JH","Round 6","College Prep CG",1
+"Chaminade AL","Round 6","Damien AY",0
+"Chaminade CR","Round 6","University CR",1
+"Clovis North SM","Round 6","SVDP PR",0
+"College Prep PM","Round 6","San Dieguito BM",1
+"Damien RH","Round 6","Milipitas DH",0
+"Lionel Wilson AQ","Round 6","Torrey Pines PZ",1
+"Milpitas BP","Round 6","College Prep NL",1
+"Nevada Union MS","Round 6","College Prep XK",0
+"Peninsula KT","Round 6","College Prep DM",0
+"Santa Margarita CW","Round 6","Torrey Pines NJ",0
+"Sonoma VK","Round 6","College Prep DS",1
+"SVDP BH","Round 6","Loyola CC",1
+"Torrey Pines YY","Round 6","LA Academy PS",1
+"Torrey Pines ZW","Round 6","Peninsula SM",1
+"Chaminade CK","Round 6","Salem Hills DP",1
+"College Prep DS","Round 6","Sonoma VK",0
+"College Prep NL","Round 6","Milpitas BP",0
+"College Prep ZH","Round 6","Salemn Hills RT",1
+"Damien CJ","Round 6","Bonita Vista CB",1
+"Diamond Bar CS","Round 6","Beckman CC",0
+"Juan Diego MT","Round 6","Sonoma DS",1
+"LA Academy PS","Round 6","Torrey Pines YY",0
+"Loyola CC","Round 6","SVDP BH",0
+"Loyola MZ","Round 6","Salem Hills JP",1
+"Mountain Brook SW","Round 6","Juan Diego DM",0
+"Peninsula AJ","Round 6","Wallenberg MY",1
+"San Dieguito BM","Round 6","College Prep PM",0
+"San Marino OL","Round 6","Torrey Pines LC",0
+"Sonoma DS","Round 6","Juan Diego MT",0
+"Torrey Pines LC","Round 6","San Marino OL",1
+"Torrey Pines PZ","Round 6","Lionel Wilson AQ",0
+"Peninsula SM","Round 6","Torrey Pines ZW",0
+"Salem Hills JP","Round 6","Loyola MZ",0
+"Wallenberg MY","Round 6","Peninsula AJ",0
+"Bonita Vista CB","Round 6","Damien CJ",0
+"Salem Hills DP","Round 6","Chaminade CK",0
+"Salem Hills RT","Round 6","College Prep ZH",0

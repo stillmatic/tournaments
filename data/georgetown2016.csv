@@ -1,0 +1,205 @@
+"team","round","opponent","win"
+"BCC ID","Round 1","Groves MS",1
+"Centennial LP","Round 1","Strath Haven BM",1
+"McDonogh JN","Round 1","ACORN VF",1
+"Central Catholic MW","Round 1","Broad Run AN",1
+"BCC EH","Round 1","Unionville DY",1
+"BCC LY","Round 1","Interlake DS",1
+"Berkeley Prep SS","Round 1","Dominion YR",1
+"Broad Run DS","Round 1","Brooklyn Debate WR",1
+"Brooklyn Independent AE","Round 1","Strath Haven MoBe",1
+"Edgemont JM","Round 1","Thomas Jefferson PS",1
+"Unionville DY","Round 1","BCC EH",0
+"Wilson JS","Round 1","BCC WC",1
+"Strath Haven BM","Round 1","Centennial LP",0
+"ACORN VF","Round 1","McDonogh JN",0
+"Berkeley Prep EL","Round 1","Thomas Jefferson WY",0
+"Berkeley Prep NK","Round 1","Strath Haven GM",0
+"Broad Run AN","Round 1","Central Catholic MW",0
+"Brooklyn Independent WR","Round 1","Broad Run DS",0
+"Groves GW","Round 1","Interlake HL",0
+"Groves MS","Round 1","BCC ID",0
+"Interlake HL","Round 1","Groves GW",1
+"Strath Haven GM","Round 1","Berkeley Prep NK",1
+"Thomas Jefferson WY","Round 1","Berkeley Prep EL",1
+"Groves GL","Round 1","Dominion JG",1
+"BCC SW","Round 1","Edgemont CS",1
+"Dominion YR","Round 1","Berkeley Prep SS",0
+"Edgemont LM","Round 1","ACORN VC",1
+"Interlake DS","Round 1","BCC LY",0
+"Thomas Jefferson PS","Round 1","Edgemont JM",0
+"ACORN VC","Round 1","Edgemont LM",0
+"BCC WC","Round 1","Wilson JS",0
+"Dominion JG","Round 1","Groves GL",0
+"Strath Haven MoBe","Round 1","Brooklyn Independent AE",0
+"Edgemont CS","Round 1","BCC SW",0
+"BCC ID","Round 2","Edgemont LM",1
+"Centennial LP","Round 2","Dominion JG",1
+"McDonogh JN","Round 2","Unionville DY",1
+"Central Catholic MW","Round 2","Interlake HL",1
+"BCC EH","Round 2","Brooklyn Independent WR",1
+"BCC LY","Round 2","Berkeley Prep EL",0
+"Berkeley Prep SS","Round 2","Wilson JS",1
+"Broad Run DS","Round 2","Berkeley Prep NK",1
+"Brooklyn Independent AE","Round 2","Thomas Jefferson PS",1
+"Edgemont JM","Round 2","Strath Haven MoBe",1
+"Unionville DY","Round 2","McDonogh JN",0
+"Wilson JS","Round 2","Berkeley Prep SS",0
+"Strath Haven BM","Round 2","Groves GL",1
+"ACORN VF","Round 2","Strath Haven GM",0
+"Berkeley Prep EL","Round 2","BCC LY",1
+"Berkeley Prep NK","Round 2","Broad Run DS",0
+"Broad Run AN","Round 2","Groves GW",0
+"Brooklyn Independent WR","Round 2","BCC EH",0
+"Groves GW","Round 2","Broad Run AN",1
+"Groves MS","Round 2","Interlake DS",1
+"Interlake HL","Round 2","Central Catholic MW",0
+"Strath Haven GM","Round 2","ACORN VF",1
+"Thomas Jefferson WY","Round 2","Edgemont CS",1
+"Groves GL","Round 2","Strath Haven BM",0
+"BCC SW","Round 2","ACORN VC",1
+"Dominion YR","Round 2","BCC WC",1
+"Edgemont LM","Round 2","BCC ID",0
+"Interlake DS","Round 2","Groves MS",0
+"Thomas Jefferson PS","Round 2","Brooklyn Independent AE",0
+"ACORN VC","Round 2","BCC SW",0
+"BCC WC","Round 2","Dominion YR",0
+"Dominion JG","Round 2","Centennial LP",0
+"Strath Haven MoBe","Round 2","Edgemont JM",0
+"Edgemont CS","Round 2","Thomas Jefferson WY",0
+"BCC ID","Round 3","Brooklyn Independent AE",1
+"Centennial LP","Round 3","BCC EH",0
+"McDonogh JN","Round 3","Edgemont JM",1
+"Central Catholic MW","Round 3","Thomas Jefferson WY",1
+"BCC EH","Round 3","Centennial LP",1
+"BCC LY","Round 3","Strath Haven SS",1
+"Berkeley Prep SS","Round 3","BCC SW",1
+"Broad Run DS","Round 3","Strath Haven GM",1
+"Brooklyn Independent AE","Round 3","BCC ID",0
+"Edgemont JM","Round 3","McDonogh JN",0
+"Unionville DY","Round 3","Dominion JG",1
+"Wilson JS","Round 3","Dominion YR",1
+"Strath Haven BM","Round 3","BCC LY",0
+"ACORN VF","Round 3","BCC WC",1
+"Berkeley Prep EL","Round 3","Groves GW",0
+"Berkeley Prep NK","Round 3","ACORN VC",1
+"Broad Run AN","Round 3","Edgemont CS",1
+"Brooklyn Independent WR","Round 3","Interlake DS",0
+"Groves GW","Round 3","Berkeley Prep EL",1
+"Groves MS","Round 3","Edgemont LM",1
+"Interlake HL","Round 3","Groves GL",0
+"Strath Haven GM","Round 3","Broad Run DS",0
+"Thomas Jefferson WY","Round 3","Pittsburgh Central MW",0
+"Groves GL","Round 3","Interlake HL",1
+"BCC SW","Round 3","Berkeley Prep NK",0
+"Dominion YR","Round 3","Wilson JS",0
+"Edgemont LM","Round 3","Groves MS",0
+"Interlake DS","Round 3","Brooklyn Independent WR",1
+"Thomas Jefferson PS","Round 3","Strath Haven MoBe",0
+"ACORN VC","Round 3","Berkeley Prep NK",0
+"BCC WC","Round 3","ACORN VF",0
+"Dominion JG","Round 3","Unionville DY",0
+"Strath Haven MoBe","Round 3","Thomas Jefferson PS",1
+"Edgemont CS","Round 3","Broad Run AN",0
+"BCC ID","Round 4","Groves GW",1
+"Centennial LP","Round 4","Groves GL",1
+"McDonogh JN","Round 4","Central Catholic MW",1
+"Central Catholic MW","Round 4","McDonogh JN",0
+"BCC EH","Round 4","Berkeley Prep SS",0
+"BCC LY","Round 4","Broad Run DS",0
+"Berkeley Prep SS","Round 4","BCC EH",1
+"Broad Run DS","Round 4","BCC LY",1
+"Brooklyn Independent AE","Round 4","Wilson JS",1
+"Edgemont JM","Round 4","Thomas Jefferson WY",1
+"Unionville DY","Round 4","ACORN VC",1
+"Wilson JS","Round 4","Brooklyn Independent AE",0
+"Strath Haven BM","Round 4","Interlake DS",1
+"ACORN VF","Round 4","Strath Haven MoBe",1
+"Berkeley Prep EL","Round 4","Dominion YR",0
+"Berkeley Prep NK","Round 4","Edgemont LM",1
+"Broad Run AN","Round 4","Strath Haven GM",1
+"Brooklyn Independent WR","Round 4","Edgemont CS",1
+"Groves GW","Round 4","BCC ID",0
+"Groves MS","Round 4","BCC SW",1
+"Interlake HL","Round 4","Thomas Jefferson PS",1
+"Strath Haven GM","Round 4","Broad Run AN",0
+"Thomas Jefferson WY","Round 4","Edgemont JM",0
+"Groves GL","Round 4","Centennial LP",0
+"BCC SW","Round 4","Groves MS",0
+"Dominion YR","Round 4","Berkeley Prep EL",1
+"Edgemont LM","Round 4","Berkeley Prep NK",0
+"Interlake DS","Round 4","Strath Haven BM",0
+"Thomas Jefferson PS","Round 4","Interlake HL",0
+"ACORN VC","Round 4","Unionville DY",0
+"BCC WC","Round 4","Dominion JG",0
+"Dominion JG","Round 4","BCC WC",1
+"Strath Haven MoBe","Round 4","ACORN VF",0
+"Edgemont CS","Round 4","Brooklyn Independent WR",0
+"BCC ID","Round 5","Berkeley Prep SS",1
+"Centennial LP","Round 5","Edgemont JM",1
+"McDonogh JN","Round 5","Broad Run DS",1
+"Central Catholic MW","Round 5","Brooklyn Independent AE",1
+"BCC EH","Round 5","Groves MS",1
+"BCC LY","Round 5","Berkeley Prep NK",1
+"Berkeley Prep SS","Round 5","BCC ID",0
+"Broad Run DS","Round 5","McDonogh JN",0
+"Brooklyn Independent AE","Round 5","Central Catholic MW",0
+"Edgemont JM","Round 5","Centennial LP",0
+"Unionville DY","Round 5","Groves GW",1
+"Wilson JS","Round 5","BCC SW",1
+"Strath Haven BM","Round 5","Broad Run AN",0
+"ACORN VF","Round 5","Groves GL",1
+"Berkeley Prep EL","Round 5","Interlake DS",1
+"Berkeley Prep NK","Round 5","BCC LY",0
+"Broad Run AN","Round 5","Strath Haven BM",1
+"Brooklyn Independent WR","Round 5","Strath Haven MoBe",1
+"Groves GW","Round 5","Unionville DY",0
+"Groves MS","Round 5","BCC EH",0
+"Interlake HL","Round 5","Thomas Jefferson WY",1
+"Strath Haven GM","Round 5","Dominion YR",1
+"Thomas Jefferson WY","Round 5","Interlake HL",0
+"Groves GL","Round 5","ACORN VF",0
+"BCC SW","Round 5","Wilson JS",0
+"Dominion YR","Round 5","Strath Haven GM",0
+"Edgemont LM","Round 5","Dominion JG",1
+"Interlake DS","Round 5","Berkeley Prep EL",0
+"Thomas Jefferson PS","Round 5","Edgemont CS",1
+"ACORN VC","Round 5","BCC WC",0
+"BCC WC","Round 5","ACORN VC",1
+"Dominion JG","Round 5","Edgemont LM",0
+"Strath Haven MoBe","Round 5","Brooklyn Independent WR",0
+"Edgemont CS","Round 5","Thomas Jefferson PS",0
+"BCC ID","Round 6","McDonogh JN",1
+"Centennial LP","Round 6","Broad Run DS",1
+"McDonogh JN","Round 6","BCC ID",0
+"Central Catholic MW","Round 6","Berkeley Prep SS",1
+"BCC EH","Round 6","Wilson JS",1
+"BCC LY","Round 6","Interlake HL",1
+"Berkeley Prep SS","Round 6","Central Catholic MW",0
+"Broad Run DS","Round 6","Centennial LP",0
+"Brooklyn Independent AE","Round 6","Strath Haven GM",1
+"Edgemont JM","Round 6","Broad Run AM",1
+"Unionville DY","Round 6","Groves MS",1
+"Wilson JS","Round 6","BCC EH",1
+"Strath Haven BM","Round 6","Edgemont LM",1
+"ACORN VF","Round 6","Brooklyn Independent WR",0
+"Berkeley Prep EL","Round 6","Groves GL",0
+"Berkeley Prep NK","Round 6","Dominion YR",1
+"Broad Run AN","Round 6","Edgemont JM",0
+"Brooklyn Independent WR","Round 6","ACORN VF",1
+"Groves GW","Round 6","Dominion JG",1
+"Groves MS","Round 6","Unionville DY",0
+"Interlake HL","Round 6","BCC LY",0
+"Strath Haven GM","Round 6","Brooklyn Independent AE",0
+"Thomas Jefferson WY","Round 6","BCC SW",1
+"Groves GL","Round 6","Berkeley Prep EL",1
+"BCC SW","Round 6","Thomas Jefferson WY",0
+"Dominion YR","Round 6","Berkeley Prep NK",0
+"Edgemont LM","Round 6","Strath Haven BM",0
+"Interlake DS","Round 6","Strath Haven MoBe",1
+"Thomas Jefferson PS","Round 6","BCC SW",1
+"ACORN VC","Round 6","Edgemont CS",1
+"BCC WC","Round 6","Thomas Jefferson PS",0
+"Dominion JG","Round 6","Groves GW",0
+"Strath Haven MoBe","Round 6","Interlake DS",0
+"Edgemont CS","Round 6","ACORN VC",0

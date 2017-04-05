@@ -1,0 +1,691 @@
+"team","round","opponent","win"
+"Edgemont JM","Round 1","Loyola GT",1
+"GBN JT","Round 1","Brophy SS",1
+"Niles West GG","Round 1","MBA KR",1
+"Blake SW","Round 1","WDMV HH",1
+"Centennial LP","Round 1","Peninsula JK",1
+"College Prep JM","Round 1","Milton FM",1
+"GBS AC","Round 1","Katy Taylor BI",1
+"Iowa City WZ","Round 1","Westminster CB",1
+"Law Magnet GJ","Round 1","St. Mark's WG",1
+"Lexington SM","Round 1","Hawken YZ",1
+"Pace FM","Round 1","Lake Oswego AT",1
+"Peninsula TW","Round 1","Bronx Science GM",1
+"Rowland Hall LG","Round 1","College Prep KX",1
+"St. Mark's KP","Round 1","Mount Vernon MM",1
+"Westminster DH","Round 1","Alpharetta KK",0
+"Alpharetta KK","Round 1","Westminster DH",1
+"Alpharetta WC","Round 1","Cathedral Prep LS",1
+"BCC ID","Round 1","Fayetteville MS",1
+"BCC YE","Round 1","Meadows BN",1
+"Blake NW","Round 1","Pine Crest PR",1
+"Carrollton PC","Round 1","Henry W. Grady CW",1
+"GBN CR","Round 1","Highland Park (MN) BD",0
+"GBN LM","Round 1","USN BW",1
+"GBS RS","Round 1","Grapevine BW",1
+"Head Royce PC","Round 1","Carrollton BG",1
+"Highland Park (MN) BD","Round 1","GBN CR",1
+"HoFlo HL","Round 1","Pace MA",1
+"ICW TR","Round 1","Calhoun BF",1
+"La Costa Canyon YM","Round 1","BYE",1
+"Law Magnet GT","Round 1","Head Royce DF",1
+"Lexington CD","Round 1","Mountain Brook WS",1
+"Little Rock Central WW","Round 1","Woodward AS",1
+"MBA KR","Round 1","Niles West GG",0
+"McDonogh JN","Round 1","Caddo Magnet CM",1
+"Notre Dame CP","Round 1","Bishop Guertin KV",1
+"Pine Crest JV","Round 1","Stuyvesant DS",1
+"St. Mark's WG","Round 1","Law Magnet GJ",0
+"SVDP MH","Round 1","Chattahoochee JN",1
+"University BM","Round 1","Holy Cross SD",1
+"Walter Payton BC","Round 1","Johns Creek TB",1
+"Westminster CK","Round 1","Katy Taylor AL",1
+"Woodward BP","Round 1","Paideia RH",1
+"Bishop Guertin KV","Round 1","Notre Dame CP",0
+"Brophy SS","Round 1","GBN JT",0
+"Caddo Magnet CM","Round 1","McDonogh JN",0
+"Calhoun KS","Round 1","Westminster GD",1
+"Carrollton BG","Round 1","Head Royce PC",0
+"GBS SS","Round 1","Isidore Newman AZ",1
+"Georgetown Day BQ","Round 1","Ransom Everglades BC",0
+"Greenhill KS","Round 1","New Trier BK",0
+"Greenhill WM","Round 1","Alpharetta KV",1
+"Head Royce DF","Round 1","Law Magnet GT",0
+"Johns Creek RL","Round 1","Niles West TP",1
+"Katy Taylor BI","Round 1","GBS AC",0
+"Leland VV","Round 1","Hawken CL",1
+"Lexington ML","Round 1","Northview JK",1
+"Loyola GT","Round 1","Edgemont JM",0
+"Maine East PS","Round 1","Ransom Everglades FS",1
+"MBA CJ","Round 1","Chattahoochee AM",1
+"MBA GJ","Round 1","Ft. Lauderdale CW",1
+"Milton FM","Round 1","College Prep JM",0
+"Milton HH","Round 1","Highland Park (TX) CP",1
+"New Trier BK","Round 1","Greenhill KS",1
+"New Trier BW","Round 1","Jesuit Prep LV",1
+"New Trier HS","Round 1","Carrollton GP",1
+"Niles North BB","Round 1","Houston Memorial MS",1
+"Peninsula JK","Round 1","Centennial LP",0
+"Ransom Everglades BC","Round 1","Georgetown Day BQ",1
+"Rowland Hall BB","Round 1","St. Andrew's DZ",1
+"WDMV HH","Round 1","Blake SW",0
+"Westminster CB","Round 1","Iowa City WZ",0
+"Woodward AH","Round 1","ICW TK",1
+"Woodward AS","Round 1","Little Rock Central WW",0
+"Alpharetta KV","Round 1","Greenhill WM",0
+"Bronx Science GM","Round 1","Peninsula TW",0
+"Calhoun BF","Round 1","ICW TR",0
+"Carrollton GP","Round 1","New Trier HS",0
+"Cathedral Prep LS","Round 1","Alpharetta WC",0
+"College Prep KX","Round 1","Rowland Hall LG",0
+"Ft. Lauderdale CW","Round 1","MBA GJ",0
+"Grapevine BW","Round 1","Paideia UL",1
+"Grapevine PS","Round 1","GBS RS",0
+"Hawken CL","Round 1","Leland VV",0
+"Hawken YZ","Round 1","Lexington SM",0
+"Henry W. Grady CW","Round 1","Carrollton PC",0
+"Highland Park (TX) CP","Round 1","Milton HH",0
+"Holy Cross SD","Round 1","University BM",0
+"Houston Memorial MS","Round 1","Niles North BB",0
+"ICW TK","Round 1","Woodward AH",0
+"Jesuit Prep HL","Round 1","Unionville YD",1
+"Johns Creek TV","Round 1","Walter Payton BC",0
+"Katy Taylor AL","Round 1","Westminster CK",0
+"Marist AV","Round 1","Cathedral Prep HK",1
+"Meadows BN","Round 1","BCC YE",0
+"Niles West TP","Round 1","Johns Creek DR",0
+"Pace MA","Round 1","HoFlo HL",0
+"Paideia RH","Round 1","Woodward BP",0
+"Paideia UL","Round 1","Grapevine BW",0
+"Pine Crest PR","Round 1","Blake NW",0
+"Stuyvesant DS","Round 1","Pine Crest JV",0
+"USN BW","Round 1","GBN LM",0
+"Westminster GD","Round 1","Calhoun KS",0
+"Cathedral Prep HK","Round 1","Marist AV",0
+"Chattahoochee JN","Round 1","SVDP MH",0
+"Fayetteville MS","Round 1","BCC ID",0
+"Isidore Newman AZ","Round 1","GBS SS",0
+"Jesuit Prep LV","Round 1","New Trier BW",0
+"Lake Oswego AT","Round 1","Pace FM",0
+"Mount Vernon MM","Round 1","St. Mark's KP",0
+"Mountain Brook WS","Round 1","Lexington CD",0
+"Northview JK","Round 1","Lexington ML",0
+"Ransom Everglades FS","Round 1","Maine East PS",0
+"St. Andrew's DZ","Round 1","Rowland Hall BB",0
+"Unionville YD","Round 1","Jesuit Prep HL",0
+"Chattahoochee AM","Round 1","MBA CJ",0
+"Edgemont JM","Round 2","MBA GJ",1
+"GBN JT","Round 2","Maine East PS",1
+"Niles West GG","Round 2","Pine Crest JV",1
+"Blake SW","Round 2","Alpharetta WC",1
+"Centennial LP","Round 2","MBA CJ",1
+"College Prep JM","Round 2","Jesuit Prep HL",1
+"GBS AC","Round 2","Georgetown Day BQ",1
+"Iowa City WZ","Round 2","Grapevine BW",1
+"Law Magnet GJ","Round 2","Woodward AH",1
+"Lexington SM","Round 2","ICW TR",1
+"Pace FM","Round 2","Walter Payton BC",1
+"Peninsula TW","Round 2","University BM",1
+"Rowland Hall LG","Round 2","Alpharetta KV",1
+"St. Mark's KP","Round 2","Niles North BB",1
+"Westminster DH","Round 2","BCC ID",1
+"Alpharetta KK","Round 2","St. Andrew's DZ",1
+"Alpharetta WC","Round 2","Blake SW",0
+"BCC ID","Round 2","Westminster DH",0
+"BCC YE","Round 2","Caddo Magnet CM",1
+"Blake NW","Round 2","Carrollton PC",1
+"Carrollton PC","Round 2","Blake NW",0
+"GBN CR","Round 2","Paideia UL",1
+"GBN LM","Round 2","Milton HH",0
+"GBS RS","Round 2","New Trier HS",1
+"Head Royce PC","Round 2","New Trier BW",0
+"Highland Park (MN) BD","Round 2","Rowland Hall BB",1
+"HoFlo HL","Round 2","Woodward BP",1
+"ICW TR","Round 2","Lexington SM",0
+"La Costa Canyon YM","Round 2","Notre Dame CP",0
+"Law Magnet GT","Round 2","Leland VV",0
+"Lexington CD","Round 2","Westminster CK",0
+"Little Rock Central WW","Round 2","Marist AV",1
+"MBA KR","Round 2","Chattahoochee AM",1
+"McDonogh JN","Round 2","Meadows BN",1
+"Notre Dame CP","Round 2","La Costa Canyon YM",1
+"Pine Crest JV","Round 2","Niles West GG",0
+"St. Mark's WG","Round 2","ICW TK",1
+"SVDP MH","Round 2","GBS SS",1
+"University BM","Round 2","Peninsula TW",0
+"Walter Payton BC","Round 2","Pace FM",0
+"Westminster CK","Round 2","Lexington CD",1
+"Woodward BP","Round 2","HoFlo HL",0
+"Bishop Guertin KV","Round 2","BYE",1
+"Brophy SS","Round 2","Isidore Newman AZ",1
+"Caddo Magnet CM","Round 2","BCC YE",0
+"Calhoun KS","Round 2","Northview JK",1
+"Carrollton BG","Round 2","Jesuit Prep LV",1
+"GBS SS","Round 2","SVDP MH",0
+"Georgetown Day BQ","Round 2","GBS AC",0
+"Greenhill KS","Round 2","Niles West TP",1
+"Greenhill WM","Round 2","College Prep KX",1
+"Head Royce DF","Round 2","Hawken CL",1
+"Johns Creek RL","Round 2","New Trier BK",0
+"Katy Taylor BI","Round 2","Ransom Everglades BC",1
+"Leland VV","Round 2","Law Magnet",1
+"Lexington ML","Round 2","Westminster GD",1
+"Loyola GT","Round 2","Ft. Lauderdale CW",1
+"Maine East PS","Round 2","GBN JT",0
+"MBA CJ","Round 2","Centennial LP",0
+"MBA GJ","Round 2","Edgemont JM",0
+"Milton FM","Round 2","Unionville YD",1
+"Milton HH","Round 2","GBN LM",1
+"New Trier BK","Round 2","Johns Creek DR",1
+"New Trier BW","Round 2","Head Royce PC",1
+"New Trier HS","Round 2","GBS RS",0
+"Niles North BB","Round 2","St. Mark's KP",0
+"Peninsula JK","Round 2","Hawken YZ",1
+"Ransom Everglades BC","Round 2","Katy Taylor BI",0
+"Rowland Hall BB","Round 2","Highland Park (MN) BD",0
+"WDMV HH","Round 2","Cathedral Prep LS",1
+"Westminster CB","Round 2","Stuyvesant DS",1
+"Woodward AH","Round 2","Law Magnet GJ",0
+"Woodward AS","Round 2","Cathedral Prep HK",1
+"Alpharetta KV","Round 2","Rowland Hall LG",0
+"Bronx Science GM","Round 2","Holy Cross SD",1
+"Calhoun BF","Round 2","Houston Memorial MS",1
+"Carrollton GP","Round 2","Grapevine BW",1
+"Cathedral Prep LS","Round 2","WDMV HH",0
+"College Prep KX","Round 2","Greenhill WM",0
+"Ft. Lauderdale CW","Round 2","Loyola GT",0
+"Grapevine BW","Round 2","Iowa City WZ",0
+"Grapevine PS","Round 2","Carrollton GP",0
+"Hawken CL","Round 2","Head Royce DF",0
+"Hawken YZ","Round 2","Peninsula JK",0
+"Henry W. Grady CW","Round 2","Pine Crest PR",1
+"Highland Park (TX) CP","Round 2","USN BW",1
+"Holy Cross SD","Round 2","Bronx Science GM",0
+"Houston Memorial MS","Round 2","Calhoun BF",0
+"ICW TK","Round 2","St. Mark's WG",0
+"Jesuit Prep HL","Round 2","College Prep JM",0
+"Johns Creek TV","Round 2","Lake Oswego AT",1
+"Katy Taylor AL","Round 2","Fayetteville MS",1
+"Marist AV","Round 2","Little Rock Central WW",0
+"Meadows BN","Round 2","McDonogh JN",0
+"Niles West TP","Round 2","Greenhill KS",0
+"Pace MA","Round 2","Paideia RH",1
+"Paideia RH","Round 2","Pace MA",0
+"Paideia UL","Round 2","GBN CR",0
+"Pine Crest PR","Round 2","Henry W. Grady CW",0
+"Stuyvesant DS","Round 2","Westminster CB",0
+"USN BW","Round 2","Highland Park (TX) CP",0
+"Westminster GD","Round 2","Lexington ML",0
+"Cathedral Prep HK","Round 2","Woodward AS",0
+"Chattahoochee JN","Round 2","Mountain Brook WS",0
+"Fayetteville MS","Round 2","Katy Taylor",0
+"Isidore Newman AZ","Round 2","Brophy SS",0
+"Jesuit Prep LV","Round 2","Carrollton BG",0
+"Lake Oswego AT","Round 2","Johns Creek TB",0
+"Mount Vernon MM","Round 2","Ransom Everglades FS",0
+"Mountain Brook WS","Round 2","Chattahoochee JN",1
+"Northview JK","Round 2","Calhoun KS",0
+"Ransom Everglades FS","Round 2","Mount Vernon MM",1
+"St. Andrew's DZ","Round 2","Alpharetta KK",0
+"Unionville YD","Round 2","Milton FM",0
+"Chattahoochee AM","Round 2","MBA KR",0
+"Edgemont JM","Round 3","Westminster CK",1
+"GBN JT","Round 3","SVDP MH",1
+"Niles West GG","Round 3","New Trier BK",1
+"Blake SW","Round 3","Lexington ML",1
+"Centennial LP","Round 3","Leland VV",1
+"College Prep JM","Round 3","St. Mark's KP",1
+"GBS AC","Round 3","Calhoun KS",1
+"Iowa City WZ","Round 3","Blake NW",0
+"Law Magnet GJ","Round 3","McDonogh JN",1
+"Lexington SM","Round 3","Little Rock Central WW",1
+"Pace FM","Round 3","Rowland Hall LG",0
+"Peninsula TW","Round 3","Greenhill WM",1
+"Rowland Hall LG","Round 3","Pace FM",1
+"St. Mark's KP","Round 3","College Prep JM",0
+"Westminster DH","Round 3","Mountain Brook WS",1
+"Alpharetta KK","Round 3","Milton HH",1
+"Alpharetta WC","Round 3","Highland Park (TX) CP",1
+"BCC ID","Round 3","Pine Crest JV",1
+"BCC YE","Round 3","Highland Park (MN) BD",1
+"Blake NW","Round 3","Iowa City WZ",1
+"Carrollton PC","Round 3","Katy Taylor AL",1
+"GBN CR","Round 3","Pace MA",1
+"GBN LM","Round 3","Bronx Science GM",1
+"GBS RS","Round 3","HoFlo HL",1
+"Head Royce PC","Round 3","Jesuit Prep HL",1
+"Highland Park (MN) BD","Round 3","BCC YE",0
+"HoFlo HL","Round 3","GBS RS",0
+"ICW TR","Round 3","Johns Creek TV",1
+"La Costa Canyon YM","Round 3","Woodward AS",1
+"Law Magnet GT","Round 3","Henry W. Grady CW",1
+"Lexington CD","Round 3","MBA CJ",1
+"Little Rock Central WW","Round 3","Lexington SM",0
+"MBA KR","Round 3","Calhoun BF",1
+"McDonogh JN","Round 3","Law Magnet GJ",0
+"Notre Dame CP","Round 3","New Trier BW",1
+"Pine Crest JV","Round 3","BCC ID",0
+"St. Mark's WG","Round 3","Ransom Everglades BC",1
+"SVDP MH","Round 3","GBN JT",0
+"University BM","Round 3","Carrollton GP",1
+"Walter Payton BC","Round 3","Carrollton BG",1
+"Westminster CK","Round 3","Edgemont JM",0
+"Woodward BP","Round 3","Niles North BB",1
+"Bishop Guertin KV","Round 3","Loyola GT",0
+"Brophy SS","Round 3","Milton FM",1
+"Caddo Magnet CM","Round 3","USN BW",1
+"Calhoun KS","Round 3","GBS AC",0
+"Carrollton BG","Round 3","Walter Payton BC",0
+"GBS SS","Round 3","Greenhill KS",0
+"Georgetown Day BQ","Round 3","Mount Vernon MM",1
+"Greenhill KS","Round 3","GBS SS",1
+"Greenhill WM","Round 3","Peninsula TW",0
+"Head Royce DF","Round 3","Maine East PS",0
+"Johns Creek RL","Round 3","ICW TR",0
+"Katy Taylor BI","Round 3","Carrollton PC",1
+"Leland VV","Round 3","Centennial LP",0
+"Lexington ML","Round 3","Blake SW",0
+"Loyola GT","Round 3","Bishop Guertin KV",1
+"Maine East PS","Round 3","Head Royce DF",1
+"MBA CJ","Round 3","Lexington CD",0
+"MBA GJ","Round 3","Woodward AH",0
+"Milton FM","Round 3","Brophy SS",0
+"Milton HH","Round 3","Alpharetta KK",0
+"New Trier BK","Round 3","Niles West GG",0
+"New Trier BW","Round 3","Notre Dame CP",0
+"New Trier HS","Round 3","Grapevine BW",1
+"Niles North BB","Round 3","Woodward BP",0
+"Peninsula JK","Round 3","WDMV HH",0
+"Ransom Everglades BC","Round 3","St. Mark's WG",0
+"Rowland Hall BB","Round 3","Marist AV",1
+"WDMV HH","Round 3","Peninsula JK",1
+"Westminster CB","Round 3","Johns Creek DR",1
+"Woodward AH","Round 3","MBA GJ",1
+"Woodward AS","Round 3","Katy Taylor BI",0
+"Alpharetta KV","Round 3","Ft. Lauderdale CW",0
+"Bronx Science GM","Round 3","GBN LM",0
+"Calhoun BF","Round 3","MBA KR",0
+"Carrollton GP","Round 3","University BM",0
+"Cathedral Prep LS","Round 3","Fayetteville MS",1
+"College Prep KX","Round 3","BYE",1
+"Ft. Lauderdale CW","Round 3","Alpharetta KV",1
+"Grapevine BW","Round 3","New Trier HS",0
+"Grapevine PS","Round 3","Unionville YD",1
+"Hawken CL","Round 3","Paideia RH",0
+"Hawken YZ","Round 3","ICW TK",0
+"Henry W. Grady CW","Round 3","Law Magnet GT",0
+"Highland Park (TX) CP","Round 3","Alpharetta WC",0
+"Holy Cross SD","Round 3","Stuyvesant DS",0
+"Houston Memorial MS","Round 3","Chattahoochee JN",1
+"ICW TK","Round 3","Hawken YZ",1
+"Jesuit Prep HL","Round 3","Head Royce PC",0
+"Johns Creek TV","Round 3","Westminster CB",0
+"Katy Taylor AL","Round 3","ICW TR",0
+"Marist AV","Round 3","Rowland Hall BB",0
+"Meadows BN","Round 3","Isidore Newman AZ",1
+"Niles West TP","Round 3","St. Andrew's DZ",1
+"Pace MA","Round 3","GBN CR",0
+"Paideia RH","Round 3","Hawken CL",1
+"Paideia UL","Round 3","Pine Crest PR",0
+"Pine Crest PR","Round 3","Paideia UL",0
+"Stuyvesant DS","Round 3","Holy Cross SD",1
+"USN BW","Round 3","Caddo Magnet CM",0
+"Westminster GD","Round 3","Chattahoochee AM",1
+"Cathedral Prep HK","Round 3","Northview JK",0
+"Chattahoochee JN","Round 3","Houston Memorial SM",0
+"Fayetteville MS","Round 3","Cathedral Prep LS",0
+"Isidore Newman AZ","Round 3","Meadows BN",0
+"Jesuit Prep LV","Round 3","Lake Oswego AT",1
+"Lake Oswego AT","Round 3","Ransom Everglades FS",0
+"Mount Vernon MM","Round 3","Georgetown Day BQ",0
+"Mountain Brook WS","Round 3","Westminster DH",0
+"Northview JK","Round 3","Cathedral Prep HK",1
+"Ransom Everglades FS","Round 3","La Costa Canyon YM",0
+"St. Andrew's DZ","Round 3","Niles West TP",0
+"Unionville YD","Round 3","Grapevine PS",0
+"Chattahoochee AM","Round 3","Westminster GD",0
+"Edgemont JM","Round 4","BCC YE",1
+"GBN JT","Round 4","Rowland Hall BB",1
+"Niles West GG","Round 4","Notre Dame CP",1
+"Blake SW","Round 4","GBN LM",1
+"Centennial LP","Round 4","Blake NW",1
+"College Prep JM","Round 4","Westminster CB",1
+"GBS AC","Round 4","Alpharetta KK",0
+"Iowa City WZ","Round 4","MBA KR",1
+"Law Magnet GJ","Round 4","Katy Taylor BI",0
+"Lexington SM","Round 4","GBN CR",0
+"Pace FM","Round 4","Brophy SS",1
+"Peninsula TW","Round 4","St. Mark's KP",0
+"Rowland Hall LG","Round 4","SVDP MH",0
+"St. Mark's KP","Round 4","Peninsula TW",1
+"Westminster DH","Round 4","Loyola GT",1
+"Alpharetta KK","Round 4","GBS AC",1
+"Alpharetta WC","Round 4","New Trier BK",1
+"BCC ID","Round 4","New Trier HS",1
+"BCC YE","Round 4","Edgemont JM",0
+"Blake NW","Round 4","Centennial LP",0
+"Carrollton PC","Round 4","New Trier BW",1
+"GBN CR","Round 4","Lexington SM",1
+"GBN LM","Round 4","Blake SW",0
+"GBS RS","Round 4","McDonogh JN",1
+"Head Royce PC","Round 4","Highland Park (MN) BD",1
+"Highland Park (MN) BD","Round 4","Head Royce PC",0
+"HoFlo HL","Round 4","WDMV HH",1
+"ICW TR","Round 4","Northview JK",1
+"La Costa Canyon YM","Round 4","Milton HH",1
+"Law Magnet GT","Round 4","Woodward BP",0
+"Lexington CD","Round 4","Greenhill WM",1
+"Little Rock Central WW","Round 4","University BM",0
+"MBA KR","Round 4","Iowa City WZ",0
+"McDonogh JN","Round 4","GBS RS",0
+"Notre Dame CP","Round 4","Niles West GG",0
+"Pine Crest JV","Round 4","Cathedral Prep LS",1
+"St. Mark's WG","Round 4","Maine East PS",1
+"SVDP MH","Round 4","Rowland Hall LG",1
+"University BM","Round 4","Little Rock Central WW",1
+"Walter Payton BC","Round 4","Stuyvesant DS",1
+"Westminster CK","Round 4","Houston Memorial SM",1
+"Woodward BP","Round 4","Law Magnet GT",1
+"Bishop Guertin KV","Round 4","Jesuit Prep LV",1
+"Brophy SS","Round 4","Pace FM",0
+"Caddo Magnet CM","Round 4","Katy Taylor AL",1
+"Calhoun KS","Round 4","Greenhill KS",1
+"Carrollton BG","Round 4","Westminster GD",1
+"GBS SS","Round 4","Grapevine BW",1
+"Georgetown Day BQ","Round 4","Head Royce DF",0
+"Greenhill KS","Round 4","Calhoun KS",0
+"Greenhill WM","Round 4","Lexington CD",0
+"Head Royce DF","Round 4","Georgetown Day BQ",1
+"Johns Creek RL","Round 4","Grapevine PS",1
+"Katy Taylor BI","Round 4","Law Magnet GJ",1
+"Leland VV","Round 4","Ft. Lauderdale CW",1
+"Lexington ML","Round 4","Woodward AH",0
+"Loyola GT","Round 4","Westminster DH",0
+"Maine East PS","Round 4","St. Mark's WG",0
+"MBA CJ","Round 4","Ransom Everglades FS",1
+"MBA GJ","Round 4","Pine Crest PR",1
+"Milton FM","Round 4","Niles West TP",1
+"Milton HH","Round 4","La Costa Canyon YM",0
+"New Trier BK","Round 4","Alpharetta WC",0
+"New Trier BW","Round 4","Carrollton PC",0
+"New Trier HS","Round 4","BCC ID",0
+"Niles North BB","Round 4","Mountain Brook WS",1
+"Peninsula JK","Round 4","Marist AV",1
+"Ransom Everglades BC","Round 4","Meadows BN",1
+"Rowland Hall BB","Round 4","GBN JT",0
+"WDMV HH","Round 4","HoFlo HL",0
+"Westminster CB","Round 4","College Prep JM",0
+"Woodward AH","Round 4","Lexington ML",1
+"Woodward AS","Round 4","Calhoun BF",1
+"Alpharetta KV","Round 4","Lake Oswego AT",1
+"Bronx Science GM","Round 4","Paideia UL",0
+"Calhoun BF","Round 4","Woodward AS",0
+"Carrollton GP","Round 4","ICW TK",0
+"Cathedral Prep LS","Round 4","Pine Crest JV",0
+"College Prep KX","Round 4","Mount Vernon MM",1
+"Ft. Lauderdale CW","Round 4","Leland VV",0
+"Grapevine BW","Round 4","GBS SS",0
+"Grapevine PS","Round 4","Johns Creek RL",0
+"Hawken CL","Round 4","Chattahoochee JN",1
+"Hawken YZ","Round 4","Isidore Newman AZ",1
+"Henry W. Grady CW","Round 4","Johns Creek TV",0
+"Highland Park (TX) CP","Round 4","Pace MA",1
+"Holy Cross SD","Round 4","Fayetteville MS",1
+"Houston Memorial MS","Round 4","Westminster CK",0
+"ICW TK","Round 4","Carrollton GP",1
+"Jesuit Prep HL","Round 4","Paideia RH",1
+"Johns Creek TV","Round 4","Henry W. Grady CW",1
+"Katy Taylor AL","Round 4","Caddo Magnet CM",0
+"Marist AV","Round 4","Peninsula JK",0
+"Meadows BN","Round 4","Ransom Everglades BC",0
+"Niles West TP","Round 4","Milton FM",0
+"Pace MA","Round 4","Highland Park (TX) CP",0
+"Paideia RH","Round 4","Jesuit Prep HL",0
+"Paideia UL","Round 4","Bronx Science GM",1
+"Pine Crest PR","Round 4","MBA GJ",0
+"Stuyvesant DS","Round 4","Walter Payton BC",0
+"USN BW","Round 4","St. Andrew's DZ",1
+"Westminster GD","Round 4","Carrollton BG",0
+"Cathedral Prep HK","Round 4","BYE",1
+"Chattahoochee JN","Round 4","Hawken CL",0
+"Fayetteville MS","Round 4","Holy Cross SD",0
+"Isidore Newman AZ","Round 4","Hawken YZ",0
+"Jesuit Prep LV","Round 4","Bishop Guertin KV",0
+"Lake Oswego AT","Round 4","Alpharetta KV",0
+"Mount Vernon MM","Round 4","College Prep KX",0
+"Mountain Brook WS","Round 4","Niles North BB",0
+"Northview JK","Round 4","ICW TR",0
+"Ransom Everglades FS","Round 4","MBA CJ",0
+"St. Andrew's DZ","Round 4","USN BW",0
+"Unionville YD","Round 4","Chattahoochee AM",1
+"Chattahoochee AM","Round 4","Unionville YD",0
+"Edgemont JM","Round 5","Alpharetta KK",1
+"GBN JT","Round 5","College Prep JM",1
+"Niles West GG","Round 5","Blake SW",1
+"Blake SW","Round 5","Niles West GG",0
+"Centennial LP","Round 5","GBS RS",1
+"College Prep JM","Round 5","GBN JT",0
+"GBS AC","Round 5","Lexington CD",1
+"Iowa City WZ","Round 5","St. Mark's WG",1
+"Law Magnet GJ","Round 5","Head Royce DF",1
+"Lexington SM","Round 5","Leland VV",1
+"Pace FM","Round 5","ICW TR",1
+"Peninsula TW","Round 5","Calhoun KS",1
+"Rowland Hall LG","Round 5","Carrollton PC",1
+"St. Mark's KP","Round 5","GBN CR",1
+"Westminster DH","Round 5","Katy Taylor BI",1
+"Alpharetta KK","Round 5","Edgemont JM",0
+"Alpharetta WC","Round 5","Blake NW",0
+"BCC ID","Round 5","Walter Payton BC",0
+"BCC YE","Round 5","La Costa Canyon YM",1
+"Blake NW","Round 5","Alpharetta WC",1
+"Carrollton PC","Round 5","Rowland Hall LG",0
+"GBN CR","Round 5","St. Mark's KP",0
+"GBN LM","Round 5","Bishop Guertin KV",1
+"GBS RS","Round 5","Centennial LP",0
+"Head Royce PC","Round 5","SVDP MH",0
+"Highland Park (MN) BD","Round 5","Cathedral Prep HK",1
+"HoFlo HL","Round 5","Woodward AH",1
+"ICW TR","Round 5","Pace FM",0
+"La Costa Canyon YM","Round 5","BCC YE",0
+"Law Magnet GT","Round 5","Loyola GT",1
+"Lexington CD","Round 5","GBS AC",0
+"Little Rock Central WW","Round 5","Johns Creek RL",1
+"MBA KR","Round 5","Niles North BB",1
+"McDonogh JN","Round 5","Highland Park (TX) CP",1
+"Notre Dame CP","Round 5","University BM",0
+"Pine Crest JV","Round 5","New Trier HS",1
+"St. Mark's WG","Round 5","Iowa City WZ",0
+"SVDP MH","Round 5","Head Royce PC",1
+"University BM","Round 5","Notre Dame CP",1
+"Walter Payton BC","Round 5","BCC ID",1
+"Westminster CK","Round 5","Woodward BP",1
+"Woodward BP","Round 5","Westminster CK",0
+"Bishop Guertin KV","Round 5","GBN LM",0
+"Brophy SS","Round 5","MBA GJ",0
+"Caddo Magnet CM","Round 5","New Trier BK",0
+"Calhoun KS","Round 5","Peninsula TW",0
+"Carrollton BG","Round 5","MBA CJ",0
+"GBS SS","Round 5","New Trier BW",1
+"Georgetown Day BQ","Round 5","Carrollton GP",1
+"Greenhill KS","Round 5","Peninsula JK",1
+"Greenhill WM","Round 5","Jesuit Prep HL",1
+"Head Royce DF","Round 5","Law Magnet GJ",0
+"Johns Creek RL","Round 5","Little Rock Central WW",0
+"Katy Taylor BI","Round 5","Westminster DH",0
+"Leland VV","Round 5","Lexington SM",0
+"Lexington ML","Round 5","College Prep KX",1
+"Loyola GT","Round 5","Law Magnet GT",0
+"Maine East PS","Round 5","ICW TK",1
+"MBA CJ","Round 5","Carrollton BG",1
+"MBA GJ","Round 5","Brophy SS",1
+"Milton FM","Round 5","Rowland Hall BB",1
+"Milton HH","Round 5","Woodward AS",0
+"New Trier BK","Round 5","Caddo Magnet CM",1
+"New Trier BW","Round 5","GBS SS",0
+"New Trier HS","Round 5","Pine Crest JV",0
+"Niles North BB","Round 5","MBA KR",0
+"Peninsula JK","Round 5","Greenhill KS",0
+"Ransom Everglades BC","Round 5","WDMV HH",0
+"Rowland Hall BB","Round 5","Milton FM",0
+"WDMV HH","Round 5","Ransom Everglades BC",1
+"Westminster CB","Round 5","Johns Creek TV",1
+"Woodward AH","Round 5","HoFlo HL",0
+"Woodward AS","Round 5","Milton HH",1
+"Alpharetta KV","Round 5","Stuyvesant DS",0
+"Bronx Science GM","Round 5","Jesuit Prep LV",1
+"Calhoun BF","Round 5","Unionville YD",1
+"Carrollton GP","Round 5","Georgetown Day BQ",0
+"Cathedral Prep LS","Round 5","Meadows BN",0
+"College Prep KX","Round 5","Lexington ML",0
+"Ft. Lauderdale CW","Round 5","Houston Memorial SM",0
+"Grapevine BW","Round 5","Holy Cross SD",1
+"Grapevine PS","Round 5","Mountain Brook WS",1
+"Hawken CL","Round 5","Marist AV",1
+"Hawken YZ","Round 5","Pace MA",0
+"Henry W. Grady CW","Round 5","Ransom Everglades FS",1
+"Highland Park (TX) CP","Round 5","McDonogh JN",0
+"Holy Cross SD","Round 5","Grapevine BW",0
+"Houston Memorial MS","Round 5","Ft. Lauderdale CW",1
+"ICW TK","Round 5","Maine East PS",0
+"Jesuit Prep HL","Round 5","Greenhill WM",0
+"Johns Creek TV","Round 5","Westminster CB",0
+"Katy Taylor AL","Round 5","University BW",0
+"Marist AV","Round 5","Hawken CL",0
+"Meadows BN","Round 5","Cathedral Prep LS",1
+"Niles West TP","Round 5","Pine Crest PR",0
+"Pace MA","Round 5","Hawken YZ",1
+"Paideia RH","Round 5","Northview JK",1
+"Paideia UL","Round 5","Westminster GD",0
+"Pine Crest PR","Round 5","Niles West TP",1
+"Stuyvesant DS","Round 5","Alpharetta KV",1
+"USN BW","Round 5","Katy Taylor AL",1
+"Westminster GD","Round 5","Paideia UL",1
+"Cathedral Prep HK","Round 5","Highland Park (MN) BD",0
+"Chattahoochee JN","Round 5","Isidore Newman AZ",0
+"Fayetteville MS","Round 5","Mount Vernon MM",0
+"Isidore Newman AZ","Round 5","Chattahooche JN",1
+"Jesuit Prep LV","Round 5","Bronx GM",0
+"Lake Oswego AT","Round 5","Chattahoochee AM",1
+"Mount Vernon MM","Round 5","Fayetteville MS",1
+"Mountain Brook WS","Round 5","Grapevine PS",0
+"Northview JK","Round 5","Paideia RH",0
+"Ransom Everglades FS","Round 5","Henry W. Grady CW",0
+"St. Andrew's DZ","Round 5","BYE",1
+"Unionville YD","Round 5","Calhoun BF",0
+"Chattahoochee AM","Round 5","Lake Oswego AT",0
+"Edgemont JM","Round 6","University BM",1
+"GBN JT","Round 6","Walter Payton BC",1
+"Niles West GG","Round 6","Westminster CK",1
+"Blake SW","Round 6","Woodward AS",1
+"Centennial LP","Round 6","Westminster DH",0
+"College Prep JM","Round 6","Blake NW",1
+"GBS AC","Round 6","Iowa City WZ",1
+"Iowa City WZ","Round 6","GBS AC",1
+"Law Magnet GJ","Round 6","MBA CJ",1
+"Lexington SM","Round 6","SVDP MH",1
+"Pace FM","Round 6","Milton FM",1
+"Peninsula TW","Round 6","Alpharetta KK",1
+"Rowland Hall LG","Round 6","HoFlo HL",1
+"St. Mark's KP","Round 6","BCC YE",1
+"Westminster DH","Round 6","Centennial LP",1
+"Alpharetta KK","Round 6","Peninsula TW",0
+"Alpharetta WC","Round 6","Greenhill KS",1
+"BCC ID","Round 6","Jesuit CP HL",1
+"BCC YE","Round 6","St. Mark's KP",0
+"Blake NW","Round 6","College Prep JM",0
+"Carrollton PC","Round 6","Woodward AH",1
+"GBN CR","Round 6","Bronx Science GM",1
+"GBN LM","Round 6","Westminster CB",1
+"GBS RS","Round 6","ICW TR",0
+"Head Royce PC","Round 6","GBS SS",1
+"Highland Park (MN) BD","Round 6","Lexington ML",1
+"HoFlo HL","Round 6","Rowland Hall LG",0
+"ICW TR","Round 6","GBS RS",1
+"La Costa Canyon YM","Round 6","Greenhill WM",1
+"Law Magnet GT","Round 6","New Trier BK",1
+"Lexington CD","Round 6","Highland Park (TX) CP",1
+"Little Rock Central WW","Round 6","Pace MA",1
+"MBA KR","Round 6","Leland VV",1
+"McDonogh JN","Round 6","Maine East PS",1
+"Notre Dame CP","Round 6","Grapevine PS",1
+"Pine Crest JV","Round 6","Calhoun KS",1
+"St. Mark's WG","Round 6","MBA GJ",1
+"SVDP MH","Round 6","Lexington SM",0
+"University BM","Round 6","Edgemont JM",0
+"Walter Payton BC","Round 6","GBN JT",0
+"Westminster CK","Round 6","Niles West GG",0
+"Woodward BP","Round 6","WDMV HH",1
+"Bishop Guertin KV","Round 6","Stuyvesant DS",1
+"Brophy SS","Round 6","USN BW",1
+"Caddo Magnet CM","Round 6","ICW TK",1
+"Calhoun KS","Round 6","Pine Crest JV",0
+"Carrollton BG","Round 6","Hawken CL",1
+"GBS SS","Round 6","Head Royce PC",0
+"Georgetown Day BQ","Round 6","CPS KX",1
+"Greenhill KS","Round 6","Alpharetta WC",0
+"Greenhill WM","Round 6","La Costa Canyon YM",0
+"Head Royce DF","Round 6","Lake Oswego AT",1
+"Johns Creek RL","Round 6","Calhoun BF",1
+"Katy Taylor BI","Round 6","Pine Crest PR",0
+"Leland VV","Round 6","MBA KR",0
+"Lexington ML","Round 6","Highland Park (MN) BD",0
+"Loyola GT","Round 6","Isidore Newman AZ",1
+"Maine East PS","Round 6","McDonogh JN",0
+"MBA CJ","Round 6","Law Magnet GJ",0
+"MBA GJ","Round 6","St. Mark's WG",0
+"Milton FM","Round 6","Pace FM",0
+"Milton HH","Round 6","Houston Memorial SM",1
+"New Trier BK","Round 6","Law Magnet GT",0
+"New Trier BW","Round 6","Meadows BN",1
+"New Trier HS","Round 6","Paideia RH",1
+"Niles North BB","Round 6","Unionville YD",1
+"Peninsula JK","Round 6","Westminster GD",1
+"Ransom Everglades BC","Round 6","Johns Creek TV",1
+"Rowland Hall BB","Round 6","Henry Grady CW",1
+"WDMV HH","Round 6","Woodward BP",0
+"Westminster CB","Round 6","GBN LM",0
+"Woodward AH","Round 6","Carrollton PC",0
+"Woodward AS","Round 6","Blake SW",0
+"Alpharetta KV","Round 6","Northview JK",1
+"Bronx Science GM","Round 6","GBN CR",0
+"Calhoun BF","Round 6","Johns Creek RL",0
+"Carrollton GP","Round 6","Cathedral Prep HK",1
+"Cathedral Prep LS","Round 6","St. Andrew's DZ",1
+"College Prep KX","Round 6","Georgetown Day BQ",0
+"Ft. Lauderdale CW","Round 6","Ft. Lauderdale CW",1
+"Grapevine BW","Round 6","Marist AV",0
+"Grapevine PS","Round 6","Notre Dame CP",0
+"Hawken CL","Round 6","Carrollton BG",0
+"Hawken YZ","Round 6","Ransom Everglades FS",1
+"Henry W. Grady CW","Round 6","Rowland Hall BB",0
+"Highland Park (TX) CP","Round 6","Lexington CD",0
+"Holy Cross SD","Round 6","Niles West TP",0
+"Houston Memorial MS","Round 6","Milton HH",0
+"ICW TK","Round 6","Caddo Magnet CM",0
+"Jesuit Prep HL","Round 6","BCC ID",0
+"Johns Creek TV","Round 6","Ransom Everglades BC",0
+"Katy Taylor AL","Round 6","Jesuit LV",1
+"Marist AV","Round 6","Grapevine BW",1
+"Meadows BN","Round 6","New Trier BW",0
+"Niles West TP","Round 6","Holy Cross SD",1
+"Pace MA","Round 6","Little Rock Central WW",0
+"Paideia RH","Round 6","New Trier HS",0
+"Paideia UL","Round 6","Mount Vernon MM",1
+"Pine Crest PR","Round 6","Katy Taylor BI",1
+"Stuyvesant DS","Round 6","Bishop Guertin KV",0
+"USN BW","Round 6","Brophy SS",0
+"Westminster GD","Round 6","Peninsula JK",0
+"Cathedral Prep HK","Round 6","Carrolton GP",0
+"Chattahoochee JN","Round 6","BYE",1
+"Fayetteville MS","Round 6","Chattahoochee AM",1
+"Isidore Newman AZ","Round 6","Loyola GT",0
+"Jesuit Prep LV","Round 6","Katy Taylor AL",0
+"Lake Oswego AT","Round 6","Head Royce DF",0
+"Mount Vernon MM","Round 6","Paideia UL",0
+"Mountain Brook WS","Round 6","Ft Lauderdale CW",0
+"Northview JK","Round 6","Alpharetta KV",0
+"Ransom Everglades FS","Round 6","Hawken YZ",0
+"St. Andrew's DZ","Round 6","Cathedral Prep LS",0
+"Unionville YD","Round 6","Niles North BB",0
+"Chattahoochee AM","Round 6","Fayetteville MS",0
