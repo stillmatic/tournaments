@@ -15,6 +15,8 @@ import pandas as pd
 
 import seaborn as sns
 
+# from functools import lru_cache
+
 
 def print_edges(g):
     """Function to print edges.
@@ -60,7 +62,7 @@ def win_prob(a, b, strengths):
 
 
 def win(a, b, strengths):
-    """Whether team A wins a round, given opponent's strength.
+    """Whether team A wins a round, given respective strengths.
 
     True if A wins vs B, given their probability of winning.
     Uses a random roll to decide.
@@ -101,7 +103,7 @@ def next_pairing(n_teams, g):
     return(pairs)
 
 
-def cost_function(x, y, alpha=2500, beta=35):
+def cost_function(x, y, **kwargs):
     r"""Cost or weight mechanism for edges.
 
     If a possible pairing has a difference of more than 1 win,
@@ -113,6 +115,8 @@ def cost_function(x, y, alpha=2500, beta=35):
     alpha - scale parameter
     beta - dispersion parameter
     """
+    alpha = kwargs.get('alpha', 2500)
+    beta = kwargs.get('beta', 35)
     diff = x - y
     if(diff > 1):
         return 1
@@ -120,44 +124,57 @@ def cost_function(x, y, alpha=2500, beta=35):
     return z
 
 
-def rebalance(g, wins, beta=10, alpha=250):
+def rebalance(g, wins, **kwargs):
     """Rebalance the graph after a round."""
+    params = (
+        {'alpha': kwargs.get('alpha', 2500), 'beta': kwargs.get('beta', 35)})
     for (u, v, d) in g.edges(data=True):
-        if(g.edge[u][v]['weight'] > 0):
-            g.edge[u][v]['weight'] = (
-                cost_function(wins[u], wins[v], alpha, beta))
+        cost = cost_function(wins[u], wins[v], **params)
+        g.edge[u][v]['weight'] = cost
 
 
-def run_round(n_teams, g, wins, strengths):
+def run_round(n_teams, g, wins, strengths, **kwargs):
     """For given parameters, run a round."""
     for a, b in next_pairing(n_teams, g):
         if(a > b):
             add_match(b, a, wins, g, strengths)
-
     rebalance(g, wins)
 
 
-def run_tournament(n_teams=48, n_rounds=6, seed=None, dist="lognorm"):
+def _generate_teams(n_teams, *args, **kwargs):
+    dist = kwargs.get('dist', 'lognormal')
+    seed = kwargs.get('seed', None)
+    np.random.seed(seed)  # reproducible strength
+    if(dist == "exp"):
+        strengths = np.random.exponential(size=n_teams)
+    elif(dist == "unif"):
+        strengths = np.random.uniform(size=n_teams)
+    elif(dist == "lognorm"):
+        strengths = np.random.lognormal(size=n_teams)
+    else:
+        print("unknown distribution provided, using lognormal")
+        strengths = np.random.lognormal(size=n_teams)
+    return(strengths)
+
+
+# @lru_cache(maxsize=32)
+def run_tournament(n_teams=48, n_rounds=6, seed=None, **kwargs):
     """Run the complete tournament.
 
+    Supports "exp" for exponential distribution, "unif" for uniform
+    distribution, and "lognorm" for lognormal. Lognormal by default.
     Keyword arguments
     n_teams -- number of teams in tournament
     n_rounds -- number of rounds in tournament
-    seed -- seed to use in generating strengths *only*.
+    seed -- seed to use in generating strengths *only*
+    dist -- distribution to use
     """
     # initiate complete graph
     g = nx.complete_graph(n_teams)
 
     # initiate teams, strengths, wins
     teams = list(range(n_teams))
-    np.random.seed(seed)  # reproducible strength
-    if(dist == "exp"):
-        strengths = np.random.exponential(size=n_teams)
-    elif(dist == "uniform"):
-        strengths = np.random.exponential(size=n_teams)
-    else:
-        print("unknown distribution provided, using lognormal")
-        strengths = np.random.lognormal(size=n_teams)
+    strengths = _generate_teams(n_teams, **kwargs)
     wins = [0] * n_teams
 
     # initiate edges
@@ -179,17 +196,18 @@ def run_tournament(n_teams=48, n_rounds=6, seed=None, dist="lognorm"):
     return(df)
 
 
-def simulate_tournament(n_teams, n_rounds, seed, n_simul=100):
+def simulate_tournament(n_teams, n_rounds, seed, dist="lognorm", n_sim=100):
     """Simulate tournament for given parameters.
 
     keyword arguments:
     n_teams -- number of teams
     n_rounds -- number of rounds
     seed -- seed to use to generate team strengths
-    n_simul -- number of simulations to run
+    dist -- distribution to use
+    n_sim -- number of simulations to run
     """
     df = pd.DataFrame()
-    for i in range(n_simul):
+    for i in range(n_sim):
         # print(i)
         df = df.append(pd.DataFrame(
             data=run_tournament(n_teams, n_rounds, seed)))
