@@ -7,6 +7,7 @@ import numpy as np
 import random
 import networkx as nx
 import pandas as pd
+from qcore.asserts import assert_eq
 from functools import lru_cache
 
 
@@ -29,7 +30,7 @@ class Tournament:
         self.beta = kwargs.get('beta', 35)
 
     def run(self):
-        """Run a tournament once."""
+        """Run a Tournamentent once."""
         # add wins for first round
         self.g = self._generate_base_graph()
         np.random.seed(None)
@@ -38,7 +39,7 @@ class Tournament:
 
         # run rounds
         for i in range(self.n_rounds - 1):
-            # self.g = self._generate_base_graph()
+            # self.__edges(i + 1)
             self._run_round()
 
         df = pd.DataFrame(list(
@@ -48,8 +49,9 @@ class Tournament:
     def _run_round(self):
         """For given parameters, run a round."""
         for a, b in self._next_pairing():
-            # for bidrectionality purposes
-            if(a > b):
+            if(a > b):  # for bidrectionality purposes
+                # if(self.g.edge[b][a]['weight'] < 0):
+                    # print("ERROR!", self.g.edge[a][b]['weight'])
                 self._add_match(b, a)
         self.rebalance()
 
@@ -113,10 +115,8 @@ class Tournament:
         b -- number of Team B
         strengths - vector of team strengths
         """
-        if(a > b):
-            self.g.remove_edge(b, a)
-        else:
-            self.g.remove_edge(a, b)
+        # self.g.remove_edge(a, b)
+        self.g.add_edge(a, b, weight=-10000)
         if(self._win(a, b)):
             self.wins[a] += 1
         else:
@@ -127,7 +127,7 @@ class Tournament:
 
         Returns list of teams and their assignment
         """
-        match = nx.max_weight_matching(self.g).values()
+        match = nx.max_weight_matching(self.g, True).values()
         pairs = list(zip(range(self.n_teams), (match)))
         return(pairs)
 
@@ -143,17 +143,42 @@ class Tournament:
         alpha - scale parameter
         beta - dispersion parameter
         """
-        diff = x - y
+        diff = abs(x - y)
         if(diff > 1):
-            return 1
-        z = self.alpha - (self.beta * abs(diff))**2
-        return z
+            return(1)
+        else:
+            z = self.alpha - (self.beta * diff)**2
+            return(int(z))
 
     def rebalance(self):
         """Rebalance the graph after a round."""
         for (u, v, d) in self.g.edges(data=True):
-            cost = self.cost_function(self.wins[u], self.wins[v])
-            self.g.edge[u][v]['weight'] = cost
+            if(self.g.edge[u][v]['weight'] > 0):
+                cost = self.cost_function(self.wins[u], self.wins[v])
+                self.g.edge[u][v]['weight'] = cost
+
+    def print_edges(self):
+        """Function to print edges.
+
+        For debug purposes.
+        Keyword arguments:
+        g -- a graph
+        """
+        for (u, v, d) in self.g.edges(data=True):
+            print(u, v, d)
+
+    def _sum_edges(self):
+        """For debug purposes."""
+        s = 0
+        for (u, v, d) in self.g.edges(data=True):
+            s += self.g.edge[u][v]['weight']
+
+    def _check_edges(self, round):
+        max_edges = self.n_teams * (self.n_teams - 1) / 2
+        actual_edges = self.g.number_of_edges()
+        incurred_matches = round * self.n_teams / 2
+        assert_eq(max_edges - incurred_matches, actual_edges)
+
 
 # utility helpers
 
