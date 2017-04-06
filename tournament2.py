@@ -7,8 +7,8 @@ import numpy as np
 import random
 import networkx as nx
 import pandas as pd
-from qcore.asserts import assert_eq
 from functools import lru_cache
+from math import floor
 
 
 class Tournament:
@@ -22,7 +22,7 @@ class Tournament:
         """Initiate a new tournament."""
         self.n_teams = n_teams
         self.n_rounds = n_rounds
-        self.seed = kwargs.get('seed', random.uniform(0, 1000))
+        self.seed = kwargs.get('seed', int(floor(random.uniform(0, 1000))))
         self.dist = kwargs.get('dist', 'lognormal')
         self.strengths = self._generate_teams()
         self.wins = [0] * self.n_teams
@@ -173,12 +173,23 @@ class Tournament:
         for (u, v, d) in self.g.edges(data=True):
             s += self.g.edge[u][v]['weight']
 
-    def _check_edges(self, round):
-        max_edges = self.n_teams * (self.n_teams - 1) / 2
-        actual_edges = self.g.number_of_edges()
-        incurred_matches = round * self.n_teams / 2
-        assert_eq(max_edges - incurred_matches, actual_edges)
 
+class Simulation:
+    """Describes a simulation of tournaments."""
+
+    def __init__(self, n_teams, n_rounds, n_sim, **kwargs):
+        """Initiate a tournament simulation."""
+        self.tourney = Tournament(n_teams, n_rounds, **kwargs)
+        self.df = pd.DataFrame()
+
+    def simulate(self):
+        """Run simulation."""
+        self.df = self.df.append(pd.DataFrame(
+            data=self.tourney.run()))
+
+    def get_results(self):
+        """Return results of simulation."""
+        return(self.df)
 
 # utility helpers
 
