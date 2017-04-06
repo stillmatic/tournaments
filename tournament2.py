@@ -10,7 +10,7 @@ import pandas as pd
 import seaborn as sns
 from functools import lru_cache
 from math import floor
-from pandas_ply import install_ply, X, sym_call
+from pandas_ply import install_ply, X
 install_ply(pd)
 
 
@@ -27,6 +27,7 @@ class Tournament:
         self.n_rounds = n_rounds
         self.seed = kwargs.get('seed', int(floor(random.uniform(0, 1000))))
         self.dist = kwargs.get('dist', 'lognormal')
+        self.dist_params = kwargs.get('dist_params', None)
         self.strengths = self._generate_teams()
         self.wins = [0] * self.n_teams
         self.alpha = kwargs.get('alpha', 3500)
@@ -35,6 +36,7 @@ class Tournament:
     def run(self):
         """Run a tournament once."""
         # add wins for first round
+        self.wins = [0] * self.n_teams
         self.g = self._generate_base_graph()
         np.random.seed(None)
         for a, b in self._rand_pairing():
@@ -42,7 +44,6 @@ class Tournament:
 
         # run rounds
         for i in range(self.n_rounds - 1):
-            # self.__edges(i + 1)
             self._run_round()
 
         df = pd.DataFrame(list(
@@ -50,7 +51,7 @@ class Tournament:
         return(df)
 
     def _run_round(self):
-        """For given parameters, run a round."""
+        """Try each pairing and record results."""
         for a, b in self._next_pairing():
             if(a > b):  # for bidrectionality purposes
                 # if(self.g.edge[b][a]['weight'] < 0):
@@ -59,14 +60,52 @@ class Tournament:
         self.rebalance()
 
     def _generate_teams(self):
+        """Generate teams from given distribution and parameters."""
         np.random.seed(self.seed)
         # strengths = self.dist_fun(size=self.n_teams)
+        if self.dist_params is not None:
+            check_param = True
+        else:
+            check_param = False
         if(self.dist == "exp"):
-            strengths = np.random.exponential(size=self.n_teams)
+            def_val = 1.0
+            if check_param:
+                sc = self.dist_params['scale'] or def_val
+            else:
+                sc = def_val
+            strengths = np.random.exponential(scale=sc, size=self.n_teams)
         elif(self.dist == "unif"):
-            strengths = np.random.uniform(size=self.n_teams)
+            if check_param:
+                l = self.dist_params['low'] or 0.0
+                h = self.dist_params['high'] or 1.0
+            else:
+                l = 0.0
+                h = 1.0
+            strengths = np.random.uniform(l, h, size=self.n_teams)
         elif(self.dist == "lognorm"):
-            strengths = np.random.lognormal(size=self.n_teams)
+            if not check_param:
+                mu = 0.0
+                sigma = 1.0
+            else:
+                mu = self.dist_params['mean'] or 0.0
+                sigma = self.dist_params['sigma'] or 1.0
+            strengths = np.random.lognormal(mu, sigma, size=self.n_teams)
+        elif(self.dist == "beta"):
+            if not check_param:
+                alpha = 2.0
+                beta = 5.0
+            else:
+                alpha = self.dist_params['shape1'] or 2.0
+                beta = self.dist_params['shape2'] or 5.0
+            strengths = np.random.beta(alpha, beta, size=self.n_teams)
+        elif(self.dist == "gamma"):
+            if not check_param:
+                p1 = 2.0
+                p2 = 1.0
+            else:
+                p1 = self.dist_params['shape'] or 2.0
+                p2 = self.dist_params['scale'] or 1.0
+            strengths = np.random.gamma(p1, p2, size=self.n_teams)
         else:
             print("unknown distribution provided, using lognormal")
             strengths = np.random.lognormal(size=self.n_teams)
@@ -184,20 +223,21 @@ class Simulation:
         """Initiate a tournament simulation."""
         self.n_sim = n_sim
         self.n_rounds = n_rounds
+        self.dist = kwargs.get('dist', 'lognormal')
         self.tourney = Tournament(n_teams, n_rounds, **kwargs)
         self.df = pd.DataFrame()
 
     def simulate(self):
         """Run simulation."""
         for i in range(self.n_sim):
-            self.df = self.df.append(pd.DataFrame(
-                data=self.tourney.run()))
+            df2 = pd.DataFrame(data=self.tourney.run())
+            self.df = self.df.append(df2)
 
     def get_results(self):
         """Return results of simulation."""
         return(self.df)
 
-    def plot_distribution(self, **kwargs):
+    def plot_distribution(self):
         """Plot distribution of wins.
 
         Runs simulation if not done yet
@@ -205,9 +245,8 @@ class Simulation:
         if self.df.empty:
             self.simulate()
 
-        dist = kwargs.get('dist', 'lognormal')
-        graph = sns.distplot(self.df['wins'] / 100)
-        title_string = "Distribution of wins: %s" % dist
+        graph = sns.distplot(self.df['wins'])
+        title_string = "Distribution of wins: %s" % self.dist
         sns.plt.title(title_string)
         # graph.set_ylim(0, 1)
         graph.set_xlim(0, self.n_rounds)
@@ -219,7 +258,7 @@ class Simulation:
             .groupby('strength')
             .ply_select(
                 strength=X.strength.mean(),
-                avg_wins=X.wins.mean(),
+                avg_wins=X.wins.sum() / self.n_rounds,
                 avg_break=X.wins.mean() > self.n_rounds - 1
             ))
         return(res_summ)
@@ -232,15 +271,7 @@ class Simulation:
         if self.df.empty:
             self.simulate()
 
-        res_summ = (
-            self.df
-            .groupby('strength')
-            .ply_select(
-                strength=X.strength.mean(),
-                avg_wins=X.wins.mean(),
-                avg_break=X.wins.mean() > self.n_rounds - 1
-            ))
-
+        res_summ = self._get_aggregate()
         graph = sns.lmplot(
             x='strength', y='avg_wins', data=res_summ, fit_reg=False)
         title_string = "Wins by team strength"
