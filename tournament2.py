@@ -7,8 +7,11 @@ import numpy as np
 import random
 import networkx as nx
 import pandas as pd
+import seaborn as sns
 from functools import lru_cache
 from math import floor
+from pandas_ply import install_ply, X, sym_call
+install_ply(pd)
 
 
 class Tournament:
@@ -30,7 +33,7 @@ class Tournament:
         self.beta = kwargs.get('beta', 35)
 
     def run(self):
-        """Run a Tournamentent once."""
+        """Run a tournament once."""
         # add wins for first round
         self.g = self._generate_base_graph()
         np.random.seed(None)
@@ -179,17 +182,71 @@ class Simulation:
 
     def __init__(self, n_teams, n_rounds, n_sim, **kwargs):
         """Initiate a tournament simulation."""
+        self.n_sim = n_sim
+        self.n_rounds = n_rounds
         self.tourney = Tournament(n_teams, n_rounds, **kwargs)
         self.df = pd.DataFrame()
 
     def simulate(self):
         """Run simulation."""
-        self.df = self.df.append(pd.DataFrame(
-            data=self.tourney.run()))
+        for i in range(self.n_sim):
+            self.df = self.df.append(pd.DataFrame(
+                data=self.tourney.run()))
 
     def get_results(self):
         """Return results of simulation."""
         return(self.df)
+
+    def plot_distribution(self, **kwargs):
+        """Plot distribution of wins.
+
+        Runs simulation if not done yet
+        """
+        if self.df.empty:
+            self.simulate()
+
+        dist = kwargs.get('dist', 'lognormal')
+        graph = sns.distplot(self.df['wins'] / 100)
+        title_string = "Distribution of wins: %s" % dist
+        sns.plt.title(title_string)
+        # graph.set_ylim(0, 1)
+        graph.set_xlim(0, self.n_rounds)
+        return(graph)
+
+    def _get_aggregate(self):
+        res_summ = (
+            self.df
+            .groupby('strength')
+            .ply_select(
+                strength=X.strength.mean(),
+                avg_wins=X.wins.mean(),
+                avg_break=X.wins.mean() > self.n_rounds - 1
+            ))
+        return(res_summ)
+
+    def plot_strengths(self, **kwargs):
+        """Plot wins by team strength.
+
+        Runs simulation if not done yet
+        """
+        if self.df.empty:
+            self.simulate()
+
+        res_summ = (
+            self.df
+            .groupby('strength')
+            .ply_select(
+                strength=X.strength.mean(),
+                avg_wins=X.wins.mean(),
+                avg_break=X.wins.mean() > self.n_rounds - 1
+            ))
+
+        graph = sns.lmplot(
+            x='strength', y='avg_wins', data=res_summ, fit_reg=False)
+        title_string = "Wins by team strength"
+        sns.plt.title(title_string)
+        return(graph)
+
 
 # utility helpers
 
