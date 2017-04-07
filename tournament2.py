@@ -245,15 +245,20 @@ class Simulation:
         path = path or "%s.feather" % now
         feather.write_dataframe(self.df, path)
 
-    def plot_distribution(self):
+    def plot_distribution(self, **kwargs):
         """Plot distribution of wins.
 
         Runs simulation if not done yet.
         """
+        from matplotlib import rcParams
+        rcParams['patch.force_edgecolor'] = True
+        rcParams['patch.facecolor'] = 'b'
         if self.df.empty:
             self.simulate()
 
-        graph = sns.distplot(self.df.wins)
+        self.df.wins = self.df.wins.astype(int)
+        graph = sns.distplot(
+            self.df.wins, bins=np.arange(0, self.n_rounds + 1), **kwargs)
         title_string = "Distribution of wins: %s" % self.dist
         sns.plt.title(title_string)
         # graph.set_ylim(0, 1)
