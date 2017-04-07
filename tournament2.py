@@ -11,6 +11,7 @@ import seaborn as sns
 from functools import lru_cache
 from math import floor
 from pandas_ply import install_ply, X
+import feather
 install_ply(pd)
 
 
@@ -237,15 +238,22 @@ class Simulation:
         """Return results of simulation."""
         return(self.df)
 
+    def feather_results(self, path=None):
+        """Export results to disk via feather."""
+        import time
+        now = time.strftime("%d_%m_%Y_%H_%M_%S")
+        path = path or "%s.feather" % now
+        feather.write_dataframe(self.df, path)
+
     def plot_distribution(self):
         """Plot distribution of wins.
 
-        Runs simulation if not done yet
+        Runs simulation if not done yet.
         """
         if self.df.empty:
             self.simulate()
 
-        graph = sns.distplot(self.df['wins'])
+        graph = sns.distplot(self.df.wins)
         title_string = "Distribution of wins: %s" % self.dist
         sns.plt.title(title_string)
         # graph.set_ylim(0, 1)
@@ -258,7 +266,7 @@ class Simulation:
             .groupby('strength')
             .ply_select(
                 strength=X.strength.mean(),
-                avg_wins=X.wins.sum() / self.n_rounds,
+                avg_wins=X.wins.mean(),
                 avg_break=X.wins.mean() > self.n_rounds - 1
             ))
         return(res_summ)
