@@ -7,24 +7,42 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(magrittr)
+library(ggplot2)
 ```
 
-## R Markdown
+## empirical data
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r}
+summ <- function(x) {
+    x %>% group_by(team) %>% summarize(wins = sum(win)) %>%
+    ungroup %>%
+    group_by(wins) %>%
+    summarize(count = n())
+}
 ```
 
-## Including Plots
 
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+```{r}
+toc <- read.csv("toc2016.csv")
+toc %>% summ
+# toc %>% summ %>% write.csv(file = "toc_summ.csv", row.names = F)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+ndca <-read.csv("ndca2016.csv")
+ndca %>% summ
+# ndca %>% summ %>% write.csv(file = "ndca_summ.csv", row.names = F)
+
+```
+
+```{r}
+berk <- read.csv("berk2016.csv")
+berk %>% summ
+```
+
+```{r}
+
+```
+
