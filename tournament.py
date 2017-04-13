@@ -34,7 +34,7 @@ class Tournament:
         self.alpha = kwargs.get('alpha', 3500)
         self.beta = kwargs.get('beta', 35)
 
-    def run(self):
+    def run(self, summary=False):
         """Run a tournament once."""
         # add wins for first round
         self.wins = [0] * self.n_teams
@@ -49,6 +49,7 @@ class Tournament:
 
         df = pd.DataFrame(list(
             zip(self.strengths, self.wins)), columns=['strength', 'wins'])
+        self.results = df
         return(df)
 
     def _run_round(self):
@@ -216,6 +217,16 @@ class Tournament:
         for (u, v, d) in self.g.edges(data=True):
             s += self.g.edge[u][v]['weight']
 
+    def _top_winner(self):
+        res = self.results
+        res.wins[which(res.strength == max(res.strength))] = self.n_rounds
+
+    def _summarize(self):
+        res = self.results
+        # champ should be undefeated
+        champ = which(res.strength == max(res.strength))
+        found_champion = (res.wins[champ] == self.n_rounds)
+
 
 class Simulation:
     """Describes a simulation of tournaments."""
@@ -305,3 +316,8 @@ def _grouper(iterable, n, fillvalue=None):
     from itertools import zip_longest
     args = [iter(iterable)] * n
     return zip_longest(fillvalue=fillvalue, *args)
+
+
+def which():
+    """Find index of value, similarly to which in R."""
+    lambda lst: list(np.where(lst)[0])

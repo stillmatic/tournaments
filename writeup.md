@@ -3,12 +3,11 @@
 
 An important goal of tournaments is to find an overall winner, but it is often important to find the top-$k$ contestants as well. A simple example of where this is useful is a preliminary tournament used for seeding purposes, prior to an elimination tournament. In some cases, knowing an exact ranking within this top subgroup is important, such as when a tournament will pay out monetary rewards based on finishing place; in other cases, knowing the exact ranking is not as important. 
 
-We present the case of American high school policy debate, in which teams compete in 'regular-season' tournaments throughout the year in order to win 'bids' to the Tournament of Championships, the de facto culminating championship. Each round has two teams of two debaters, one "affirmative" (aff) and one "negative" (neg), and a judge. The affirmative side argues a policy-based plan which affirms that year's debate resolution, and the negative argues against the affirmative. For example, the 2012-13 resolution was "The United States federal government should substantially increase its transportation infrastructure investment in the United States."
+We present the case of American high school policy debate, in which teams compete in "regular-season" tournaments throughout the year in order to win 'bids' to the Tournament of Championships, the de facto culminating championship. Each round has two teams of two debaters, one "affirmative" (aff) and one "negative" (neg), and a judge. The affirmative side argues a policy-based plan which affirms that year's debate resolution, and the negative argues against the affirmative. For example, the 2012-13 resolution was "The United States federal government should substantially increase its transportation infrastructure investment in the United States."
 
 All tournaments are structured in two parts, with a preliminary Swiss-system tournament and then a knockout/single-elimination tournament. Within the preliminary tournament, he first two rounds are randomly paired, and subsequent rounds are power-matched, which means teams are paired with teams that have similar records (i.e. similar number of wins). These are subject to the constraints that teams cannot debate teams from the same school, and they cannot debate teams who they have been paired with in earlier rounds.
 
-The ultimate goal of "regular season" tournaments is to earn a bid to the "championship" tournament, the Tournament of Champions. These are allocated to tournaments roughly on the basis of tournament size and strength; the effect is that tournaments with more bids attract stronger teams. The bids are set up so that teams who make it to a given round of the tournament get the bid, e.g. octafinals means 16 bids, semifinals is 4 bids, etc. A perverse result of this bid system is that rounds after the bid round are treated as unimportant - teams routinely forfeit rounds or run less serious arguments - but the bid round and rounds before have enormous strategic investment. 
-
+The ultimate goal of "regular season" tournaments is to earn a bid to the "championship" tournament, the Tournament of Champions. These are allocated to tournaments roughly on the basis of tournament size and strength; the effect is that tournaments with more bids attract stronger teams. The bids are set up so that teams who make it to a given round of the tournament get the bid, e.g. octafinals means 16 bids, semifinals is 4 bids, etc. A perverse result of this bid system is that rounds after the bid round, containing the best teams, are treated as unimportant - teams routinely run less serious arguments or simply forfeit rounds- but the bid round and rounds before have enormous strategic investment. 
 
 This setup leads us to consider the efficacy of the Swiss-tournament design, in this instance.
 
@@ -18,7 +17,7 @@ Does the Swiss-style tournament structure effectively find top-$k$ teams?
 
 # Literature Review
 
-Previous research has been done into creating tournament structures. ...
+Previous research has been done into creating tournament structures, and considering the various desirable aspects to optimize for.
 
 Part of the simulation process involves finding pairings, which are directly analogous to a matching, which is a set of $n$ disjoint pairs of participants. 
 
@@ -44,8 +43,6 @@ $$\Pr(Y_{i,j} = 1) = \frac{\theta_i}{\theta_i + \theta_j}$$
 Here, $Y_{i,j}$ is an indicator for the outcome of the pairwise comparison between competitors $i$ and $j$, and $\theta_i$ and $\theta_j$ represent the underlying strength of competitors $i$ and $j$. These $\theta$ values are relatively unconstrained, though under the traditional B-T assumptions they are positive numbers. 
 
 The Bradley-Terry model belongs to a family of models known as linear paired comparison models, where win probabilities are only affected by player strengths in terms of the delta between the pairs.
-
-[**MLE ESTIMATION??**]
 
 For simplicity, in our simulations, we drew the team strengths from probability distributions. The core distribution we use is the beta distribution. The PDF of the beta distribution is 
 
@@ -77,6 +74,15 @@ Weights are rebalanced at the end of each round, i.e. when all pairings are simu
 
 Note that the algorithm is used to find pairings for round 2, since the round is intended to be randomly paired. At this point the graph is initialized with equal weights for every pairing except those which have occured, which have a 0 weighting. Then, since we have no other constraints, the maximum weight perfect matching returns an acceptable pairing which conveniently guarantees no repeat matches. 
 
+We consider several different tournament configurations, and run 500 simulations for each of them.
+
+1. Small tournament: 32 teams with 5 rounds. This setup is picked because $2^5 = 32$. 
+1. Medium tournament: 68 teams with 6 rounds. Note that $\log_2 68 = 6.09$.
+2. Large tournament: 114 teams with 7 rounds. Note that $\log_2 114 = 6.83$.
+3. Very large tournament: 208 teams with 6 rounds. Note that $\log_2 208 = 7.70$.
+
+These tournaments are, in order, modeled after a local tournament, the NDCA tournament, the Blake tournament, and the Berkeley tournament. We add the log base 2 of the number of teams because with fewer than $log_2 n$, it is possible to have multiple teams with perfect records.
+
 ## Comparisons
 
 We consider alternative tournament designs, focused around the same goal as the original tournament.
@@ -92,15 +98,33 @@ We consider alternative tournament designs, focused around the same goal as the 
 
 # Validation
 
+In addition to individually scraped tournaments, we also have 2 yearlong datasets, covering multiple tournaments in the 2009-2010 and 2010-2011 seasons. Using these datasets and their final results, we can estimate Bradley-Terry parameters for the teams participating in those tournaments. We can then rerun our experiments using these empirically determined parameters instead. 
+
+Our MLE estimation is done using the \textbf{\textsf{R}} language, in particular, using the \textbf{\textsf{BradleyTerryScalable}} package [**CITE Firth and Kaye 2017**]. This package follows the procedure laid out in [**Caron and Doucet 2012**] for maximum likelihood estimation of Bradley-Terry parameters when Ford's assumption does not hold. Ford's assumption is: in every possible partition of players into two non-empty subsets, some individual in the second set beats some individual in the first set at least once [**Ford 1957**]. Our datasets are very sparse and cover a wide range of teams, meaning that Ford's assumption does not hold; in particular, this means that the more traditional MLE estimation methods of minorization-maximization [**Hunter 2004**] and Iterative-Luce Spectral Ranking [**Maystre and Grossglauser 2015**] cannot be used.
+
+## 2009-2010 data
+
+This dataset consists of 13310 debated rounds by 1424 teams. There are 3 connected components [**??**] 
+
+**Actually do this lol**
+
 We present a measure of loss that is centered on the number of top-$k$ teams which are not selected. We also consider if the top-ranked team finishes the tournament as the first ranked team.
 
 # Discussion
 
 One particular consideration unique to debate is that rounds are adjudicated by judges, who are human and have human tendencies. In contrast to games such as chess where winners are well-defined and easily verifiable, having variation in outcome decisions makes it desirable to have multiple judges (usually 3) on a panel. Staffing limitations make this difficult to achieve for all but elimination rounds in most tournaments (the college debate championship has 3 judges per round in preliminary rounds, but this is the exception). 
 
+TODO:
+
+* speaker points
+* different models instead of Bradley Terry
+* better incorporation of priors
+
 # Conclusion
 
 [...]
+
+
 
 
 # Appendix
@@ -124,3 +148,10 @@ Algorithms, The MIT Press, 1989
 * http://www.glicko.net/research/gj.pdf - glickman
 * http://pubsonline.informs.org/doi/pdf/10.1287/ijoc.11.2.138 - Cook and Rowe
 * https://link.springer.com/article/10.1007%2Fs12532-009-0002-8?LI=true - Kolmogorov
+* https://github.com/EllaKaye/BradleyTerryScalable
+* https://cran.r-project.org/web/packages/BradleyTerry2/vignettes/BradleyTerry.pdf
+* Caron, F. and Doucet, A. (2012) Efficient Bayesian Inference for Generalized Bradley-Terry Models. Journal of Computational and Graphical Statistics, 21(1), 174-196.
+* Hunter, D. R. (2004) MM Algorithms for Generalized Bradley-Terry Models. The Annals of Statistics, 32(1), 384-406.
+* Maystre, L. and Grossglauser, M. (2015) Fast and accurate inference of Plackett-Luce models. In Advances in Neural Information Processing Systems 28 (NIPS 28).
+* Ford, L. R. (1957) Solution of a Ranking Problem from Binary Comparisons. The American Mathematical Monthly, 64(8, Part 2), 28-33.
+
