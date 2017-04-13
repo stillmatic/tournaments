@@ -52,7 +52,7 @@ where: ${\displaystyle \mathrm {B} (\alpha ,\beta )={\frac {\Gamma (\alpha )\Gam
 
 See the appendix for other distributions which our code and model supports.
 
-## Tournament simulation procedure
+## Tournament design
 
 As described above, teams compete in 6 or 7 rounds, with the first two rounds randomly paired and the following rounds power-matched. We implement this procedure using an adaption of the technique presented in [**CITE Olafsson 1990**]. 
 
@@ -70,16 +70,20 @@ $$W_{i,j} = \alpha - (\beta * \lvert s_i - s_j \rvert)^2 $$
 
 Here, $\alpha$ and $\beta$ are constants which can be thought of as a location and scale parameter, respectively. We also present a delta value, $\lvert s_i - s_j \rvert$, which is the absolute value of the the difference between the two teams' wins. To make computation easier, we avoid negative weights by first checking the win delta and setting the pairing to a weight of 1 if the difference is greater than 1 win. When a particular pairing is done, we assign the pairing a weight of 0. This method lends itself to a maximum weight method because the larger a weight is on a particular pairing the more desirable it is in a pairing.
 
-Weights are rebalanced at the end of each round, i.e. when all pairings are simulated. We then develop a pairing for the next round, which is represented as a maximum weight perfect matching. We use Edmond's blossom algorithm [[**CITE**]], as implemented in Python by [**CITE NetworkX**]. For more precise details of the algorithm, see for example [**CITE Galil**]. All edges that have not been picked are rebalanced, since even if a pairing is undesirable after $k$ rounds, it could be desirable for the $k+1$ round. 
+Weights are rebalanced at the end of each round, i.e. when all pairings are simulated. We then develop a pairing for the next round, which is represented as a maximum weight perfect matching. We use Edmond's blossom algorithm [[**CITE**]], as implemented in \textbf{\textsf{Python}}  by [**CITE NetworkX**]. For more precise details of the algorithm, see for example [**CITE Galil**]. All edges that have not been picked are rebalanced, since even if a pairing is undesirable after $k$ rounds, it could be desirable for the $k+1$ round. 
 
 Note that the algorithm is used to find pairings for round 2, since the round is intended to be randomly paired. At this point the graph is initialized with equal weights for every pairing except those which have occured, which have a 0 weighting. Then, since we have no other constraints, the maximum weight perfect matching returns an acceptable pairing which conveniently guarantees no repeat matches. 
 
+## Simulation procedure
+
 We consider several different tournament configurations, and run 500 simulations for each of them.
 
-1. Small tournament: 32 teams with 5 rounds. This setup is picked because $2^5 = 32$. 
-1. Medium tournament: 68 teams with 6 rounds. Note that $\log_2 68 = 6.09$.
-2. Large tournament: 114 teams with 7 rounds. Note that $\log_2 114 = 6.83$.
-3. Very large tournament: 208 teams with 6 rounds. Note that $\log_2 208 = 7.70$.
+| Size       | Teams | Rounds | Top-$k$ |
+|------------|-------|--------|---------|
+| Small      | 32    | 5      | 8       |
+| Medium     | 64    | 6      | 16      |
+| Large      | 128   | 6      | 32      |
+| Very large | 256   | 7      | 64      |
 
 These tournaments are, in order, modeled after a local tournament, the NDCA tournament, the Blake tournament, and the Berkeley tournament. We add the log base 2 of the number of teams because with fewer than $log_2 n$, it is possible to have multiple teams with perfect records.
 
@@ -92,8 +96,8 @@ We consider alternative tournament designs, focused around the same goal as the 
 ## Reported statistics
 
 * percent of top-k teams correctly selected
-* whether 'winner wins'
-* squared difference in rank
+* whether 'winner wins' - DONE
+* squared difference in rank - DONE
 * confidence intervals of team winrate
 
 # Validation
@@ -106,9 +110,11 @@ Our MLE estimation is done using the \textbf{\textsf{R}} language, in particular
 
 This dataset consists of 13310 debated rounds by 1424 teams. There are 3 connected components [**??**] 
 
-**Actually do this lol**
+## 2010-2011 data
 
-We present a measure of loss that is centered on the number of top-$k$ teams which are not selected. We also consider if the top-ranked team finishes the tournament as the first ranked team.
+[**TODO**]
+
+**Actually do this lol**
 
 # Discussion
 

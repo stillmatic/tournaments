@@ -33,6 +33,7 @@ class Tournament:
         self.wins = [0] * self.n_teams
         self.alpha = kwargs.get('alpha', 3500)
         self.beta = kwargs.get('beta', 35)
+        self.k = kwargs.get('k', 8)
 
     def run(self, summary=False):
         """Run a tournament once."""
@@ -221,11 +222,34 @@ class Tournament:
         res = self.results
         res.wins[which(res.strength == max(res.strength))] = self.n_rounds
 
-    def _summarize(self):
+    def summarize(self):
+        """Give summary statistics about the tournament."""
+        self.run()
         res = self.results
         # champ should be undefeated
         champ = which(res.strength == max(res.strength))
         found_champion = (res.wins[champ] == self.n_rounds)
+        # squared loss in ranks
+        pct_ranks = pd.DataFrame(
+            data=np.transpose(
+                [res.strength.rank(ascending=False, pct=True),
+                 res.wins.rank(ascending=False, pct=True)]),
+            columns=["str_rank", "win_rank"])
+        sq_loss = sum(((pct_ranks.str_rank - pct_ranks.win_rank))**2)
+        # top-k
+        ranks = pd.DataFrame(
+            data=np.transpose(
+                [res.strength.rank(ascending=False),
+                 res.wins.rank(ascending=False),
+                 res.wins]),
+            columns=["str_rank", "win_rank", "wins"])
+        top_k_df = ranks.loc[ranks['str_rank'] <= self.k]
+        top_k = sum(top_k_df['wins'] >= self.n_rounds - 2) / self.k
+        df = pd.DataFrame(
+            data=list(zip(found_champion, sq_loss, top_k)),
+            columns=['found_champ', 'sq_loss', 'top_k_found']
+        )
+        return df
 
 
 class Simulation:
@@ -242,7 +266,7 @@ class Simulation:
     def simulate(self):
         """Run simulation."""
         for i in range(self.n_sim):
-            df2 = pd.DataFrame(data=self.tourney.run())
+            df2 = pd.DataFrame(data=self.tourney.summarize())
             self.df = self.df.append(df2)
 
     def get_results(self):

@@ -52,10 +52,10 @@ pairwise_mat <- pairwise09 %>%
     BradleyTerryScalable::pairs_to_matrix()
 
 fit_09 <- BradleyTerryScalable::btfit(
-    pairwise_mat, 1.1, maxit = 1000000,
+    pairwise_mat, 1.5, maxit = 1000000,
     components = connected_components(pairwise_mat)$components)
 
-fit_09$pi %>% unlist  %>% hist
+fit_09$pi %>% purrr::map(hist)
 # btm_fit_09 <- BradleyTerry2::BTm(outcome = pairwise09$win, 
                    # player1 = factor(pairwise09$aff), 
                    # player2 = factor(pairwise09$neg), br = TRUE)
