@@ -4,6 +4,7 @@ Chris Hua / chua@wharton.upenn.edu
 """
 
 import numpy as np
+import scipy.stats
 import random
 import networkx as nx
 import pandas as pd
@@ -218,16 +219,12 @@ class Tournament:
         for (u, v, d) in self.g.edges(data=True):
             s += self.g.edge[u][v]['weight']
 
-    def _top_winner(self):
-        res = self.results
-        res.wins[which(res.strength == max(res.strength))] = self.n_rounds
-
     def summarize(self):
         """Give summary statistics about the tournament."""
-        self.run()
-        res = self.results
+        res = self.run()
+        # res = self.results
         # champ should be undefeated
-        champ = which(res.strength == max(res.strength))
+        champ = list(np.where(res.strength == max(res.strength))[0])
         found_champion = (res.wins[champ] == self.n_rounds)
         # squared loss in ranks
         pct_ranks = pd.DataFrame(
@@ -245,9 +242,13 @@ class Tournament:
             columns=["str_rank", "win_rank", "wins"])
         top_k_df = ranks.loc[ranks['str_rank'] <= self.k]
         top_k = sum(top_k_df['wins'] >= self.n_rounds - 2) / self.k
+        tau, k_p = scipy.stats.kendalltau(ranks.str_rank, ranks.win_rank)
+        rho, sp_p = scipy.stats.spearmanr(ranks.str_rank, ranks.win_rank)
         df = pd.DataFrame(
-            data=list(zip(found_champion, sq_loss, top_k)),
-            columns=['found_champ', 'sq_loss', 'top_k_found']
+            data=[list([int(found_champion), float(sq_loss), float(top_k),
+                        float(tau), float(k_p), float(rho), float(sp_p)])],
+            columns=['found_champ', 'sq_loss', 'top_k_found', 'tau',
+                     'kendall_p', 'rho', 'spearman_p']
         )
         return df
 
@@ -340,8 +341,3 @@ def _grouper(iterable, n, fillvalue=None):
     from itertools import zip_longest
     args = [iter(iterable)] * n
     return zip_longest(fillvalue=fillvalue, *args)
-
-
-def which():
-    """Find index of value, similarly to which in R."""
-    lambda lst: list(np.where(lst)[0])
