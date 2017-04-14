@@ -21,27 +21,25 @@ Previous research has been done into creating tournament structures, and conside
 
 Part of the simulation process involves finding pairings, which are directly analogous to a matching, which is a set of $n$ disjoint pairs of participants. 
 
-In particular, the Swiss tournament structure is considered in [**Olafsson 1990**]. Ólafsson considers the Swiss tournament structure and various chess-specific considerations; however, he focuses on an algorithm to create pairings which fulfill chess's requirements. He presents a method using maximum weight perfect matching to perform the pairing matching. Under this method, we employ a graph structure to represent the teams (nodes) and the possible pairings (edges). The graph is initialized as a complete graph with equal weights; that is, all possible pairings are equally desirable, which fits the structure of a random initial pairing. The graph is complete because any team *could* play each other, and we represent desirability via edge weights. At the conclusion of each round, the edges are reweighted to fit the desirability of the pairing. These weights are functions of various competitive factors, including the difference in wins, how many rounds they have played on white/black, whether the pairing has already occured, and others. The general idea is that a higher weight represents a higher preference. Then, the maximum weight perfect matching algorithm finds a matching among the possible pairs.
+In particular, the Swiss tournament structure is considered in @Olafsson1990. Ólafsson considers the Swiss tournament structure and various chess-specific considerations; however, he focuses on an algorithm to create pairings which fulfill chess's requirements. He presents a method using maximum weight perfect matching to perform the pairing matching. Under this method, we employ a graph structure to represent the teams (nodes) and the possible pairings (edges). The graph is initialized as a complete graph with equal weights; that is, all possible pairings are equally desirable, which fits the structure of a random initial pairing. The graph is complete because any team *could* play each other, and we represent desirability via edge weights. At the conclusion of each round, the edges are reweighted to fit the desirability of the pairing. These weights are functions of various competitive factors, including the difference in wins, how many rounds they have played on white/black, whether the pairing has already occured, and others. The general idea is that a higher weight represents a higher preference. Then, the maximum weight perfect matching algorithm finds a matching among the possible pairs.
 
-The weighted perfect matching algorithm is a well-studied problem in computer science and graph theory. The first polynomial time algorithm for the problem was found by [**Edmonds 1965**], known as Edmond's blossom algorithm, and improved on by numerous others, including [**Cooke and Rowe 1999**] and most recently by [**Kolmogorov 2009**]. The implementation used in this paper follows most directly [**Galil**], which runs with time complexity $O(nm \log n)$, where $n$ is the number of nodes and $m$ is the number of edges in the graph. Exact details on the method can be found in any of these papers, or from examining the source code of the open-source programs used for simulation.
+The weighted perfect matching algorithm is a well-studied problem in computer science and graph theory. The first polynomial time algorithm for the problem was found by @Edmonds1965, known as Edmond's blossom algorithm, and improved on by numerous others, including @Cook1999 and most recently by @Kolmogorov2009. The implementation used in this paper follows most directly the process given by @Galil1986. This implementation runs with time complexity $O(nm \log n)$, where $n$ is the number of nodes and $m$ is the number of edges in the graph. Exact details on the method can be found in any of these papers, or from examining the source code of the open-source programs used for simulation.
 
-In a similar vein, [**Kujansuu et al 1999**] present a method for pairing players, as an extension of the stable roommates problem. For further reference, the canonical reference for the stable roommates problem is [**Gusfield and Irving, 1989**]. In the stable roommates problem, each "roommate" creates a preference ranking of the others (full ranking is assumed). Then, the matching is stable if there are no potential roommates $i$ and $j$ who prefer each other to their matched roommate. In the tournament context, after each round, each team has a preference list constructed for them of the teams available to play. The weights can be assigned in a similar manner to Olafsson and have a relatively analogous meaning, representing how preferable a possible pairing between two teams is.
+In a similar vein, @Kujansuu1999 present a method for pairing players, as an extension of the stable roommates problem. The canonical reference for the stable roommates problem is @Gusfield1989. In the stable roommates problem, each "roommate" creates a preference ranking of the others (full ranking is assumed). Then, the matching is stable if there are no potential roommates $i$ and $j$ who prefer each other to their matched roommate. In the tournament context, after each round, each team has a preference list constructed for them of the teams available to play. The weights can be assigned in a similar manner to Olafsson and have a relatively analogous meaning, representing how preferable a possible pairing between two teams is.
 
 To my knowledge, very few other studies have considered the effectiveness of the Swiss tournament structure.
 
-Research by [**Glickman and Jensen**] has considered alternative tournament formulations from a more theoretical basis. Specifically, Glickman and Jensen present a tournament structure where rounds are matched by maximizing expected Kullback-Leibler distance, a measure of difference between distributions. The pairings are picked such that they maximize the expected Kullback-Leibler distance between the prior and posterior distributions of $\theta$, the distribution of player strengths. This model is heavily influenced by Bayesian optimal design. Notably, Swiss tournaments out-perform their model for small numbers of rounds. 
+Research by @Glickman2005 has considered alternative tournament formulations from a more theoretical basis. Specifically, Glickman and Jensen present a tournament structure where rounds are matched by maximizing expected Kullback-Leibler distance, a measure of difference between distributions. The pairings are picked such that they maximize the expected Kullback-Leibler distance between the prior and posterior distributions of $\theta$, the distribution of player strengths. This model is heavily influenced by Bayesian optimal design. Notably, Swiss tournaments out-perform their model for small numbers of rounds. 
 
-[**Hanes**] researched the effect of power matching in policy debate tournaments, comparing the outcomes from the win rankings with the speaker points assigned to teams. He finds a disparity between the two rankings, and argues that we should prefer the results given by speaker point rankings instead, or at minimum a combination of wins and speaker points. It is worth noting that he considers the implications across a full season, while we focus on the effects on a tournament level.
+@Hanes2015 researched the effect of power matching in policy debate tournaments, comparing the outcomes from the win rankings with the speaker points assigned to teams. He finds a disparity between the two rankings, and argues that we should prefer the results given by speaker point rankings instead, or at minimum a combination of wins and speaker points. It is worth noting that he considers the implications across a full season, while we focus on the effects on a tournament level.
 
 # Solution Approach/Main Results
 
-Tournaments are repeated sets of paired comparisons, and we employ what is known as the Bradley-Terry model to understand the comparisons [**CITE**]. It is given by:
+Tournaments are repeated sets of paired comparisons, and we employ what is known as the Bradley-Terry model to understand the comparisons [@Bradley1952]. The Bradley-Terry model belongs to a family of models known as linear paired comparison models, where win probabilities are only affected by player strengths in terms of the delta between the pairs. For several reasons, it is one of the most, if not the most, popular models for analyzing pairwise comparisons. It is given by:
 
 $$\Pr(Y_{i,j} = 1) = \frac{\theta_i}{\theta_i + \theta_j}$$
 
 Here, $Y_{i,j}$ is an indicator for the outcome of the pairwise comparison between competitors $i$ and $j$, and $\theta_i$ and $\theta_j$ represent the underlying strength of competitors $i$ and $j$. These $\theta$ values are relatively unconstrained, though under the traditional B-T assumptions they are positive numbers. 
-
-The Bradley-Terry model belongs to a family of models known as linear paired comparison models, where win probabilities are only affected by player strengths in terms of the delta between the pairs.
 
 For simplicity, in our simulations, we drew the team strengths from probability distributions. The core distribution we use is the beta distribution. The PDF of the beta distribution is 
 
@@ -53,7 +51,7 @@ See the appendix for other distributions which our code and model supports.
 
 ## Tournament design
 
-As described above, teams compete in 6 or 7 rounds, with the first two rounds randomly paired and the following rounds power-matched. We implement this procedure using an adaption of the technique presented in [**CITE Olafsson 1990**]. 
+As described above, teams compete in 6 or 7 rounds, with the first two rounds randomly paired and the following rounds power-matched. We implement this procedure using an adaption of the maximum weight perfect matching technique [@Olafsson1990]. 
 
 Our process is as follows:
 
@@ -69,17 +67,15 @@ $$W_{i,j} = \alpha - (\beta * \lvert s_i - s_j \rvert)^2 $$
 
 Here, $\alpha$ and $\beta$ are constants which can be thought of as a location and scale parameter, respectively. We also present a delta value, $\lvert s_i - s_j \rvert$, which is the absolute value of the the difference between the two teams' wins. To make computation easier, we avoid negative weights by first checking the win delta and setting the pairing to a weight of 1 if the difference is greater than 1 win. When a particular pairing is done, we assign the pairing a weight of 0. This method lends itself to a maximum weight method because the larger a weight is on a particular pairing the more desirable it is in a pairing.
 
-Weights are rebalanced at the end of each round, i.e. when all pairings are simulated. We then develop a pairing for the next round, which is represented as a maximum weight perfect matching. We use Edmond's blossom algorithm [[**CITE**]], as implemented in \textbf{\textsf{Python}} by [**CITE NetworkX**]. For more precise details of the algorithm, see for example [**CITE Galil**]. All edges that have not been picked are rebalanced, since even if a pairing is undesirable after $k$ rounds, it could be desirable for the $k+1$ round. 
+Weights are rebalanced at the end of each round, i.e. when all pairings are simulated. All edges that have not been picked are rebalanced, since even if a pairing is undesirable after $k$ rounds, it could be desirable for the $k+1$ round. Picked edges are assigned fixed weights of 0 so that they are not picked. We then develop a pairing for the next round, which is represented as a maximum weight perfect matching. We use Edmond's blossom algorithm, as implemented in \textbf{\textsf{Python}} by NetworkX [@hagberg-2008-exploring]. 
 
-Although the algorithm which we use runs in $O(nm \log n)$ time, since our graph is fully connected, we have $m = n(n-1)/2$, which means that the algorithm runs in $O(n^3)$ time, where $n$ is the number of teams competing. This becomes computationally intensive for relatively large tournaments; in our 
-
-
+Although the algorithm which we use runs in $O(nm \log n)$ time, since our graph is fully connected, we have $m = n(n-1)/2$, which means that the algorithm runs in $O(n^3)$ time, where $n$ is the number of teams competing. This becomes computationally intensive for relatively large tournaments; in our computations, simulating 500 occurences of a 256 team tournament takes over half an hour using a 2013 Macbook Pro. 
 
 Note that the algorithm is used to find pairings for round 2, since the round is intended to be randomly paired. At this point the graph is initialized with equal weights for every pairing except those which have occured, which have a 0 weighting. Then, since we have no other constraints, the maximum weight perfect matching returns an acceptable pairing which conveniently guarantees no repeat matches. 
 
 ## Simulation procedure
 
-We consider several different tournament configurations, and run 500 simulations for each of them.
+We consider several different tournament configurations, and run 500 simulated tournaments for each of them.
 
 | Size       | Teams | Rounds |  $K$  |
 |------------|-------|--------|-------|
@@ -88,49 +84,62 @@ We consider several different tournament configurations, and run 500 simulations
 | Large      | 128   | 6      | 32    |
 | Very large | 256   | 7      | 64    |
 
-These tournaments are, in order, modeled after a local tournament, the NDCA tournament, the Blake tournament, and the Berkeley tournament. We add the log base 2 of the number of teams because with fewer than $log_2 n$, it is possible to have multiple teams with perfect records.
+These tournaments are, in order, modeled after a local tournament, the NDCA tournament, the Blake tournament, and the Berkeley tournament. There are infinite numbers of setups to test, but using these offers a realistic test of real world conditions. Under these specifications, we observed the following results.
 
-Under these specifications, we observed the following results.
+We present several metrics of success, described below.
 
-| Size        | Top-1 | Top-K | Squared Loss | Kendall's tau | Spearman's rho |
-|-------------|-------|-------|--------------|---------------|----------------|
-| Small       | 0.326 | 0.926 | 1.767        | 0.512         | 0.661          |
-| Medium      | 0.646 | 0.928 | 3.328        | 0.519         | 0.684          |
-| Large       | 0.696 | 0.982 | 7.432        | 0.497         | 0.647          |
-| Extra Large | 0.660 | 0.915 | 17.759       | 0.437         | 0.579          |
+* "Top-1" indicates if the top-rated player went undefeated throughout the tournament. This is known as the Copeland winning condition which is any player with a maximum score, [@Saari1996]. 
+* Each of these tournaments has a particular $K$ associated with them. These hark back to the goal of finding the $K$ teams who will earn a bid for the tournament; here, we show the percent of teams in the top-$K$ by strength who also place that highly by win rank. This can also be thought of as a partial ranking measure, because we test for group membership of the top-$k$ teams but not the actual placement among those teams.
+* Squared loss is defined here as $L = \sum_i (R^{\textnormal{Strength}}_{i} - R^{\textnormal{Wins}}_{i})^2$$. We use $R$ to denote the team's percent rank in terms of their underlying strengths and in terms of their observed wins.  
+* Finally, we report the Kendall $\tau$ and Spearman $\rho$ measures of correlation. These correlation coefficients measure the discrepancy between our reported (win) ranking and the actual underlying (strength) ranking.
+	- Kendall's tau-b is given by $\tau _{B}={\frac {n_{c}-n_{d}}{\sqrt {(n_{0}-n_{1})(n_{0}-n_{2})}}}$ [@Kendall1945]. We use the tau-b implementation as it is robust to ties, which happen quite often in this dataset, with a discrete number of rounds played.
+	- Spearman's rho is given by ${\displaystyle r_{s}=\rho _{\operatorname {rg} _{X},\operatorname {rg} _{Y}}={\frac {\operatorname {cov} (\operatorname {rg} _{X},\operatorname {rg} _{Y})}{\sigma _{\operatorname {rg} _{X}}\sigma _{\operatorname {rg} _{Y}}}}}$ [@Zwillinger2000].
 
-Here, "top-1" indicates if the top-rated player went undefeated throughout the tournament. This is known as the Copeland winning condition [**Copeland 1951**], which is any player with a maximum score. Each of these tournaments has a particular $K$ associated with them. These hark back to the goal of finding the $K$ teams who will earn a bid for the tournament; here, we show the percent of teams in the top-$K$ by strength who also place that highly by win rank. Squared loss is defined here as
+We do not report the p-values of the Kendall or Spearman coefficients because these values are all 0.001 or lower, and very highly significant.
 
-$$L = \sum_i (R^{\textnormal{Strength}}_{i} - R^{\textnormal{Wins}}_{i})^2$$
+## Experimental results
 
-We use $R$ to denote the team's percent rank in terms of their underlying strengths and in terms of their observed wins.  Finally, we report the Kendall $\tau$ and Spearman $\rho$ measures of correlation. We do not report the p-values of these results because these values are all 0.001 or lower and highly significant.
+For our main Swiss-style tournament simulation, we observed the following results:
 
-## Comparisons
+| Size        | Top-1 | Top-$K$ | Squared Loss | Kendall's tau | Spearman's rho |
+|-------------|-------|---------|--------------|---------------|----------------|
+| Small       | 0.326 | 0.926   | 1.767        | 0.512         | 0.661          |
+| Medium      | 0.646 | 0.928   | 3.328        | 0.519         | 0.684          |
+| Large       | 0.696 | 0.982   | 7.432        | 0.497         | 0.647          |
+| Extra Large | 0.660 | 0.915   | 17.759       | 0.437         | 0.579          |
+| Perfect     | 1.000 | 1.000   | 0.000        | 1.000         | 1.000 			|
 
-We consider alternative tournament designs, focused around the same goal as the original tournament.
+Under a random pairing framework, we observed the following results:
 
-* Totally random pairings.
-* Round robin (though impractical for other reasons)
+| Size        | Top-1 | Top-$K$ | Squared Loss | Kendall's tau | Spearman's rho |
+|-------------|-------|---------|--------------|---------------|----------------|
+| Small       | 0.088 | 0.621   | 2.532        | 0.378         | 0.513          |
+| Medium      | 0.512 | 0.827   | 5.128        | 0.384         | 0.511          |
+| Large       | 0.640 | 0.978   | 7.077        | 0.510         | 0.664          |
+| Extra Large | 0.790 | 0.754   | 15.251       | 0.484         | 0.639          |
+| Perfect     | 1.000 | 1.000   | 0.000        | 1.000         | 1.000 			|
 
+Each configuration that we test under the Swiss system performs relatively similarly, according to the metrics which we used. This is with the exception of the small tournament, where the top-ranked team finishes undefeated (and thus a Copeland winner) only about a third of time, versus 2/3 of the time in the other configurations. The measures of correlation, given by the Kendall $\tau$ and Spearman $\rho$ seem to decrease with larger tournament sizes, but this is likely due to the larger number of teams to rank. This probably also explains the increase in squared loss, an admittedly invented metric. However, all of the Swiss tournament structures perform well under the top-$k$ metric, with over 90% of top-$k$ teams properly identified. 
+
+Comparing the results from the Swiss tournament to a tournament where the rounds are randomly paired, with the only constraint being that teams cannot repeat pairings, yields some surprising results.
+
+The larger a tournament is, with random pairings, the likelier that the top team is undefeated. This is reasonable because the top team should get easier placements in the random framework than in the power-matched framework, which is the goal of the Swiss-style tournament. While this finding has little effect on the debate tournaments, which place relatively little emphasis on preliminary winners, it is important for other contexts in which Swiss tournaments are used to pick winners, such as chess. 
+
+With the random pairings framework, for the large and extra large tournaments, the three ranking measures defined over all of the teams actually show better results than for the Swiss-style pairings. This is a pretty surprising result, especially because the Swiss-style tournament performs noticeably better than the random pairing tournament in picking the top-$k$ teams. This can be thought of as a discrepancy between partial ranking and full-ranking measures. Understanding why this discrepancy exists would be a worthwhile research direction. 
+
+Another interesting trend that we see in the full ranking correlation metrics is that the random pairing tournament performs generally better with larger tournaments, while the Swiss tournament performs generally better with smaller tournaments. This same characteristic was noted by @Glickman2005, where their tournament model underperformed Swiss tournaments in sum of squared deviations in ranks (SSDR) for tournaments of 4 and 8 rounds, but was better in 16 round specifications. One possible explanation is that the random pairing rounds employed by Swiss tournaments in the first 2 rounds actually contribute the most to the full rankings, and the power-matched rounds reduce the accuracy. Further research could test the effect of varying the number of random rounds used in the Swiss tournament, to balance the goals of picking a top-$k$ group of teams as well as yielding fair rankings to all participants.
 
 # Validation
 
-In addition to individually scraped tournaments, we also have 2 yearlong datasets, covering multiple tournaments in the 2009-2010 and 2010-2011 seasons. Using these datasets and their final results, we can estimate Bradley-Terry parameters for the teams participating in those tournaments. We can then rerun our experiments using these empirically determined parameters instead. 
+In addition to individually scraped tournaments, we also have 2 year-long datasets, covering multiple tournaments in the 2009-2010 and 2010-2011 seasons. Using these datasets and their final results, we can estimate Bradley-Terry parameters for the teams participating in those tournaments. We can then rerun our experiments using these empirically determined parameters instead. 
 
-Our MLE estimation is done using the \textbf{\textsf{R}} language, in particular, using the \textbf{\textsf{BradleyTerryScalable}} package [**CITE Firth and Kaye 2017**]. This package follows the procedure laid out in [**Caron and Doucet 2012**] for maximum likelihood estimation of Bradley-Terry parameters when Ford's assumption does not hold. Ford's assumption is: in every possible partition of players into two non-empty subsets, some individual in the second set beats some individual in the first set at least once [**Ford 1957**]. Our datasets are very sparse and cover a wide range of teams, meaning that Ford's assumption does not hold; in particular, this means that the more traditional MLE estimation methods of minorization-maximization [**Hunter 2004**] and Iterative-Luce Spectral Ranking [**Maystre and Grossglauser 2015**] cannot be used.
+The 2009-2010 dataset consists of 13310 debated rounds by 1424 teams, in 67 tournaments.  
 
-## 2009-2010 data
-
-This dataset consists of 13310 debated rounds by 1424 teams. There are 3 connected components [**??**] 
-
-## 2010-2011 data
-
-[**TODO**]
+Our MLE estimation is done using the \textbf{\textsf{R}} language [@RCoreTeam2016]. In particular, we use the \textbf{\textsf{BradleyTerryScalable}} package [@Kaye2017]. This package follows the procedure laid out in [@Caron2012] for maximum likelihood estimation of Bradley-Terry parameters when Ford's assumption does not hold. Ford's assumption is: in every possible partition of players into two non-empty subsets, some individual in the second set beats some individual in the first set at least once [@Ford1957]. Our datasets are very sparse and cover a wide range of teams, meaning that Ford's assumption does not hold; in particular, this means that the more traditional MLE estimation methods of minorization-maximization [@Hunter2003] and Iterative-Luce Spectral Ranking [@Maystre2015] cannot be used.
 
 **Actually do this lol**
 
 # Discussion
-
 
 
 [*round robin*] One particular consideration unique to debate is that rounds are adjudicated by judges, who are human and have human tendencies. In contrast to games such as chess where winners are well-defined and easily verifiable, having variation in outcome decisions makes it desirable to have multiple judges (usually 3) on a panel. Staffing limitations make this difficult to achieve for all but elimination rounds in most tournaments (the college debate championship has 3 judges per round in preliminary rounds, but this is the exception). 
@@ -138,9 +147,10 @@ This dataset consists of 13310 debated rounds by 1424 teams. There are 3 connect
 TODO:
 
 * speaker points
+* round robin
 * different models instead of Bradley Terry
 * better incorporation of priors
-* confidence intervals
+* confidence intervals / variance
 
 # Conclusion
 
@@ -155,27 +165,8 @@ We have developed an environmental framework for working with tournaments and un
 * other distributions
 * link to code, etc
 
-# papers
+Code and all other resources used in writing this paper can be found at the author's [Github](https://github.com/stillmatic/tournaments).
 
-* https://papers.nips.cc/paper/3879-statistical-consistency-of-top-k-ranking.pdf
-* Bradley Terry 1952	
-* http://www.jstor.org/stable/2582935?seq=1#page_scan_tab_contents
-* Edmonds, Jack (1965). "Paths, trees, and flowers". Canad. J. Math. 17: 449–467. doi:10.4153/CJM-1965-045-4.
-* “Efficient Algorithms for Finding Maximum Matching in Graphs”, Zvi Galil, ACM Computing Surveys, 1986.
-* https://networkx.github.io/
-* http://emis.ams.org/journals/DM/v71/art3.pdf - Kujansuu
-* Gusfield, D., Irving, R. W., The Stable Marriage Problem. Structure and
-Algorithms, The MIT Press, 1989
-* http://art-of-logic.blogspot.com/2015/07/study-of-speaker-points-and-power.html - Hanes
-* http://www.glicko.net/research/gj.pdf - glickman
-* http://pubsonline.informs.org/doi/pdf/10.1287/ijoc.11.2.138 - Cook and Rowe
-* https://link.springer.com/article/10.1007%2Fs12532-009-0002-8?LI=true - Kolmogorov
-* https://github.com/EllaKaye/BradleyTerryScalable
-* https://cran.r-project.org/web/packages/BradleyTerry2/vignettes/BradleyTerry.pdf
-* Caron, F. and Doucet, A. (2012) Efficient Bayesian Inference for Generalized Bradley-Terry Models. Journal of Computational and Graphical Statistics, 21(1), 174-196.
-* Hunter, D. R. (2004) MM Algorithms for Generalized Bradley-Terry Models. The Annals of Statistics, 32(1), 384-406.
-* Maystre, L. and Grossglauser, M. (2015) Fast and accurate inference of Plackett-Luce models. In Advances in Neural Information Processing Systems 28 (NIPS 28).
-* Ford, L. R. (1957) Solution of a Ranking Problem from Binary Comparisons. The American Mathematical Monthly, 64(8, Part 2), 28-33.
-*  Copeland A.H. (1951), A “reasonable” social welfare function, Seminar on applications
-of mathematics to social sciences, University of Michigan.
+\newpage
 
+# Bibliography

@@ -35,6 +35,7 @@ class Tournament:
         self.alpha = kwargs.get('alpha', 3500)
         self.beta = kwargs.get('beta', 35)
         self.k = kwargs.get('k', 8)
+        self.random = kwargs.get('random', False)
 
     def run(self, summary=False):
         """Run a tournament once."""
@@ -58,8 +59,6 @@ class Tournament:
         """Try each pairing and record results."""
         for a, b in self._next_pairing():
             if(a > b):  # for bidrectionality purposes
-                # if(self.g.edge[b][a]['weight'] < 0):
-                    # print("ERROR!", self.g.edge[a][b]['weight'])
                 self._add_match(b, a)
         self.rebalance()
 
@@ -189,6 +188,8 @@ class Tournament:
         alpha - scale parameter
         beta - dispersion parameter
         """
+        if(self.random):
+            return (random.random() + 1) * 5
         diff = abs(x - y)
         if(diff > 1):
             return(1)
