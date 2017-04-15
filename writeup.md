@@ -5,7 +5,7 @@ An important goal of tournaments is to find an overall winner, but it is often i
 
 We present the case of American high school policy debate, in which teams compete in "regular-season" tournaments throughout the year in order to win 'bids' to the Tournament of Championships, the de facto culminating championship. Each round has two teams of two debaters, one "affirmative" (aff) and one "negative" (neg), and a judge. The affirmative side argues a policy-based plan which affirms that year's debate resolution, and the negative argues against the affirmative. For example, the 2012-13 resolution was "The United States federal government should substantially increase its transportation infrastructure investment in the United States."
 
-All tournaments are structured in two parts, with a preliminary Swiss-system tournament and then a knockout/single-elimination tournament. Within the preliminary tournament, he first two rounds are randomly paired, and subsequent rounds are power-matched, which means teams are paired with teams that have similar records (i.e. similar number of wins). These are subject to the constraints that teams cannot debate teams from the same school, and they cannot debate teams who they have been paired with in earlier rounds.
+All tournaments are structured in two parts, with a preliminary Swiss-system tournament and then a knockout/single-elimination tournament. Within the preliminary tournament, the first two rounds are randomly paired, and subsequent rounds are power-matched, which means teams are paired with teams that have similar records (i.e. similar number of wins). These are subject to the constraints that teams cannot debate teams from the same school, and they cannot debate teams who they have been paired with in earlier rounds.
 
 The ultimate goal of "regular season" tournaments is to earn a bid to the "championship" tournament, the Tournament of Champions. These are allocated to tournaments roughly on the basis of tournament size and strength; the effect is that tournaments with more bids attract stronger teams. The bids are set up so that teams who make it to a given round of the tournament get the bid, e.g. octafinals means 16 bids, semifinals is 4 bids, etc. A perverse result of this bid system is that rounds after the bid round, containing the best teams, are treated as unimportant - teams routinely run less serious arguments or simply forfeit rounds- but the bid round and rounds before have enormous strategic investment. 
 
@@ -73,6 +73,14 @@ Although the algorithm which we use runs in $O(nm \log n)$ time, since our graph
 
 Note that the algorithm is used to find pairings for round 2, since the round is intended to be randomly paired. At this point the graph is initialized with equal weights for every pairing except those which have occured, which have a 0 weighting. Then, since we have no other constraints, the maximum weight perfect matching returns an acceptable pairing which conveniently guarantees no repeat matches. 
 
+We drew our model from the lognormal distribution, with a mean $\mu = 0$, and a standard deviation $\sigma = 1$. We implemented support for other distributions, but empirical results showed little difference in the results, so long as the shape was generally similar. We infer a distribution of skill that is roughly displayed below.
+
+```{r}
+data.frame(x = rlnorm(500)) %>%
+    ggplot(aes(x)) + geom_histogram(bins = 50) + 
+    ggtitle("Lognormal distribution")
+```
+
 ## Simulation procedure
 
 We consider several different tournament configurations, and run 500 simulated tournaments for each of them.
@@ -137,35 +145,39 @@ The 2009-2010 dataset consists of 13310 debated rounds by 1424 teams, in 67 tour
 
 Our MLE estimation is done using the \textbf{\textsf{R}} language [@RCoreTeam2016]. In particular, we use the \textbf{\textsf{BradleyTerryScalable}} package [@Kaye2017]. This package follows the procedure laid out in [@Caron2012] for maximum likelihood estimation of Bradley-Terry parameters when Ford's assumption does not hold. Ford's assumption is: in every possible partition of players into two non-empty subsets, some individual in the second set beats some individual in the first set at least once [@Ford1957]. Our datasets are very sparse and cover a wide range of teams, meaning that Ford's assumption does not hold; in particular, this means that the more traditional MLE estimation methods of minorization-maximization [@Hunter2003] and Iterative-Luce Spectral Ranking [@Maystre2015] cannot be used.
 
-**Actually do this lol**
-
-# Discussion
-
-
-[*round robin*] One particular consideration unique to debate is that rounds are adjudicated by judges, who are human and have human tendencies. In contrast to games such as chess where winners are well-defined and easily verifiable, having variation in outcome decisions makes it desirable to have multiple judges (usually 3) on a panel. Staffing limitations make this difficult to achieve for all but elimination rounds in most tournaments (the college debate championship has 3 judges per round in preliminary rounds, but this is the exception). 
-
-TODO:
-
-* speaker points
-* round robin
-* different models instead of Bradley Terry
-* better incorporation of priors
-* confidence intervals / variance
-
-# Conclusion
-
-We have developed an environmental framework for working with tournaments and understanding their results.
+Due to computational considerations we do not include the results of using these empirically determined Bradley-Terry coefficients; however, we do include here a graph of the coefficients. These are reasonably similar to the lognormal distribution which we assumed, and it is thus reasonable that we use the lognormal when running our simulations.
 
 
 
+# Discussion and Conclusion
+
+A common argument against Swiss-style tournaments is that they provide poor results for top-teams, because of possible disparities in schedule strength. We find empirical proof that the Swiss-style tournament performs well when picking the top-$k$ teams from a given pool, although the Swiss tournament underperforms a random pairing in creating a full ranking. This implies that tournament organizers should place greater emphasis on their goals for the tournament: seeding an elimination tournament, picking an outright winner, or creating a full ranking. For policy debate, the power-matching of the Swiss tournament creates an effective partial ranking which can be used to seed an elimination tournament. However, for chess and other games, the Swiss tournament underperforms random pairings for the tested configurations. 
+
+An example of the practical considerations would be a round-robin tournament. We do not test it here, but a round robin tournament would very likely perform well on all of our metrics in a simulation. This is, however, not feasible in real life, since in a large tournament, we would not expect teams to debate hundreds of rounds, each round taking around 2 hours. 
+
+In this paper, we have developed an environmental framework for working with tournaments and understanding the implications of their results. Many extensions are can be further investigated. 
+
+A particularly curious question is why the Swiss tournament performs well for small tournaments (both in terms of rounds and teams involved) but does not perform well in larger settings, when compared to a random pairing. Further work could investigate the differences in strengths that are created in the Swiss model vs a random model. 
+
+Additionally, work has been done to create alternative tournament pairing methods, such as in @Glickman2005. Given our particular question of finding top-$k$ teams, it would be useful to test these other models. One note is that while the Glickman model performs well in theory, the computational difficulty and explanation difficulty would likely make it difficult to implement in practice.
+
+One final avenue of investigation is considering the variance of the different tournament models. For computational purposes, we only reported the mean of the calculated statistics, but can feasibly also include the variance in these measures for the different types of tournaments.
 
 # Appendix
 
-* define: speaker points
-* other distributions
-* link to code, etc
+Code and all other resources used in writing this paper can be found at the author's [Github](https://github.com/stillmatic/tournaments). 
 
-Code and all other resources used in writing this paper can be found at the author's [Github](https://github.com/stillmatic/tournaments).
+The software which we used to implement the model and perform simulations is open-source and intended to be extensible. Within our paper, we take advantage of this, by utilizing a common framework for testing different numbers of teams and rounds, as well as creating summary statistics. Furthermore, we implement a random pairing model in the model for comparison testing.
+
+In the paper, we drew our theoretical strengths from a lognormal distribution with a mean $\mu = 0$, and a standard deviation $\sigma = 1$. Our framework includes support for the following distributions:
+
+* Exponential distribution
+* Uniform distribution
+* Lognormal distribution
+* Beta distribution
+* Gamma distribution
+
+Each of the above can be specified, along with optional shape parameters in the tournament and simulation keyword arguments. See the author's simulation code for examples on how to make these configurations. 
 
 \newpage
 
