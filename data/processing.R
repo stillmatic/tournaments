@@ -46,6 +46,7 @@ pairwise09 <- purrr::map_df(data09$debaters, clean)
 pairwise09$win <- data09$win
 pairwise09 %<>%
     filter(aff != "28417,28417", neg != "28417,28417")
+write.csv(pairwise09, "~/code/tournament/data/pairs09.csv")
 pairwise_mat <- pairwise09 %>%
     dplyr::select(aff, neg, win) %>%
     mutate(aff = factor(aff), neg = factor(neg), win = as.numeric(win)) %>%

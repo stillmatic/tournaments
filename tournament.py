@@ -247,9 +247,9 @@ class Tournament:
         rho, sp_p = scipy.stats.spearmanr(ranks.str_rank, ranks.win_rank)
         df = pd.DataFrame(
             data=[list([int(found_champion), float(sq_loss), float(top_k),
-                        float(tau), float(k_p), float(rho), float(sp_p)])],
+                        float(tau), float(rho)])],
             columns=['found_champ', 'sq_loss', 'top_k_found', 'tau',
-                     'kendall_p', 'rho', 'spearman_p']
+                     'rho']
         )
         return df
 
