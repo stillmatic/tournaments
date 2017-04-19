@@ -1,1 +1,17 @@
-﻿Size,Pairings,Type,found_champ,sq_loss,top_k_found,tau,rhoSmall,Swiss,Mean,0.304,1.74,0.93,0.517,0.666Medium,Swiss,Mean,0.622,3.37,0.928,0.515,0.68Large,Swiss,Mean,0.662,7.522,0.979,0.493,0.643Extra Large,Swiss,Mean,0.677,12.273,0.938,0.561,0.708Small,Random,Mean,0.308,1.779,0.924,0.51,0.659Medium,Random,Mean,0.676,3.347,0.968,0.517,0.682Large,Random,Mean,0.712,7.551,0.981,0.492,0.642Extra Large,Random,Mean,0.626,18.171,0.928,0.427,0.57Small,Swiss,SD,0.46,0.37,0.11,0.065,0.071Medium,Swiss,SD,0.485,0.42,0.096,0.036,0.04Large,Swiss,SD,0.474,0.884,0.058,0.04,0.042Extra Large,Swiss,SD,0.471,4.582,0.092,0.103,0.108Small,Random,SD,0.462,0.428,0.117,0.074,0.082Medium,Random,SD,0.468,0.394,0.077,0.034,0.037Large,Random,SD,0.453,0.651,0.062,0.028,0.031Extra Large,Random,SD,0.484,1.784,0.107,0.037,0.042
+Size,Pairings,Type,found_champ,sq_loss,top_k_found,tau,rho
+Small,Swiss,Mean, 0.2780 , 1.7406 , 0.8738 , 0.5174 , 0.6658 
+Medium,Swiss,Mean, 0.6760 , 3.3487 , 0.7758 , 0.5176 , 0.6817 
+Large,Swiss,Mean, 0.6300 , 17.8160 , 0.6289 , 0.4356 , 0.5778 
+Extra Large,Swiss,Mean, 0.6770 , 12.2730 , 0.9380 , 0.5610 , 0.7080 
+Small,Random,Mean, 0.2860 , 1.7776 , 0.8653 , 0.5098 , 0.6590 
+Medium,Random,Mean, 0.6920 , 3.3319 , 0.7721 , 0.5184 , 0.6834 
+Large,Random,Mean, 0.6720 , 7.5486 , 0.7509 , 0.4917 , 0.6417 
+Extra Large,Random,Mean, 0.6800 , 18.0441 , 0.6328 , 0.4297 , 0.5725 
+Small,Swiss,SD, 0.2007 , 0.3715 , 0.1078 , 0.0648 , 0.0717 
+Medium,Swiss,SD, 0.2190 , 0.3915 , 0.0515 , 0.0352 , 0.0372 
+Large,Swiss,SD, 0.2331 , 0.9027 , 0.0528 , 0.0411 , 0.0425 
+Extra Large,Swiss,SD, 0.2187 , 2.6389 , 0.0539 , 0.0593 , 0.0619 
+Small,Random,SD, 0.2042 , 0.4006 , 0.1091 , 0.0691 , 0.0773 
+Medium,Random,SD, 0.2131 , 0.3967 , 0.0516 , 0.0341 , 0.0377 
+Large,Random,SD, 0.2204 , 0.6514 , 0.0497 , 0.0275 , 0.0309 
+Extra Large,Random,SD, 0.2176 , 1.8692 , 0.0469 , 0.0390 , 0.0441 

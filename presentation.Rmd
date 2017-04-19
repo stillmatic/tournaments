@@ -1,0 +1,80 @@
+---
+title: "Swiss Tournaments"
+author: "Chris Hua"
+date: "April 18, 2017"
+output: 
+  beamer_presentation:
+    latex_engine: xelatex
+header-includes:
+- \usetheme{metropolis}
+- \institute{University of Pennsylvania}
+---
+
+```{r setup, include=FALSE}
+library(ggplot2)
+library(dplyr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Motivation
+
+* Tournament structure and design
+* Do they work?
+
+## Swiss Tournaments
+
+* Widely used, including chess and policy debate
+* Random start + power matched rounds
+* In debate: preseason tournaments identify top-$k$ debaters
+    - Reaching eliminations earns a bid for the postseason tournament
+    
+Do Swiss tournaments find the top-$k$ competitors?
+
+## Simulation: Bradley-Terry
+
+* Tournaments are sets of pairwise comparisons
+* Assume each team has an underlying strength $\theta$
+    - Simulated using lognormal distribution
+* Find winner by doing a random draw 
+
+$$\Pr(Y_{i,j} = 1) = \frac{\theta_i}{\theta_i + \theta_j}$$
+
+## Simulation: Pairings?
+
+* 2 rounds of random pairings
+* 4 rounds of power-matched pairings
+* Teams cannot be paired with teams they've already faced
+* Prefer teams with same # of wins, otherwise, max difference of 1
+
+## Simulation: Pairings!
+
+Maximum-weight perfect-matching
+
+* Treat pairings as a graph problem
+* Teams = nodes ($n$), possible pairings = edges ($m$)
+* Complexity of $O(nm \log n) \sim O(n^3)$
+
+## Metrics
+
+* Champion: Top-team is undefeated (Copeland champion)
+* Top-$k$: Percent of the top-$k$ teams by strength which meet selection criteria
+* Spearman's $\rho$
+* Kendalls $\tau$
+
+## Results
+
+```{r}
+results <- read.csv("~/code/tournament/data/results.csv", stringsAsFactors = F)
+results %>%
+    tidyr::gather(Metric, Value, found_champ:rho) %>%
+    tidyr::spread(Type, Value) %>%
+    dplyr::filter(Metric != "sq_loss") %>%
+    ggplot(aes(x = Metric, y = Mean, fill = Pairings)) + 
+    geom_bar(position=position_dodge(), stat = "identity") +
+    geom_errorbar(aes(ymin = Mean-SD, ymax = Mean+SD, alpha = "0.5"), 
+                  position=position_dodge(.9)) + 
+    facet_wrap(~Size) +
+    theme(legend.position = "bottom")+
+    scale_alpha_manual(values = c("0.5"=0.5, "1"=1), guide='none')+
+    scale_y_continuous(breaks = c(0:15)/5)
+```
