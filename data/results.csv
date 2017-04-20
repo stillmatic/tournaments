@@ -15,3 +15,7 @@ Small,Random,SD, 0.2042 , 0.4006 , 0.1091 , 0.0691 , 0.0773
 Medium,Random,SD, 0.2131 , 0.3967 , 0.0516 , 0.0341 , 0.0377 
 Large,Random,SD, 0.2204 , 0.6514 , 0.0497 , 0.0275 , 0.0309 
 Extra Large,Random,SD, 0.2176 , 1.8692 , 0.0469 , 0.0390 , 0.0441 
+Hearthstone,Swiss,Mean, 0.6340 , 10.9242 , 0.8963 , 0.4901 , 0.6528 
+Hearthstone,Random,Mean, 0.6340 , 11.0374 , 0.9058 , 0.4863 , 0.6493 
+Hearthstone,Swiss,SD, 0.2320 , 1.3654 , 0.1071 , 0.0444 , 0.0431 
+Hearthstone,Random,SD, 0.2320 , 0.9219 , 0.1021 , 0.0277 , 0.0292 

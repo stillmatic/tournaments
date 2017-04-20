@@ -1,7 +1,8 @@
 ---
 title: "Swiss Tournaments"
+subtitle: "CIS700/04: Machine Learning and Econometrics"
 author: "Chris Hua"
-date: "April 18, 2017"
+date: "April 20, 2017"
 output: 
   beamer_presentation:
     latex_engine: xelatex
@@ -13,6 +14,7 @@ header-includes:
 ```{r setup, include=FALSE}
 library(ggplot2)
 library(dplyr)
+library(viridis)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
@@ -23,7 +25,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Swiss Tournaments
 
-* Widely used, including chess and policy debate
+* Widely used, including chess, policy debate, Hearthstone
 * Random start + power matched rounds
 * In debate: preseason tournaments identify top-$k$ debaters
     - Reaching eliminations earns a bid for the postseason tournament
@@ -45,6 +47,7 @@ $$\Pr(Y_{i,j} = 1) = \frac{\theta_i}{\theta_i + \theta_j}$$
 * 4 rounds of power-matched pairings
 * Teams cannot be paired with teams they've already faced
 * Prefer teams with same # of wins, otherwise, max difference of 1
+* Run 500 simulations
 
 ## Simulation: Pairings!
 
@@ -61,14 +64,32 @@ Maximum-weight perfect-matching
 * Spearman's $\rho$
 * Kendalls $\tau$
 
-## Results
+## Simulations
+
+500 trials each, recorded mean and standard deviation
+
+| Size       | Teams | Rounds |  $K$  |
+|------------|-------|--------|-------|
+| Small      | 32    | 5      | 8     |
+| Medium     | 64    | 6      | 16    |
+| Large      | 128   | 6      | 32    |
+| Very large | 256   | 7      | 64    |
+
+## Real-world data
+
+* Scraped 2009-2010 and 2010-2011 policy debate tournament results  
+    - 2009-2010: 13310 debated rounds by 1424 teams, in 67 tournaments.
+    - Did actual MLE estimates - but hard to estimate results
+* Hearthstone @ Dreamhack 2016: 190 players to pick top 8 for playoffs, 9 rounds
+
+## Results - synthetic data
 
 ```{r}
 results <- read.csv("~/code/tournament/data/results.csv", stringsAsFactors = F)
 results %>%
     tidyr::gather(Metric, Value, found_champ:rho) %>%
     tidyr::spread(Type, Value) %>%
-    dplyr::filter(Metric != "sq_loss") %>%
+    dplyr::filter(Metric != "sq_loss", Size != "Hearthstone") %>%
     ggplot(aes(x = Metric, y = Mean, fill = Pairings)) + 
     geom_bar(position=position_dodge(), stat = "identity") +
     geom_errorbar(aes(ymin = Mean-SD, ymax = Mean+SD, alpha = "0.5"), 
@@ -76,5 +97,112 @@ results %>%
     facet_wrap(~Size) +
     theme(legend.position = "bottom")+
     scale_alpha_manual(values = c("0.5"=0.5, "1"=1), guide='none')+
-    scale_y_continuous(breaks = c(0:15)/5)
+    scale_y_continuous(breaks = c(0:15)/5) 
 ```
+
+## Results - Analysis
+
+* Surprisingly, Swiss doesn't do significantly better than random pairings
+* Swiss is worse (probably) at having top team go undefeated
+* Swiss underperformed in large specification, overperformed in extra large tournament.
+
+## Results - BT distribution
+
+```{r}
+library(BradleyTerryScalable)
+data09 <- jsonlite::fromJSON("~/code/tournament/data/2009-2010.json")
+clean <- function(x) {
+    x %>% rename(speaks = `speaker points`) %>%
+        group_by(position) %>%
+        dplyr::summarize(id = stringr::str_c(ID, collapse = ","), 
+                         speaks = base::sum(as.numeric(speaks))) %>%
+        ungroup %>%
+        summarize(aff = first(id), aff_speaks = first(speaks), 
+                  neg = last(id), neg_speaks = last(speaks))
+}
+pairwise09 <- purrr::map_df(data09$debaters, clean)
+pairwise09$win <- data09$win
+pairwise09 <- pairwise09 %>%
+  filter(aff != neg)
+pairwise_mat_09 <- pairwise09 %>%
+    dplyr::select(aff, neg, win) %>%
+    mutate(aff = factor(aff), neg = factor(neg), win = as.numeric(win)) %>%
+    BradleyTerryScalable::pairs_to_matrix()
+
+fit_09 <- BradleyTerryScalable::btfit(
+    pairwise_mat_09, 1.5, maxit = 1000000,
+    components = connected_components(pairwise_mat_09)$components)
+
+fit_df3 <- data.frame(keyName = names(fit_09$pi[[1]]), value = fit_09$pi[[1]], row.names = NULL)
+fit_df4 <- data.frame(keyName = names(fit_09$pi[[2]]), value = fit_09$pi[[2]], row.names = NULL)
+fit_df5 <- data.frame(keyName = names(fit_09$pi[[3]]), value = fit_09$pi[[3]], row.names = NULL)
+fit_df3$comp <- 1
+fit_df4$comp <- 2
+fit_df5$comp <- 3
+
+fit_df3 <- rbind(fit_df3, fit_df4)
+fit_df3 <- rbind(fit_df3, fit_df5)
+fit_df3 %>%
+    ggplot(aes(x = value)) + geom_histogram(bins = 40) +
+    facet_wrap(~comp, scales = "free") + 
+    ggtitle("Estimated B-T values: 2009-2010", "By connected component")
+```
+
+## Results - BT distribution
+
+```{r}
+data10 <- jsonlite::fromJSON("~/code/tournament/data/2010-2011.json")
+
+pairwise10 <- purrr::map_df(data10$debaters, clean)
+pairwise10$win <- data10$win
+# pairwise10 %<>%
+    # filter(aff != "28417,28417", neg != "28417,28417")
+# write.csv(pairwise10, "~/code/tournament/data/pairs10.csv")
+pairwise_mat_10 <- pairwise10 %>%
+    dplyr::select(aff, neg, win) %>%
+    mutate(aff = factor(aff), neg = factor(neg), win = as.numeric(win)) %>%
+    BradleyTerryScalable::pairs_to_matrix()
+
+fit_10 <- BradleyTerryScalable::btfit(
+    pairwise_mat_10, 1.5, maxit = 1000000,
+    components = connected_components(pairwise_mat_10)$components)
+
+fit_df <- data.frame(keyName = names(fit_10$pi[[1]]), value = fit_10$pi[[1]], row.names = NULL)
+fit_df2 <- data.frame(keyName = names(fit_10$pi[[2]]), value = fit_10$pi[[2]], row.names = NULL)
+fit_df$comp <- 1
+fit_df2$comp <- 2
+fit_df <- rbind(fit_df, fit_df2)
+fit_df %>%
+    ggplot(aes(x = value)) + geom_histogram(bins = 40) +
+    facet_wrap(~comp, scales = "free") + 
+    ggtitle("Estimated B-T values: 2010-2011", "By connected")
+```
+
+
+
+
+## Results - Hearthstone
+
+```{r}
+results <- read.csv("~/code/tournament/data/results.csv", stringsAsFactors = F)
+results %>%
+    tidyr::gather(Metric, Value, found_champ:rho) %>%
+    tidyr::spread(Type, Value) %>%
+    dplyr::filter(Metric != "sq_loss", Size == "Hearthstone") %>%
+    ggplot(aes(x = Metric, y = Mean, fill = Pairings)) + 
+    geom_bar(position=position_dodge(), stat = "identity") +
+    geom_errorbar(aes(ymin = Mean-SD, ymax = Mean+SD, alpha = "0.5"), 
+                  position=position_dodge(.9)) + 
+    facet_wrap(~Size) +
+    theme(legend.position = "bottom")+
+    scale_alpha_manual(values = c("0.5"=0.5, "1"=1), guide='none')+
+    scale_y_continuous(breaks = c(0:15)/5) 
+```
+
+## Conclusion
+
+* Variety of real world settings tested
+* Swiss rarely outperforms random pairings, and usually does very similarly
+* Further work:
+    - Different pairing strategies
+    - Further investigation of effect of size
