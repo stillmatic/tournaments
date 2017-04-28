@@ -10,7 +10,7 @@ import networkx as nx
 import pandas as pd
 import seaborn as sns
 from functools import lru_cache
-from math import floor
+from math import floor, ceil
 from pandas_ply import install_ply, X
 import feather
 install_ply(pd)
@@ -30,7 +30,9 @@ class Tournament:
         self.seed = kwargs.get('seed', int(floor(random.uniform(0, 1000))))
         self.dist = kwargs.get('dist', 'lognormal')
         self.dist_params = kwargs.get('dist_params', None)
-        self.strengths = self._generate_teams()
+        self.strengths = kwargs.get('strengths', None)
+        if self.strengths is None:
+            self.strengths = self._generate_teams()
         self.wins = [0] * self.n_teams
         self.alpha = kwargs.get('alpha', 3500)
         self.beta = kwargs.get('beta', 35)
@@ -145,8 +147,8 @@ class Tournament:
         strengths - vector of team strengths
         """
         roll = np.random.uniform()
-        s_a = self.strengths[a]
-        s_b = self.strengths[b]
+        s_a = self.strengths.iloc[a]
+        s_b = self.strengths.iloc[b]
         prob = s_a / (s_a + s_b)
         return roll < prob
 
@@ -189,7 +191,7 @@ class Tournament:
         beta - dispersion parameter
         """
         if(self.random):
-            return (random.random() + 1) * 5
+            return int(ceil((random.random() + 1) * 50))
         diff = abs(x - y)
         if(diff > 1):
             return(1)
@@ -226,7 +228,7 @@ class Tournament:
         # res = self.results
         # champ should be undefeated
         champ = list(np.where(res.strength == max(res.strength))[0])
-        found_champion = (res.wins[champ] == self.n_rounds)
+        copeland = (res.wins[champ] == self.n_rounds)
         # squared loss in ranks
         pct_ranks = pd.DataFrame(
             data=np.transpose(
@@ -241,15 +243,16 @@ class Tournament:
                  res.wins.rank(ascending=False),
                  res.wins]),
             columns=["str_rank", "win_rank", "wins"])
+        borda = (ranks.win_rank[champ] == ranks.win_rank.min())
         top_k_df = ranks.loc[ranks['str_rank'] <= self.k]
         top_k = sum(top_k_df['wins'] >= self.n_rounds - 2) / self.k
         tau, k_p = scipy.stats.kendalltau(ranks.str_rank, ranks.win_rank)
         rho, sp_p = scipy.stats.spearmanr(ranks.str_rank, ranks.win_rank)
         df = pd.DataFrame(
-            data=[list([int(found_champion), float(sq_loss), float(top_k),
-                        float(tau), float(rho)])],
-            columns=['found_champ', 'sq_loss', 'top_k_found', 'tau',
-                     'rho']
+            data=[list([int(copeland), int(borda), float(sq_loss),
+                  float(top_k), float(tau), float(rho)])],
+            columns=['undef_champ', 'top_champ', 'sq_loss', 'top_k_found',
+                     'tau', 'rho']
         )
         return df
 
@@ -309,7 +312,7 @@ class Simulation:
             .ply_select(
                 strength=X.strength.mean(),
                 avg_wins=X.wins.mean(),
-                avg_break=X.wins.mean() > self.n_rounds - 1
+                avg_break=X.wins.mean() > self.n_rounds - 2
             ))
         return(res_summ)
 
@@ -330,6 +333,60 @@ class Simulation:
 
 
 # utility helpers
+
+def generate_strengths(n_teams, dist, **kwargs):
+    """Generate teams from given distribution and parameters."""
+    seed = kwargs.get('seed', int(floor(random.uniform(0, 1000))))
+    np.random.seed(seed)
+    dist_params = kwargs.get('dist_params', None)
+    # strengths = dist_fun(size=n_teams)
+    if dist_params is not None:
+        check_param = True
+    else:
+        check_param = False
+    if(dist == "exp"):
+        def_val = 1.0
+        if check_param:
+            sc = dist_params['scale'] or def_val
+        else:
+            sc = def_val
+        strengths = np.random.exponential(scale=sc, size=n_teams)
+    elif(dist == "unif"):
+        if check_param:
+            l = dist_params['low'] or 0.0
+            h = dist_params['high'] or 1.0
+        else:
+            l = 0.0
+            h = 1.0
+        strengths = np.random.uniform(l, h, size=n_teams)
+    elif(dist == "lognorm"):
+        if not check_param:
+            mu = 0.0
+            sigma = 1.0
+        else:
+            mu = dist_params['mean'] or 0.0
+            sigma = dist_params['sigma'] or 1.0
+        strengths = np.random.lognormal(mu, sigma, size=n_teams)
+    elif(dist == "beta"):
+        if not check_param:
+            alpha = 2.0
+            beta = 5.0
+        else:
+            alpha = dist_params['shape1'] or 2.0
+            beta = dist_params['shape2'] or 5.0
+        strengths = np.random.beta(alpha, beta, size=n_teams)
+    elif(dist == "gamma"):
+        if not check_param:
+            p1 = 2.0
+            p2 = 1.0
+        else:
+            p1 = dist_params['shape'] or 2.0
+            p2 = dist_params['scale'] or 1.0
+        strengths = np.random.gamma(p1, p2, size=n_teams)
+    else:
+        print("unknown distribution provided, using lognormal")
+        strengths = np.random.lognormal(size=n_teams)
+    return(strengths)
 
 
 def _grouper(iterable, n, fillvalue=None):
