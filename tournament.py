@@ -12,7 +12,7 @@ import seaborn as sns
 from functools import lru_cache
 from math import floor, ceil
 from pandas_ply import install_ply, X
-import feather
+import rank_metrics
 install_ply(pd)
 
 
@@ -30,9 +30,16 @@ class Tournament:
         self.seed = kwargs.get('seed', int(floor(random.uniform(0, 1000))))
         self.dist = kwargs.get('dist', 'lognormal')
         self.dist_params = kwargs.get('dist_params', None)
+        # strengths
         self.strengths = kwargs.get('strengths', None)
         if self.strengths is None:
             self.strengths = self._generate_teams()
+        else:
+            self.strengths = self.strengths.values
+        if self.strengths.size > self.n_teams:
+            self.strengths = np.random.choice(
+                self.strengths, self.n_teams, replace=False)
+
         self.wins = [0] * self.n_teams
         self.alpha = kwargs.get('alpha', 3500)
         self.beta = kwargs.get('beta', 35)
@@ -114,7 +121,7 @@ class Tournament:
         else:
             print("unknown distribution provided, using lognormal")
             strengths = np.random.lognormal(size=self.n_teams)
-        return(strengths)
+        return(np.array(strengths))
 
     @lru_cache(maxsize=32)
     def _generate_base_graph(self):
@@ -139,7 +146,7 @@ class Tournament:
     def _win(self, a, b):
         """Whether team A wins a round, given respective strengths.
 
-        True if A wins vs B, given their probability of winning.
+        True if A wins vs B, given their probab ity of winning.
         Uses a random roll to decide.
         Keyword arguments:
         a -- number of Team A
@@ -147,8 +154,8 @@ class Tournament:
         strengths - vector of team strengths
         """
         roll = np.random.uniform()
-        s_a = self.strengths.iloc[a]
-        s_b = self.strengths.iloc[b]
+        s_a = self.strengths[a]
+        s_b = self.strengths[b]
         prob = s_a / (s_a + s_b)
         return roll < prob
 
@@ -229,13 +236,6 @@ class Tournament:
         # champ should be undefeated
         champ = list(np.where(res.strength == max(res.strength))[0])
         copeland = (res.wins[champ] == self.n_rounds)
-        # squared loss in ranks
-        pct_ranks = pd.DataFrame(
-            data=np.transpose(
-                [res.strength.rank(ascending=False, pct=True),
-                 res.wins.rank(ascending=False, pct=True)]),
-            columns=["str_rank", "win_rank"])
-        sq_loss = sum(((pct_ranks.str_rank - pct_ranks.win_rank))**2)
         # top-k
         ranks = pd.DataFrame(
             data=np.transpose(
@@ -243,16 +243,27 @@ class Tournament:
                  res.wins.rank(ascending=False),
                  res.wins]),
             columns=["str_rank", "win_rank", "wins"])
+        ranks['relevant'] = ranks['str_rank'] <= self.k
         borda = (ranks.win_rank[champ] == ranks.win_rank.min())
         top_k_df = ranks.loc[ranks['str_rank'] <= self.k]
         top_k = sum(top_k_df['wins'] >= self.n_rounds - 2) / self.k
         tau, k_p = scipy.stats.kendalltau(ranks.str_rank, ranks.win_rank)
         rho, sp_p = scipy.stats.spearmanr(ranks.str_rank, ranks.win_rank)
+        ranks.sort_values(by="win_rank")
+        # using rank_metrics
+        rel_vec = ranks.relevant.values
+        prec = rank_metrics.r_precision(rel_vec)
+        prec_at_k = rank_metrics.precision_at_k(rel_vec, self.k)
+        avg_prec = rank_metrics.average_precision(rel_vec)
+        dcg = rank_metrics.dcg_at_k(rel_vec, self.k)
+        ndcg = rank_metrics.ndcg_at_k(rel_vec, self.k)
         df = pd.DataFrame(
-            data=[list([int(copeland), int(borda), float(sq_loss),
-                  float(top_k), float(tau), float(rho)])],
-            columns=['undef_champ', 'top_champ', 'sq_loss', 'top_k_found',
-                     'tau', 'rho']
+            data=[list([int(copeland), int(borda), float(top_k),
+                  prec, prec_at_k, avg_prec, dcg, ndcg,
+                  float(tau), float(rho)])],
+            columns=['undef_champ', 'top_champ', 'top_k_found',
+                     'precision', 'precision_at_k', 'avg_prec',
+                     'dcg', 'ndcg', 'tau', 'rho']
         )
         return df
 
@@ -277,13 +288,6 @@ class Simulation:
     def get_results(self):
         """Return results of simulation."""
         return(self.df)
-
-    def feather_results(self, path=None):
-        """Export results to disk via feather."""
-        import time
-        now = time.strftime("%d_%m_%Y_%H_%M_%S")
-        path = path or "%s.feather" % now
-        feather.write_dataframe(self.df, path)
 
     def plot_distribution(self, **kwargs):
         """Plot distribution of wins.
